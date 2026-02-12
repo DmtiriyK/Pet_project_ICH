@@ -1,0 +1,10 @@
+{
+  "total_deals": 21529,
+  "deals_with_calls": 20620,
+  "coverage_pct": 95.78,
+  "deals_with_successful_calls": 0,
+  "successful_coverage_pct": 0.0,
+  "avg_calls_per_deal": 17.52,
+  "median_calls_per_deal": 14.0,
+  "max_calls_per_deal": 98
+}

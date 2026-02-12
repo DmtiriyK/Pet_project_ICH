@@ -1,0 +1,18 @@
+{
+  "lead_definition": "В дереве метрик deals считаются как основной прокси-объём (созданные сделки). Contacts/Calls показаны справочно.",
+  "id_caveat": "Точные связи Contacts-Calls-Deals ограничены из-за Excel float; поэтому дерево не строится по contact-level конверсиям.",
+  "windows": {
+    "spend": {
+      "start": "2023-07-03",
+      "end": "2024-06-21"
+    },
+    "deals_created": {
+      "start": "2023-07-03",
+      "end": "2024-06-21"
+    },
+    "overlap": {
+      "start": "2023-07-03",
+      "end": "2024-06-21"
+    }
+  }
+}

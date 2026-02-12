@@ -1,0 +1,5 @@
+{
+  "paid_definition": "deals.is_paid == True (Stage == 'Payment Done', case-insensitive)",
+  "id_caveat": "contact_id_str/contact_id15 получены из Excel-чисел; это не гарантирует точный джойн.",
+  "missing_values_policy": "Пропуски не заполнялись массово; дальнейшая обработка — по смыслу и по срезам."
+}

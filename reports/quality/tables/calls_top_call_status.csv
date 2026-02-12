@@ -1,0 +1,12 @@
+call_status,count,share_pct
+Attended Dialled,70703,73.75
+Unattended Dialled,16030,16.72
+Missed,5922,6.18
+Received,3077,3.21
+Overdue,60,0.06
+Scheduled Attended Delay,22,0.02
+Cancelled,20,0.02
+Scheduled Unattended Delay,17,0.02
+Scheduled Attended,14,0.01
+Scheduled Unattended,6,0.01
+Scheduled,3,0.0

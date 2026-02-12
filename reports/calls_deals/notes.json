@@ -1,0 +1,6 @@
+{
+  "methodology": "Calls linked to deals via contact_id_str. Note: Excel ID corruption means this is approximate.",
+  "coverage_definition": "% of deals that have at least one call associated with them",
+  "key_insight": "95.78% of deals have associated calls. Deals with more calls show different paid rates.",
+  "caveat": "Correlation does not imply causation. More calls might indicate engaged leads OR struggling conversions."
+}

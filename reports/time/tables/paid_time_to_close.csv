@@ -1,0 +1,522 @@
+deal_row_id,deal_owner_name,source,campaign,product,payment_type,created_time_dt,closing_date_dt,lag_days,revenue_cash,revenue_contract
+20524,Julia Nelson,Facebook Ads,03.07.23women,Digital Marketing,One Payment,2023-08-14 01:12:00,2024-06-14,304.95,1000.0,11000.0
+19193,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-09-22 14:57:00,2024-05-28,248.37708333333333,1000.0,11500.0
+17789,Victor Barnes,Facebook Ads,03.07.23women,UX/UI Design,Recurring Payments,2023-10-20 12:07:00,2024-06-07,230.4951388888889,300.0,4000.0
+18078,Nina Scott,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-10-14 11:23:00,2024-05-16,214.52569444444444,1000.0,11000.0
+20322,Charlie Davis,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-08-20 09:09:00,2024-03-21,213.61875,300.0,4000.0
+20857,Oliver Taylor,Facebook Ads,07.07.23LAL_DE,Digital Marketing,,2023-08-03 14:11:00,2024-02-22,202.40902777777777,1000.0,11000.0
+18845,Charlie Davis,Facebook Ads,03.07.23women,Digital Marketing,Recurring Payments,2023-09-29 15:23:00,2024-04-15,198.35902777777778,300.0,4000.0
+19902,Quincy Vincent,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-08-29 13:22:00,2024-03-12,195.44305555555556,1000.0,11000.0
+19255,Julia Nelson,Bloggers,mu_DE,Digital Marketing,,2023-09-21 08:37:00,2024-03-21,181.64097222222222,1000.0,11000.0
+15444,Charlie Davis,Tiktok Ads,12.07.2023wide_DE,Web Developer,,2023-11-25 11:16:00,2024-05-23,179.53055555555557,1000.0,5000.0
+14488,Victor Barnes,Bloggers,,Digital Marketing,One Payment,2023-12-12 07:11:00,2024-06-06,176.70069444444445,1000.0,11000.0
+19771,Ulysses Adams,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-09-04 21:28:00,2024-02-27,175.10555555555555,1000.0,11000.0
+14051,Nina Scott,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-12-18 00:54:00,2024-06-06,170.9625,1000.0,11000.0
+15224,John Doe,Organic,,,One Payment,2023-12-01 07:51:00,2024-05-01,151.67291666666668,0.0,0.0
+11948,Victor Barnes,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-01-22 16:55:00,2024-06-20,149.29513888888889,1000.0,11000.0
+17133,Julia Nelson,Bloggers,,Digital Marketing,Recurring Payments,2023-11-01 17:44:00,2024-03-28,147.26111111111112,300.0,4000.0
+14024,Victor Barnes,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-12-18 18:22:00,2024-05-14,147.23472222222222,1000.0,11000.0
+18883,Ulysses Adams,Google Ads,brand_search_eng_DE,UX/UI Design,Recurring Payments,2023-09-28 22:57:00,2024-02-19,143.04375,300.0,4000.0
+16475,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,,2023-11-14 22:50:00,2024-04-05,142.04861111111111,1000.0,5000.0
+14991,Paula Underwood,Youtube Ads,youtube_shorts_DE,Web Developer,,2023-12-06 16:26:00,2024-04-23,138.31527777777777,1000.0,5000.0
+11767,Paula Underwood,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2024-01-24 19:01:00,2024-06-11,138.20763888888888,1000.0,11000.0
+19420,Julia Nelson,Facebook Ads,15.07.23b_DE,Digital Marketing,Recurring Payments,2023-09-16 22:31:00,2024-01-31,136.06180555555557,1000.0,11000.0
+12498,Ulysses Adams,Telegram posts,ASA_de_DE,UX/UI Design,,2024-01-15 20:05:00,2024-05-30,135.16319444444446,1000.0,11000.0
+14061,Quincy Vincent,Google Ads,Dis_DE,UX/UI Design,,2023-12-17 22:19:00,2024-04-29,133.0701388888889,1000.0,11000.0
+14672,Julia Nelson,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,Recurring Payments,2023-12-09 22:23:00,2024-04-14,126.06736111111111,300.0,3000.0
+16790,Charlie Davis,Facebook Ads,03.07.23women,Web Developer,,2023-11-08 05:30:00,2024-03-11,123.77083333333333,1000.0,5000.0
+15214,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-12-01 12:59:00,2024-04-03,123.45902777777778,300.0,4000.0
+15624,Ulysses Adams,Webinar,,Digital Marketing,Recurring Payments,2023-11-22 15:05:00,2024-03-24,122.37152777777777,300.0,4000.0
+13863,Ulysses Adams,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-12-21 08:52:00,2024-04-18,118.63055555555556,1000.0,11000.0
+9641,Ben Hall,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,One Payment,2024-02-21 16:38:00,2024-06-15,114.30694444444444,4000.0,4000.0
+11924,Julia Nelson,SMM,,Web Developer,Recurring Payments,2024-01-22 20:24:00,2024-05-16,114.15,500.0,2500.0
+15587,Ulysses Adams,Webinar,web2211_DE,Digital Marketing,Recurring Payments,2023-11-22 20:05:00,2024-03-15,113.16319444444444,300.0,4000.0
+15089,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,,2023-12-04 22:25:00,2024-03-26,112.06597222222223,1000.0,11000.0
+11154,Paula Underwood,SMM,,Web Developer,,2024-02-01 11:50:00,2024-05-23,111.50694444444444,1000.0,5000.0
+16501,Julia Nelson,Organic,,UX/UI Design,,2023-11-14 19:17:00,2024-03-05,111.19652777777777,1000.0,11000.0
+13857,Ulysses Adams,Facebook Ads,07.07.23LAL_DE,UX/UI Design,,2023-12-21 12:02:00,2024-04-10,110.49861111111112,1000.0,11000.0
+12090,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2024-01-20 01:04:00,2024-05-07,107.95555555555555,1000.0,11500.0
+12657,Nina Scott,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,Recurring Payments,2024-01-13 12:06:00,2024-04-30,107.49583333333334,300.0,4000.0
+19299,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-09-20 15:35:00,2024-01-05,106.35069444444444,2000.0,3500.0
+20941,Jane Smith,Facebook Ads,03.07.23women,Digital Marketing,,2023-07-31 19:33:00,2023-11-15,106.18541666666667,1000.0,11500.0
+17804,Charlie Davis,Facebook Ads,15.07.23b_DE,Digital Marketing,One Payment,2023-10-19 22:27:00,2024-02-02,105.06458333333333,,3500.0
+15538,Oliver Taylor,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-11-23 13:03:00,2024-03-05,102.45625,200.0,2500.0
+13548,Nina Scott,SMM,,UX/UI Design,One Payment,2023-12-27 14:39:00,2024-04-04,98.38958333333333,2000.0,3000.0
+9115,Charlie Davis,Webinar,,Digital Marketing,,2024-02-27 21:18:00,2024-06-03,96.1125,1000.0,11500.0
+12733,Quincy Vincent,Organic,,Web Developer,,2024-01-12 12:50:00,2024-04-15,93.46527777777777,1000.0,5000.0
+12012,Ulysses Adams,Telegram posts,work_DE,Digital Marketing,,2024-01-21 15:24:00,2024-04-24,93.35833333333333,1000.0,11000.0
+18324,Oliver Taylor,Organic,,Digital Marketing,,2023-10-09 16:53:00,2024-01-11,93.29652777777778,1000.0,11000.0
+7890,Victor Barnes,Youtube Ads,youtube_shorts_DE,UX/UI Design,One Payment,2024-03-17 11:21:00,2024-06-18,92.52708333333334,1000.0,11000.0
+14288,Ulysses Adams,Organic,,Digital Marketing,,2023-12-14 09:20:00,2024-03-15,91.61111111111111,1000.0,11000.0
+15456,Charlie Davis,Organic,,UX/UI Design,,2023-11-24 21:11:00,2024-02-23,90.11736111111111,1000.0,11000.0
+19289,Ulysses Adams,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2023-09-20 18:28:00,2023-12-19,89.23055555555555,1000.0,11500.0
+17448,Nina Scott,SMM,,UX/UI Design,Recurring Payments,2023-10-26 09:33:00,2024-01-23,88.60208333333334,200.0,2500.0
+11321,Paula Underwood,Telegram posts,work_DE,Web Developer,,2024-01-30 13:02:00,2024-04-25,85.45694444444445,1000.0,5000.0
+8034,Charlie Davis,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-03-14 22:42:00,2024-06-07,84.05416666666666,1000.0,11500.0
+15763,Ulysses Adams,Webinar,,Digital Marketing,,2023-11-21 14:40:00,2024-02-08,78.38888888888889,1000.0,11000.0
+10154,Charlie Davis,CRM,,Digital Marketing,Recurring Payments,2024-02-14 06:27:00,2024-05-02,77.73125,300.0,4000.0
+16545,Ulysses Adams,Telegram posts,,UX/UI Design,,2023-11-14 09:22:00,2024-01-31,77.60972222222222,1000.0,11000.0
+16789,Ulysses Adams,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-11-08 07:15:00,2024-01-23,75.69791666666667,200.0,2500.0
+7556,Paula Underwood,Tiktok Ads,15.03.2024wide_AT,UX/UI Design,Recurring Payments,2024-03-21 14:23:00,2024-06-05,75.40069444444444,300.0,4000.0
+10299,Nina Scott,Organic,,Digital Marketing,,2024-02-10 14:30:00,2024-04-26,75.39583333333333,1000.0,11000.0
+7104,Ulysses Adams,SMM,,Digital Marketing,Recurring Payments,2024-03-27 17:10:00,2024-06-11,75.28472222222223,200.0,2500.0
+14250,Paula Underwood,Webinar,,Digital Marketing,One Payment,2023-12-14 19:15:00,2024-02-27,74.19791666666667,2000.0,3000.0
+8950,Ben Hall,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2024-03-01 20:11:00,2024-05-15,74.15902777777778,1000.0,11000.0
+6163,Quincy Vincent,Youtube Ads,youtube_shorts_DE,UX/UI Design,,2024-04-08 00:24:00,2024-06-20,72.98333333333333,1000.0,11000.0
+12206,Quincy Vincent,Organic,,UX/UI Design,,2024-01-18 14:11:00,2024-03-31,72.40902777777778,1000.0,11000.0
+8811,Quincy Vincent,Youtube Ads,youtube_shorts_DE,Web Developer,,2024-03-04 11:12:00,2024-05-15,71.53333333333333,1000.0,5000.0
+11859,Charlie Davis,SMM,,Digital Marketing,One Payment,2024-01-23 13:35:00,2024-04-03,70.43402777777777,2000.0,3000.0
+11722,Nina Scott,Organic,,UX/UI Design,One Payment,2024-01-25 10:14:00,2024-04-04,69.5736111111111,2000.0,3000.0
+12409,Quincy Vincent,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-01-16 07:57:00,2024-03-25,68.66875,300.0,4000.0
+14284,Victor Barnes,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2023-12-14 11:02:00,2024-02-21,68.54027777777777,300.0,4000.0
+8228,Julia Nelson,SMM,,Web Developer,One Payment,2024-03-12 12:04:00,2024-05-20,68.49722222222222,1500.0,
+16684,Charlie Davis,Organic,,UX/UI Design,,2023-11-10 18:10:00,2024-01-18,68.24305555555556,1000.0,11000.0
+20462,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-16 01:40:00,2023-10-23,67.93055555555556,1000.0,11500.0
+7566,Paula Underwood,Organic,,Web Developer,,2024-03-21 11:18:00,2024-05-28,67.52916666666667,1000.0,5000.0
+13537,Julia Nelson,Organic,,UX/UI Design,Recurring Payments,2023-12-27 18:11:00,2024-03-04,67.24236111111111,300.0,4000.0
+13762,Quincy Vincent,Organic,,Web Developer,,2023-12-22 22:08:00,2024-02-28,67.07777777777778,1000.0,5000.0
+15938,Charlie Davis,Google Ads,Dis_DE,UX/UI Design,,2023-11-20 11:40:00,2024-01-26,66.51388888888889,1000.0,11000.0
+15502,Oliver Taylor,Webinar,web2311_DE,UX/UI Design,Recurring Payments,2023-11-23 19:44:00,2024-01-28,65.17777777777778,200.0,2500.0
+17151,Charlie Davis,Organic,,UX/UI Design,,2023-11-01 11:23:00,2024-01-05,64.52569444444444,1000.0,11000.0
+10611,Ben Hall,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,Recurring Payments,2024-02-07 11:49:00,2024-04-12,64.50763888888889,500.0,2500.0
+13893,Kevin Parker,Organic,,UX/UI Design,,2023-12-20 16:31:00,2024-02-23,64.31180555555555,1000.0,11000.0
+15868,Ulysses Adams,Organic,,UX/UI Design,,2023-11-20 19:33:00,2024-01-23,63.18541666666667,1000.0,11000.0
+11277,Paula Underwood,SMM,blog2_DE,Digital Marketing,One Payment,2024-01-30 21:24:00,2024-04-03,63.108333333333334,3500.0,3000.0
+8988,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,Recurring Payments,2024-03-01 06:55:00,2024-05-03,62.71180555555556,500.0,2500.0
+11836,Paula Underwood,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2024-01-23 18:22:00,2024-03-26,62.234722222222224,300.0,4000.0
+9544,Ulysses Adams,Bloggers,,Web Developer,,2024-02-22 18:18:00,2024-04-23,60.2375,1000.0,5000.0
+6662,Charlie Davis,Facebook Ads,07.07.23LAL_DE,Digital Marketing,One Payment,2024-04-02 01:01:00,2024-05-31,58.95763888888889,1000.0,11500.0
+6732,Ulysses Adams,CRM,,Digital Marketing,Recurring Payments,2024-04-01 06:53:00,2024-05-30,58.71319444444445,300.0,4000.0
+8914,Paula Underwood,Youtube Ads,youtube_shorts_DE,Web Developer,One Payment,2024-03-02 15:40:00,2024-04-30,58.34722222222222,1000.0,2000.0
+12331,Paula Underwood,Facebook Ads,02.07.23wide_DE,Web Developer,,2024-01-16 21:29:00,2024-03-14,57.10486111111111,1000.0,5000.0
+18782,Charlie Davis,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-09-30 18:12:00,2023-11-26,56.24166666666667,350.0,3500.0
+15135,Quincy Vincent,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2023-12-03 23:05:00,2024-01-29,56.03819444444444,1000.0,11000.0
+19377,Jane Smith,Facebook Ads,03.07.23women,Digital Marketing,Recurring Payments,2023-09-18 08:35:00,2023-11-13,55.642361111111114,1000.0,11500.0
+19611,Jane Smith,Google Ads,brand_search_eng_DE,Digital Marketing,,2023-09-11 12:20:00,2023-11-06,55.486111111111114,1000.0,11500.0
+9396,Ben Hall,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2024-02-24 11:04:00,2024-04-19,54.53888888888889,1000.0,11000.0
+10409,Charlie Davis,Organic,,UX/UI Design,,2024-02-08 13:04:00,2024-04-03,54.455555555555556,1000.0,11000.0
+12548,Ulysses Adams,SMM,,Digital Marketing,,2024-01-15 11:16:00,2024-03-06,50.53055555555556,1000.0,11000.0
+15406,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-11-26 21:52:00,2024-01-16,50.08888888888889,300.0,4000.0
+19573,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-09-12 22:01:00,2023-11-02,50.08263888888889,1000.0,11500.0
+11410,Ulysses Adams,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,Recurring Payments,2024-01-29 00:51:00,2024-03-19,49.96458333333333,300.0,4000.0
+17633,Kevin Parker,Telegram posts,work_DE,UX/UI Design,,2023-10-22 08:17:00,2023-12-11,49.65486111111111,1000.0,11000.0
+13959,Paula Underwood,Telegram posts,work_DE,Digital Marketing,,2023-12-19 18:01:00,2024-02-07,49.24930555555556,1000.0,11000.0
+8596,Quincy Vincent,Telegram posts,uk_DE,Digital Marketing,,2024-03-06 18:09:00,2024-04-25,49.24375,1000.0,11000.0
+5996,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2024-04-09 20:22:00,2024-05-29,49.15138888888889,1000.0,11500.0
+20861,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-03 12:04:00,2023-09-21,48.49722222222222,1000.0,11500.0
+5535,Ulysses Adams,Organic,,UX/UI Design,,2024-04-12 17:41:00,2024-05-31,48.263194444444444,1000.0,11000.0
+14739,Paula Underwood,Test,,Digital Marketing,,2023-12-09 07:45:00,2024-01-26,47.677083333333336,1000.0,11000.0
+18282,Oliver Taylor,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,,2023-10-10 12:35:00,2023-11-27,47.47569444444444,1000.0,11500.0
+8162,Quincy Vincent,Telegram posts,,Digital Marketing,One Payment,2024-03-13 13:15:00,2024-04-30,47.447916666666664,3500.0,3000.0
+18999,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-09-26 15:28:00,2023-11-13,47.355555555555554,1000.0,2500.0
+16424,Julia Nelson,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,,2023-11-15 18:04:00,2024-01-02,47.24722222222222,1000.0,11000.0
+14666,Quincy Vincent,Organic,,Digital Marketing,Recurring Payments,2023-12-10 01:26:00,2024-01-26,46.94027777777778,300.0,4000.0
+18073,Charlie Davis,SMM,,Digital Marketing,One Payment,2023-10-14 12:13:00,2023-11-30,46.490972222222226,350.0,2500.0
+21408,Jane Smith,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,One Payment,2023-07-15 13:27:00,2023-08-31,46.43958333333333,450.0,4000.0
+13677,Victor Barnes,SMM,,UX/UI Design,Recurring Payments,2023-12-24 17:28:00,2024-02-09,46.272222222222226,300.0,4000.0
+11120,Ian Miller,Organic,,Digital Marketing,One Payment,2024-02-01 18:22:00,2024-03-19,46.234722222222224,3500.0,3000.0
+14771,Ulysses Adams,Test,,Web Developer,Recurring Payments,2023-12-08 18:53:00,2024-01-24,46.21319444444445,200.0,2000.0
+7015,Julia Nelson,Google Ads,1performancemax_wide_PL,UX/UI Design,Recurring Payments,2024-03-28 20:20:00,2024-05-14,46.15277777777778,300.0,4000.0
+9356,Paula Underwood,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-02-24 23:06:00,2024-04-11,46.0375,1000.0,11000.0
+20859,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-03 13:38:00,2023-09-18,45.43194444444445,1000.0,11500.0
+20492,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-15 09:12:00,2023-09-29,44.61666666666667,350.0,3500.0
+19002,Charlie Davis,Organic,,Digital Marketing,Recurring Payments,2023-09-26 13:52:00,2023-11-10,44.422222222222224,1000.0,11500.0
+13421,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2023-12-30 19:36:00,2024-02-13,44.18333333333333,1000.0,11000.0
+8454,Charlie Davis,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,,2024-03-09 12:41:00,2024-04-22,43.47152777777778,1000.0,11000.0
+19003,Ulysses Adams,SMM,,UX/UI Design,Recurring Payments,2023-09-26 13:30:00,2023-11-09,43.4375,1000.0,11000.0
+13329,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,,2024-01-02 15:19:00,2024-02-15,43.361805555555556,1000.0,11000.0
+17955,Nina Scott,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-10-16 21:35:00,2023-11-29,43.10069444444444,350.0,3500.0
+11819,Julia Nelson,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-01-24 09:38:00,2024-03-07,42.59861111111111,300.0,4000.0
+17236,Ulysses Adams,Organic,,UX/UI Design,,2023-10-30 09:55:00,2023-12-12,42.58680555555556,1000.0,11000.0
+12551,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2024-01-15 10:20:00,2024-02-27,42.56944444444444,1000.0,11000.0
+13892,Quincy Vincent,Telegram posts,work_DE,UX/UI Design,Recurring Payments,2023-12-20 16:35:00,2024-02-01,42.30902777777778,300.0,4000.0
+8602,Ulysses Adams,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-03-06 17:14:00,2024-04-18,42.28194444444444,1000.0,11000.0
+17847,Charlie Davis,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-10-18 20:30:00,2023-11-30,42.145833333333336,350.0,3500.0
+10346,Ben Hall,Organic,,Web Developer,,2024-02-09 01:57:00,2024-03-22,41.91875,1000.0,5000.0
+18568,Kevin Parker,Organic,,Digital Marketing,Recurring Payments,2023-10-05 08:44:00,2023-11-16,41.63611111111111,350.0,3500.0
+13973,Paula Underwood,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-12-19 15:46:00,2024-01-30,41.34305555555556,1000.0,11000.0
+17748,Julia Nelson,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,,2023-10-20 17:09:00,2023-12-01,41.28541666666667,1000.0,11000.0
+12122,Paula Underwood,Telegram posts,Live_DE,Digital Marketing,,2024-01-19 17:13:00,2024-03-01,41.28263888888889,1000.0,11000.0
+14320,Ulysses Adams,Webinar,web1312_DE,Digital Marketing,,2023-12-13 19:35:00,2024-01-24,41.18402777777778,1000.0,11000.0
+20829,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-04 20:40:00,2023-09-15,41.138888888888886,350.0,3500.0
+12842,Victor Barnes,Bloggers,BloggerShina_DE,Digital Marketing,,2024-01-10 22:55:00,2024-02-21,41.045138888888886,1000.0,11000.0
+15432,Paula Underwood,Facebook Ads,24.09.23retargeting_DE,UX/UI Design,Recurring Payments,2023-11-25 23:02:00,2024-01-06,41.040277777777774,300.0,4000.0
+6557,Charlie Davis,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-04-03 08:44:00,2024-05-14,40.63611111111111,1000.0,11500.0
+7623,Charlie Davis,Organic,,Web Developer,One Payment,2024-03-20 11:54:00,2024-04-30,40.50416666666667,1000.0,2000.0
+13505,Ulysses Adams,SMM,,Digital Marketing,Recurring Payments,2023-12-28 14:07:00,2024-02-07,40.41180555555555,300.0,4000.0
+9589,Nina Scott,Youtube Ads,youtube_shorts_DE,Web Developer,One Payment,2024-02-22 11:15:00,2024-04-02,39.53125,2000.0,2000.0
+8971,Charlie Davis,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2024-03-01 13:59:00,2024-04-10,39.41736111111111,300.0,4000.0
+10118,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2024-02-14 18:02:00,2024-03-25,39.24861111111111,1000.0,11000.0
+10043,Julia Nelson,Organic,,Digital Marketing,Recurring Payments,2024-02-15 20:50:00,2024-03-26,39.13194444444444,200.0,2500.0
+19215,Kevin Parker,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-09-21 22:54:00,2023-10-31,39.045833333333334,1000.0,11000.0
+6058,Charlie Davis,Youtube Ads,youtube_shorts_DE,UX/UI Design,Recurring Payments,2024-04-09 08:17:00,2024-05-18,38.65486111111111,300.0,4000.0
+8721,Charlie Davis,SMM,talav_DE,Digital Marketing,Recurring Payments,2024-03-05 12:42:00,2024-04-13,38.47083333333333,300.0,4000.0
+16954,Charlie Davis,Facebook Ads,18.10.23wide_gos_DE,UX/UI Design,,2023-11-04 14:18:00,2023-12-12,37.40416666666667,1000.0,11000.0
+6950,Quincy Vincent,Telegram posts,engwien_AT,Web Developer,Recurring Payments,2024-03-29 15:34:00,2024-05-06,37.35138888888889,500.0,2500.0
+3054,Paula Underwood,Organic,,Digital Marketing,,2024-05-08 08:39:00,2024-06-14,36.639583333333334,1000.0,11000.0
+4357,Cara Iverson,Telegram posts,work_DE,Digital Marketing,,2024-04-22 09:40:00,2024-05-29,36.59722222222222,1000.0,11000.0
+10610,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,One Payment,2024-02-07 11:54:00,2024-03-15,36.50416666666667,3500.0,3000.0
+9637,Nina Scott,SMM,,Web Developer,One Payment,2024-02-21 16:45:00,2024-03-29,36.302083333333336,1000.0,2000.0
+14389,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-12-12 20:37:00,2024-01-18,36.140972222222224,200.0,2500.0
+18542,Ulysses Adams,Bloggers,BloggerShina_DE,Digital Marketing,Recurring Payments,2023-10-05 18:02:00,2023-11-10,35.24861111111111,350.0,3500.0
+10343,Nina Scott,Facebook Ads,04.07.23recentlymoved_DE,Web Developer,One Payment,2024-02-09 05:31:00,2024-03-15,34.77013888888889,1000.0,2000.0
+12283,Charlie Davis,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-01-17 14:19:00,2024-02-21,34.40347222222222,300.0,4000.0
+20445,Charlie Davis,Facebook Ads,07.07.23LAL_DE,Digital Marketing,Recurring Payments,2023-08-16 15:58:00,2023-09-20,34.334722222222226,1000.0,11500.0
+15060,Paula Underwood,Organic,,Digital Marketing,,2023-12-05 12:04:00,2024-01-08,33.49722222222222,1000.0,11000.0
+8099,Ben Hall,SMM,,Digital Marketing,,2024-03-14 14:15:00,2024-04-17,33.40625,1000.0,11000.0
+8636,Ulysses Adams,SMM,,UX/UI Design,,2024-03-06 12:55:00,2024-04-08,32.46180555555556,1000.0,11000.0
+10125,Nina Scott,Organic,,UX/UI Design,,2024-02-14 15:40:00,2024-03-18,32.34722222222222,1000.0,11000.0
+14617,Julia Nelson,Google Ads,Dis_DE,UX/UI Design,Recurring Payments,2023-12-10 16:15:00,2024-01-12,32.322916666666664,200.0,2500.0
+8607,Ulysses Adams,Organic,,Digital Marketing,,2024-03-06 16:58:00,2024-04-08,32.293055555555554,1000.0,11000.0
+6095,Julia Nelson,Organic,,Find yourself in IT,One Payment,2024-04-08 17:34:00,2024-05-11,32.268055555555556,1.0,1.0
+18147,Ian Miller,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2023-10-13 00:47:00,2023-11-14,31.96736111111111,350.0,3500.0
+16745,Charlie Davis,Google Ads,Dis_DE,UX/UI Design,,2023-11-09 12:41:00,2023-12-11,31.471527777777776,1000.0,11000.0
+3414,Paula Underwood,Telegram posts,uk12_AT,Digital Marketing,Recurring Payments,2024-05-03 13:42:00,2024-06-04,31.429166666666667,300.0,4000.0
+4531,Paula Underwood,Telegram posts,chat_DE,Web Developer,,2024-04-19 21:39:00,2024-05-21,31.097916666666666,1000.0,5000.0
+8891,Quincy Vincent,SMM,,Web Developer,One Payment,2024-03-03 00:30:00,2024-04-03,30.979166666666668,1000.0,2000.0
+19019,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-09-26 09:27:00,2023-10-27,30.60625,1000.0,11000.0
+20242,Kevin Parker,SMM,,Digital Marketing,Recurring Payments,2023-08-21 10:49:00,2023-09-21,30.549305555555556,1000.0,11000.0
+20489,Charlie Davis,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-08-15 10:56:00,2023-09-15,30.544444444444444,350.0,3500.0
+10297,Ben Hall,Organic,,Digital Marketing,Recurring Payments,2024-02-10 14:46:00,2024-03-12,30.384722222222223,700.0,4000.0
+18003,Jane Smith,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,,2023-10-15 20:57:00,2023-11-15,30.127083333333335,1000.0,11500.0
+17481,Jane Smith,Google Ads,gen_analyst_DE,Digital Marketing,,2023-10-25 14:42:00,2023-11-24,29.3875,1000.0,11500.0
+6091,Cara Iverson,Facebook Ads,07.07.23LAL_DE,Digital Marketing,,2024-04-08 17:57:00,2024-05-08,29.252083333333335,1000.0,11000.0
+20031,Jane Smith,Webinar,web2408_DE,Digital Marketing,Recurring Payments,2023-08-24 21:05:00,2023-09-23,29.12152777777778,1000.0,11500.0
+21293,Jane Smith,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-07-19 11:55:00,2023-08-17,28.50347222222222,350.0,3500.0
+6123,Ulysses Adams,SMM,,Digital Marketing,,2024-04-08 13:41:00,2024-05-07,28.429861111111112,1000.0,11000.0
+11293,Paula Underwood,SMM,,Web Developer,One Payment,2024-01-30 17:50:00,2024-02-28,28.256944444444443,2000.0,2000.0
+8279,Quincy Vincent,Organic,,Web Developer,,2024-03-11 17:57:00,2024-04-09,28.252083333333335,1000.0,5000.0
+2474,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,One Payment,2024-05-16 21:19:00,2024-06-14,28.111805555555556,1500.0,
+3154,Ben Hall,CRM,1005start,Digital Marketing,,2024-05-06 23:06:00,2024-06-04,28.0375,1000.0,11000.0
+13474,Paula Underwood,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2023-12-29 01:46:00,2024-01-26,27.926388888888887,1000.0,11000.0
+11882,Ulysses Adams,Organic,,Digital Marketing,Recurring Payments,2024-01-23 09:21:00,2024-02-20,27.610416666666666,300.0,2500.0
+13699,Victor Barnes,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,,2023-12-24 10:50:00,2024-01-21,27.54861111111111,1000.0,11000.0
+16582,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-11-13 11:37:00,2023-12-11,27.51597222222222,1000.0,11000.0
+19875,Ulysses Adams,Organic,,Digital Marketing,Recurring Payments,2023-08-30 14:08:00,2023-09-27,27.41111111111111,1000.0,11000.0
+8699,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2024-03-05 15:39:00,2024-04-02,27.347916666666666,1000.0,11000.0
+17857,Oliver Taylor,Bloggers,bloggerfrai_DE,Digital Marketing,Recurring Payments,2023-10-18 16:04:00,2023-11-15,27.330555555555556,350.0,3500.0
+15871,Julia Nelson,Organic,,Digital Marketing,,2023-11-20 19:19:00,2023-12-18,27.195138888888888,1000.0,11000.0
+7002,Ulysses Adams,Google Ads,Dis_DE,Web Developer,,2024-03-28 21:43:00,2024-04-25,27.09513888888889,1000.0,5000.0
+14111,Nina Scott,Organic,,Digital Marketing,Recurring Payments,2023-12-16 21:49:00,2024-01-13,27.090972222222224,200.0,2500.0
+13226,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2024-01-04 08:03:00,2024-01-31,26.664583333333333,300.0,4000.0
+11027,Paula Underwood,SMM,,UX/UI Design,Recurring Payments,2024-02-02 10:04:00,2024-02-29,26.580555555555556,300.0,4000.0
+20418,Charlie Davis,SMM,,Digital Marketing,,2023-08-17 10:47:00,2023-09-13,26.550694444444446,1000.0,11500.0
+8627,Charlie Davis,Partnership,Akademia,Digital Marketing,,2024-03-06 14:31:00,2024-04-02,26.395138888888887,1000.0,11500.0
+12925,Julia Nelson,Organic,,Web Developer,,2024-01-09 18:13:00,2024-02-05,26.240972222222222,1000.0,5000.0
+15424,Oliver Taylor,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-11-26 12:10:00,2023-12-22,25.493055555555557,,3500.0
+16748,Charlie Davis,Organic,,Digital Marketing,,2023-11-09 12:13:00,2023-12-05,25.490972222222222,1000.0,11500.0
+3480,Charlie Davis,Organic,,Web Developer,One Payment,2024-05-02 15:46:00,2024-05-28,25.343055555555555,1000.0,2000.0
+16983,Oliver Taylor,Bloggers,,UX/UI Design,,2023-11-03 21:24:00,2023-11-29,25.108333333333334,1000.0,11000.0
+12243,Charlie Davis,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,Recurring Payments,2024-01-18 05:50:00,2024-02-12,24.756944444444443,300.0,4000.0
+19803,Ulysses Adams,Organic,,Digital Marketing,Recurring Payments,2023-09-04 08:00:00,2023-09-29,24.666666666666668,500.0,4000.0
+12156,Paula Underwood,Organic,,Web Developer,,2024-01-19 10:31:00,2024-02-13,24.561805555555555,1000.0,5000.0
+21045,Ulysses Adams,Tiktok Ads,24.07.2023wide_DE,Digital Marketing,One Payment,2023-07-28 07:10:00,2023-08-21,23.70138888888889,1000.0,4000.0
+16589,Oliver Taylor,Google Ads,Dis_DE,UX/UI Design,,2023-11-13 10:24:00,2023-12-07,23.566666666666666,1000.0,11000.0
+17419,Oliver Taylor,Organic,,Digital Marketing,,2023-10-26 15:09:00,2023-11-19,23.36875,1000.0,11000.0
+17367,Jane Smith,Bloggers,,Digital Marketing,,2023-10-27 15:25:00,2023-11-20,23.35763888888889,1000.0,11500.0
+6260,Quincy Vincent,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,One Payment,2024-04-06 21:12:00,2024-04-30,23.116666666666667,2000.0,3000.0
+7704,Ian Miller,Telegram posts,uk_DE,UX/UI Design,,2024-03-19 19:07:00,2024-04-11,22.20347222222222,1000.0,11000.0
+4279,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2024-04-22 21:27:00,2024-05-15,22.10625,1000.0,11000.0
+18264,Julia Nelson,Organic,,Digital Marketing,Recurring Payments,2023-10-10 21:50:00,2023-11-02,22.09027777777778,1000.0,11000.0
+11671,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,Recurring Payments,2024-01-25 22:43:00,2024-02-17,22.053472222222222,600.0,2000.0
+13225,Ian Miller,SMM,,Web Developer,One Payment,2024-01-04 08:03:00,2024-01-26,21.664583333333333,2000.0,2000.0
+8656,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,Recurring Payments,2024-03-06 09:09:00,2024-03-28,21.61875,200.0,2500.0
+12889,Charlie Davis,SMM,,UX/UI Design,Recurring Payments,2024-01-10 10:17:00,2024-02-01,21.571527777777778,300.0,4000.0
+10234,Quincy Vincent,Organic,,Web Developer,One Payment,2024-02-12 12:37:00,2024-03-05,21.474305555555556,2000.0,2000.0
+13460,Paula Underwood,SMM,,UX/UI Design,Recurring Payments,2023-12-29 12:42:00,2024-01-20,21.470833333333335,300.0,4000.0
+14441,Victor Barnes,Google Ads,Dis_DE,UX/UI Design,Recurring Payments,2023-12-12 13:09:00,2024-01-03,21.452083333333334,300.0,4000.0
+15298,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-11-29 17:20:00,2023-12-21,21.27777777777778,1000.0,11500.0
+19357,Oliver Taylor,Organic,,Digital Marketing,Recurring Payments,2023-09-18 19:38:00,2023-10-10,21.181944444444444,1000.0,11500.0
+2469,Cara Iverson,Organic,,UX/UI Design,,2024-05-16 23:17:00,2024-06-07,21.02986111111111,1000.0,11000.0
+2468,Eva Kent,Organic,,UX/UI Design,,2024-05-16 23:27:00,2024-06-07,21.022916666666667,1000.0,11000.0
+8329,Victor Barnes,SMM,,UX/UI Design,Recurring Payments,2024-03-11 09:43:00,2024-04-01,20.59513888888889,300.0,4000.0
+13209,Paula Underwood,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,One Payment,2024-01-04 13:04:00,2024-01-25,20.455555555555556,2000.0,3000.0
+6630,Ben Hall,SMM,,UX/UI Design,Recurring Payments,2024-04-02 14:36:00,2024-04-23,20.391666666666666,300.0,4000.0
+19663,Jane Smith,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-09-09 00:53:00,2023-09-29,19.963194444444444,450.0,4500.0
+20077,Charlie Davis,Webinar,web2408_DE,Digital Marketing,Recurring Payments,2023-08-24 01:10:00,2023-09-13,19.95138888888889,350.0,3500.0
+14839,Nina Scott,Organic,,UX/UI Design,Recurring Payments,2023-12-08 13:04:00,2023-12-28,19.455555555555556,300.0,4000.0
+7048,Cara Iverson,SMM,,Web Developer,Recurring Payments,2024-03-28 13:57:00,2024-04-17,19.41875,500.0,2500.0
+10575,Ben Hall,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,,2024-02-07 15:05:00,2024-02-27,19.37152777777778,1000.0,11000.0
+16414,Charlie Davis,Facebook Ads,03.07.23women,Digital Marketing,,2023-11-15 20:22:00,2023-12-05,19.15138888888889,1000.0,11500.0
+4155,Cara Iverson,Google Ads,1performancemax_wide_PL,Web Developer,Recurring Payments,2024-04-24 07:48:00,2024-05-13,18.675,500.0,2500.0
+18193,Mason Roberts,Facebook Ads,03.07.23women,UX/UI Design,Recurring Payments,2023-10-12 08:57:00,2023-10-31,18.627083333333335,400.0,4000.0
+17095,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-11-02 09:24:00,2023-11-21,18.608333333333334,1000.0,11000.0
+20894,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-02 10:39:00,2023-08-21,18.55625,350.0,3500.0
+20860,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-03 12:23:00,2023-08-22,18.48402777777778,350.0,3500.0
+10971,Victor Barnes,Telegram posts,,Web Developer,,2024-02-02 20:33:00,2024-02-21,18.14375,1000.0,5000.0
+15230,Ian Miller,Organic,,UX/UI Design,Recurring Payments,2023-11-30 22:18:00,2023-12-19,18.070833333333333,300.0,4000.0
+18580,Ulysses Adams,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,One Payment,2023-10-04 22:21:00,2023-10-23,18.06875,2000.0,3000.0
+8020,Ulysses Adams,Webinar,,Digital Marketing,Recurring Payments,2024-03-15 05:56:00,2024-04-02,17.752777777777776,300.0,4000.0
+2462,Cara Iverson,Facebook Ads,17.03.24wide_AT,Digital Marketing,Recurring Payments,2024-05-17 06:54:00,2024-06-04,17.7125,500.0,4500.0
+2456,Quincy Vincent,Organic,,UX/UI Design,Recurring Payments,2024-05-17 09:52:00,2024-06-04,17.58888888888889,2000.0,3000.0
+18479,Ulysses Adams,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,,2023-10-06 10:22:00,2023-10-24,17.568055555555556,1000.0,11000.0
+16693,Ulysses Adams,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-11-10 15:10:00,2023-11-28,17.368055555555557,350.0,3500.0
+5811,Quincy Vincent,Google Ads,brand_search_eng_DE,Digital Marketing,,2024-04-11 17:35:00,2024-04-29,17.26736111111111,1000.0,11000.0
+9529,Ben Hall,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,One Payment,2024-02-22 20:34:00,2024-03-11,17.143055555555556,1000.0,11000.0
+5519,Charlie Davis,Youtube Ads,youtube_shorts_DE,UX/UI Design,Recurring Payments,2024-04-12 20:49:00,2024-04-30,17.132638888888888,300.0,4000.0
+17045,Charlie Davis,Bloggers,,UX/UI Design,Recurring Payments,2023-11-02 23:59:00,2023-11-20,17.000694444444445,350.0,3500.0
+18351,Charlie Davis,Facebook Ads,15.07.23b_DE,Digital Marketing,Recurring Payments,2023-10-09 07:19:00,2023-10-26,16.695138888888888,350.0,3500.0
+14046,Ulysses Adams,Google Ads,Dis_DE,Web Developer,Recurring Payments,2023-12-18 10:20:00,2024-01-04,16.569444444444443,200.0,2000.0
+16960,Julia Nelson,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,One Payment,2023-11-04 12:03:00,2023-11-21,16.497916666666665,1500.0,
+8807,Julia Nelson,SMM,,UX/UI Design,Recurring Payments,2024-03-04 12:11:00,2024-03-21,16.492361111111112,300.0,4000.0
+16203,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,Recurring Payments,2023-11-18 12:20:00,2023-12-05,16.48611111111111,300.0,4000.0
+4210,Ben Hall,Organic,,UX/UI Design,One Payment,2024-04-23 14:38:00,2024-05-10,16.39027777777778,1000.0,11000.0
+14616,Quincy Vincent,SMM,,Digital Marketing,Recurring Payments,2023-12-10 16:17:00,2023-12-27,16.321527777777778,300.0,4000.0
+7278,Ulysses Adams,Tiktok Ads,12.07.2023wide_DE,Web Developer,One Payment,2024-03-25 16:47:00,2024-04-11,16.300694444444446,1000.0,2000.0
+12964,Ulysses Adams,Organic,,Digital Marketing,One Payment,2024-01-08 20:16:00,2024-01-25,16.155555555555555,300.0,3000.0
+16563,Charlie Davis,Bloggers,podslush_DE,Digital Marketing,One Payment,2023-11-13 21:11:00,2023-11-30,16.117361111111112,1500.0,
+1484,Eva Kent,Facebook Ads,24.09.23retargeting_DE,Web Developer,One Payment,2024-06-03 22:00:00,2024-06-20,16.083333333333332,3000.0,
+19912,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-29 01:01:00,2023-09-14,15.957638888888889,1000.0,11500.0
+19883,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-30 07:16:00,2023-09-15,15.697222222222223,350.0,3500.0
+19024,Ulysses Adams,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-09-26 08:10:00,2023-10-12,15.659722222222221,500.0,4000.0
+6987,Paula Underwood,SMM,,Web Developer,Recurring Payments,2024-03-29 09:17:00,2024-04-14,15.613194444444444,500.0,2500.0
+20672,Ulysses Adams,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2023-08-09 11:00:00,2023-08-25,15.541666666666666,2000.0,3500.0
+7745,Ulysses Adams,SMM,,UX/UI Design,One Payment,2024-03-19 12:37:00,2024-04-04,15.474305555555556,2000.0,3000.0
+19584,George King,Bloggers,arina_DE,Digital Marketing,Recurring Payments,2023-09-12 12:44:00,2023-09-28,15.469444444444445,450.0,4500.0
+9657,Ulysses Adams,SMM,,UX/UI Design,One Payment,2024-02-21 14:29:00,2024-03-08,15.396527777777777,3000.0,3000.0
+6271,Charlie Davis,Tiktok Ads,20.03.2024wide_PL,UX/UI Design,Recurring Payments,2024-04-06 16:59:00,2024-04-22,15.292361111111111,300.0,4000.0
+20508,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-14 18:28:00,2023-08-30,15.230555555555556,450.0,4500.0
+11262,Quincy Vincent,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,,2024-01-31 00:04:00,2024-02-15,14.997222222222222,1000.0,5000.0
+7950,Ben Hall,Organic,,Digital Marketing,,2024-03-16 07:53:00,2024-03-31,14.671527777777778,1000.0,11000.0
+14483,Julia Nelson,Organic,,Digital Marketing,Recurring Payments,2023-12-12 08:27:00,2023-12-27,14.647916666666667,300.0,4000.0
+2064,Cara Iverson,CRM,2905start,Web Developer,Recurring Payments,2024-05-26 10:05:00,2024-06-10,14.57986111111111,500.0,3500.0
+3693,Eva Kent,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2024-04-30 14:41:00,2024-05-15,14.388194444444444,500.0,4500.0
+5824,Ulysses Adams,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,Recurring Payments,2024-04-11 15:32:00,2024-04-26,14.352777777777778,300.0,3000.0
+1715,Eva Kent,SMM,blog2_DE,UX/UI Design,One Payment,2024-05-31 18:08:00,2024-06-15,14.244444444444444,,3500.0
+5077,Victor Barnes,Google Ads,brand_search_eng_DE,Digital Marketing,One Payment,2024-04-16 08:53:00,2024-04-30,13.629861111111111,3500.0,3000.0
+9103,Julia Nelson,Facebook Ads,03.07.23women,UX/UI Design,Recurring Payments,2024-02-28 09:52:00,2024-03-13,13.588888888888889,300.0,4000.0
+5062,Ulysses Adams,Organic,,UX/UI Design,Recurring Payments,2024-04-16 09:56:00,2024-04-30,13.58611111111111,300.0,4000.0
+7744,Paula Underwood,SMM,,Digital Marketing,,2024-03-19 12:40:00,2024-04-02,13.472222222222221,1000.0,11000.0
+15002,Ulysses Adams,Facebook Ads,03.07.23women,Digital Marketing,,2023-12-06 14:10:00,2023-12-20,13.409722222222221,1000.0,11000.0
+11694,Charlie Davis,Telegram posts,work_DE,Web Developer,One Payment,2024-01-25 16:30:00,2024-02-08,13.3125,2000.0,2000.0
+16907,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-11-05 17:20:00,2023-11-19,13.277777777777779,1000.0,11500.0
+8065,Ben Hall,Organic,,Digital Marketing,One Payment,2024-03-14 18:48:00,2024-03-28,13.216666666666667,3500.0,3000.0
+12266,Nina Scott,CRM,,Digital Marketing,Recurring Payments,2024-01-17 19:27:00,2024-01-31,13.189583333333333,300.0,4000.0
+12041,Nina Scott,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,Recurring Payments,2024-01-20 20:40:00,2024-02-03,13.13888888888889,300.0,4000.0
+12260,Paula Underwood,CRM,,Web Developer,Recurring Payments,2024-01-17 21:19:00,2024-01-31,13.111805555555556,200.0,2000.0
+12084,Charlie Davis,Partnership,,Web Developer,Recurring Payments,2024-01-20 07:40:00,2024-02-02,12.680555555555555,350.0,2000.0
+3426,Ben Hall,Organic,,UX/UI Design,,2024-05-03 11:41:00,2024-05-16,12.513194444444444,1000.0,11000.0
+15059,Charlie Davis,Organic,,UX/UI Design,One Payment,2023-12-05 12:27:00,2023-12-18,12.48125,1000.0,3000.0
+9663,Paula Underwood,CRM,,Web Developer,Recurring Payments,2024-02-21 13:03:00,2024-03-05,12.45625,200.0,2000.0
+6624,Quincy Vincent,SMM,,UX/UI Design,,2024-04-02 15:18:00,2024-04-15,12.3625,1000.0,11000.0
+3964,Paula Underwood,Tiktok Ads,20.03.2024wide_PL,UX/UI Design,Recurring Payments,2024-04-26 16:00:00,2024-05-09,12.333333333333334,300.0,4000.0
+8206,Quincy Vincent,Youtube Ads,youtube_shorts_DE,UX/UI Design,Recurring Payments,2024-03-12 16:56:00,2024-03-25,12.294444444444444,300.0,4000.0
+12117,Charlie Davis,SMM,,Digital Marketing,Recurring Payments,2024-01-19 18:13:00,2024-02-01,12.240972222222222,200.0,2500.0
+19920,Jane Smith,Organic,,Digital Marketing,Recurring Payments,2023-08-28 18:55:00,2023-09-10,12.211805555555555,350.0,3500.0
+9061,Ian Miller,Organic,,Digital Marketing,Recurring Payments,2024-02-28 20:34:00,2024-03-12,12.143055555555556,300.0,4000.0
+12248,Paula Underwood,Webinar,,Digital Marketing,,2024-01-18 00:25:00,2024-01-30,11.98263888888889,1000.0,11000.0
+7181,Julia Nelson,Google Ads,1performancemax_wide_PL,UX/UI Design,Recurring Payments,2024-03-27 01:59:00,2024-04-08,11.917361111111111,300.0,4000.0
+17886,Jane Smith,Facebook Ads,04.07.23recentlymoved_DE,UX/UI Design,One Payment,2023-10-18 03:01:00,2023-10-30,11.874305555555555,3000.0,3000.0
+14142,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,Recurring Payments,2023-12-16 07:30:00,2023-12-28,11.6875,300.0,4000.0
+7069,Quincy Vincent,SMM,,Web Developer,Recurring Payments,2024-03-28 07:53:00,2024-04-09,11.671527777777778,500.0,2500.0
+19159,Ulysses Adams,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-09-23 10:50:00,2023-10-05,11.54861111111111,500.0,4000.0
+8535,Ulysses Adams,Organic,,Digital Marketing,One Payment,2024-03-07 13:18:00,2024-03-19,11.445833333333333,3500.0,3000.0
+20446,Jane Smith,Organic,,UX/UI Design,Recurring Payments,2023-08-16 15:28:00,2023-08-28,11.355555555555556,350.0,3500.0
+20562,Ulysses Adams,Bloggers,,Digital Marketing,Recurring Payments,2023-08-12 15:59:00,2023-08-24,11.334027777777777,350.0,4000.0
+1410,Eva Kent,Tiktok Ads,22.05.2024wide_DE,Digital Marketing,Recurring Payments,2024-06-04 20:51:00,2024-06-16,11.13125,100.0,4000.0
+16668,Charlie Davis,SMM,,UX/UI Design,Recurring Payments,2023-11-10 21:54:00,2023-11-22,11.0875,350.0,3500.0
+13237,Charlie Davis,Organic,,UX/UI Design,One Payment,2024-01-03 23:50:00,2024-01-15,11.006944444444445,2000.0,3500.0
+3059,Cara Iverson,Google Ads,1performancemax_wide_PL,UX/UI Design,Recurring Payments,2024-05-08 07:15:00,2024-05-19,10.697916666666666,500.0,4500.0
+2294,Charlie Davis,Facebook Ads,07.07.23LAL_DE,Digital Marketing,Recurring Payments,2024-05-21 08:10:00,2024-06-01,10.659722222222221,300.0,4000.0
+2148,Ulysses Adams,Tiktok Ads,22.05.2024wide_DE,Web Developer,One Payment,2024-05-24 11:32:00,2024-06-04,10.519444444444444,1500.0,
+11614,Victor Barnes,Bloggers,,Web Developer,Recurring Payments,2024-01-26 14:43:00,2024-02-06,10.386805555555556,500.0,2000.0
+20380,Charlie Davis,Telegram posts,berlin_DE,Digital Marketing,Recurring Payments,2023-08-18 14:58:00,2023-08-29,10.376388888888888,350.0,3500.0
+18327,Jane Smith,Organic,,Digital Marketing,One Payment,2023-10-09 16:36:00,2023-10-20,10.308333333333334,3500.0,3500.0
+17361,Charlie Davis,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,One Payment,2023-10-27 16:49:00,2023-11-07,10.299305555555556,1000.0,11500.0
+12347,Julia Nelson,Facebook Ads,,UX/UI Design,Recurring Payments,2024-01-16 18:09:00,2024-01-27,10.24375,200.0,2500.0
+6762,Quincy Vincent,Facebook Ads,07.07.23LAL_DE,Digital Marketing,One Payment,2024-03-31 18:10:00,2024-04-11,10.243055555555555,2000.0,3000.0
+16725,Ulysses Adams,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,,2023-11-09 18:38:00,2023-11-20,10.223611111111111,1000.0,11000.0
+2341,Eva Kent,Google Ads,brand_search_eng_DE,UX/UI Design,Recurring Payments,2024-05-19 18:40:00,2024-05-30,10.222222222222221,500.0,4500.0
+7697,Ben Hall,Organic,,Web Developer,One Payment,2024-03-19 20:09:00,2024-03-30,10.160416666666666,1000.0,2000.0
+12962,Ulysses Adams,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-01-08 20:56:00,2024-01-19,10.127777777777778,300.0,4000.0
+11356,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2024-01-29 21:25:00,2024-02-09,10.10763888888889,1000.0,11000.0
+20975,Ulysses Adams,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2023-07-30 22:33:00,2023-08-10,10.060416666666667,350.0,3500.0
+18296,Mason Roberts,Organic,,Digital Marketing,Recurring Payments,2023-10-10 08:51:00,2023-10-20,9.63125,1000.0,11000.0
+8748,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2024-03-05 09:41:00,2024-03-15,9.596527777777778,300.0,4000.0
+6111,Quincy Vincent,Google Ads,brand_search_eng_DE,Web Developer,One Payment,2024-04-08 14:59:00,2024-04-18,9.375694444444445,1000.0,2000.0
+11958,Quincy Vincent,Organic,,Web Developer,Recurring Payments,2024-01-22 15:30:00,2024-02-01,9.354166666666666,200.0,2000.0
+16033,Julia Nelson,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2023-11-19 15:55:00,2023-11-29,9.336805555555555,350.0,3500.0
+15094,Ulysses Adams,Facebook Ads,03.07.23women,Digital Marketing,,2023-12-04 20:51:00,2023-12-14,9.13125,1000.0,11000.0
+12765,Charlie Davis,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,One Payment,2024-01-11 22:14:00,2024-01-21,9.073611111111111,,3500.0
+17501,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-10-25 00:31:00,2023-11-03,8.978472222222223,350.0,3500.0
+7481,Ulysses Adams,Facebook Ads,17.03.24wide_AT,UX/UI Design,Recurring Payments,2024-03-22 11:33:00,2024-03-31,8.51875,300.0,3000.0
+8316,Paula Underwood,Organic,,Digital Marketing,One Payment,2024-03-11 12:41:00,2024-03-20,8.471527777777778,3500.0,3000.0
+15536,Paula Underwood,Webinar,web2211_DE,Digital Marketing,Recurring Payments,2023-11-23 13:42:00,2023-12-02,8.429166666666667,350.0,3500.0
+2675,Nina Scott,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,,2024-05-13 16:54:00,2024-05-22,8.295833333333333,1000.0,11000.0
+15893,Julia Nelson,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,Recurring Payments,2023-11-20 17:06:00,2023-11-29,8.2875,350.0,3500.0
+15106,Ian Miller,Telegram posts,Bloggerel_DE,Digital Marketing,Recurring Payments,2023-12-04 17:12:00,2023-12-13,8.283333333333333,300.0,4000.0
+13043,Julia Nelson,Facebook Ads,,Digital Marketing,,2024-01-07 19:33:00,2024-01-16,8.185416666666667,1000.0,11000.0
+5896,Ben Hall,SMM,Jobs_germany_DE,Digital Marketing,One Payment,2024-04-10 21:51:00,2024-04-19,8.089583333333334,3500.0,3000.0
+19383,Ulysses Adams,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,One Payment,2023-09-18 00:52:00,2023-09-26,7.963888888888889,2000.0,3500.0
+7762,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,Recurring Payments,2024-03-19 03:48:00,2024-03-27,7.841666666666667,100.0,4000.0
+10307,Nina Scott,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2024-02-10 07:14:00,2024-02-18,7.698611111111111,300.0,4000.0
+18294,Oliver Taylor,Facebook Ads,12.09.23interests_Uxui_DE,UX/UI Design,,2023-10-10 09:52:00,2023-10-18,7.588888888888889,1000.0,11000.0
+16925,Ulysses Adams,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2023-11-05 10:00:00,2023-11-13,7.583333333333333,350.0,2500.0
+1383,Ben Hall,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2024-06-05 10:41:00,2024-06-13,7.554861111111111,300.0,4000.0
+20147,Jane Smith,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-08-22 10:58:00,2023-08-30,7.543055555555555,350.0,3500.0
+20664,Ulysses Adams,Telegram posts,karta_DE,Digital Marketing,Recurring Payments,2023-08-09 13:05:00,2023-08-17,7.454861111111111,350.0,3500.0
+9253,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2024-02-26 13:55:00,2024-03-05,7.420138888888889,300.0,4000.0
+11432,Quincy Vincent,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-01-28 15:49:00,2024-02-05,7.340972222222222,1000.0,11000.0
+7035,Victor Barnes,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-03-28 16:09:00,2024-04-05,7.327083333333333,300.0,4000.0
+15906,Ulysses Adams,SMM,,UX/UI Design,One Payment,2023-11-20 16:18:00,2023-11-28,7.320833333333334,1000.0,2500.0
+18363,Kevin Parker,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2023-10-08 18:53:00,2023-10-16,7.2131944444444445,2000.0,
+9626,Paula Underwood,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,Recurring Payments,2024-02-21 19:14:00,2024-02-29,7.198611111111111,100.0,2500.0
+15382,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,,2023-11-27 19:36:00,2023-12-05,7.183333333333334,1000.0,11000.0
+8951,Charlie Davis,Telegram posts,,Web Developer,One Payment,2024-03-01 19:57:00,2024-03-09,7.16875,2000.0,2000.0
+15585,Julia Nelson,Webinar,web2211_DE,Digital Marketing,Recurring Payments,2023-11-22 20:05:00,2023-11-30,7.163194444444445,350.0,3500.0
+16612,Kevin Parker,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,Recurring Payments,2023-11-12 20:55:00,2023-11-20,7.128472222222222,350.0,3500.0
+17342,Kevin Parker,Google Ads,Dis_DE,UX/UI Design,One Payment,2023-10-27 21:59:00,2023-11-04,7.084027777777778,3000.0,2500.0
+15685,Nina Scott,Facebook Ads,03.07.23women,Digital Marketing,One Payment,2023-11-21 22:22:00,2023-11-29,7.0680555555555555,3000.0,
+10250,Quincy Vincent,Organic,,Web Developer,One Payment,2024-02-11 23:08:00,2024-02-19,7.036111111111111,1000.0,2000.0
+14501,Charlie Davis,Bloggers,,UX/UI Design,Recurring Payments,2023-12-11 23:24:00,2023-12-19,7.025,300.0,3500.0
+1402,Charlie Davis,Organic,,UX/UI Design,One Payment,2024-06-04 23:39:00,2024-06-12,7.014583333333333,4500.0,4500.0
+7083,Cara Iverson,Google Ads,performancemax_wide_AT,Digital Marketing,Recurring Payments,2024-03-28 00:19:00,2024-04-04,6.986805555555556,300.0,4000.0
+20152,Ulysses Adams,Facebook Ads,07.07.23LAL_DE,Digital Marketing,Recurring Payments,2023-08-22 08:43:00,2023-08-29,6.636805555555555,350.0,3500.0
+12944,Ulysses Adams,Bloggers,Bloggernina_DE,Web Developer,Recurring Payments,2024-01-09 10:16:00,2024-01-16,6.572222222222222,200.0,2000.0
+1387,Charlie Davis,SMM,,Digital Marketing,Recurring Payments,2024-06-05 10:21:00,2024-06-12,6.56875,300.0,4000.0
+9397,Paula Underwood,SMM,,Web Developer,One Payment,2024-02-24 10:59:00,2024-03-02,6.542361111111111,1000.0,2500.0
+20065,Jane Smith,CRM,web2408_DE,Digital Marketing,Recurring Payments,2023-08-24 11:20:00,2023-08-31,6.527777777777778,350.0,3500.0
+13072,Julia Nelson,Facebook Ads,03.07.23women,Digital Marketing,One Payment,2024-01-07 12:26:00,2024-01-14,6.481944444444444,,3500.0
+4214,Victor Barnes,Organic,,UX/UI Design,One Payment,2024-04-23 14:24:00,2024-04-30,6.4,2000.0,3000.0
+1041,Quincy Vincent,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2024-06-10 15:33:00,2024-06-17,6.352083333333334,1000.0,11000.0
+18992,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-09-26 17:02:00,2023-10-03,6.290277777777778,400.0,4000.0
+16812,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-11-07 17:17:00,2023-11-14,6.279861111111111,1000.0,11500.0
+19607,Ulysses Adams,Facebook Ads,07.07.23LAL_DE,Digital Marketing,Recurring Payments,2023-09-11 17:56:00,2023-09-18,6.252777777777778,500.0,4000.0
+1496,Quincy Vincent,Youtube Ads,youtube_shorts_DE,UX/UI Design,One Payment,2024-06-03 18:33:00,2024-06-10,6.227083333333334,4000.0,4000.0
+7447,Paula Underwood,SMM,,UX/UI Design,,2024-03-22 18:50:00,2024-03-29,6.215277777777778,1000.0,11000.0
+7698,Ian Miller,Bloggers,mu_DE,UX/UI Design,Recurring Payments,2024-03-19 20:06:00,2024-03-26,6.1625,300.0,4000.0
+1705,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,One Payment,2024-05-31 20:56:00,2024-06-07,6.127777777777778,2000.0,3000.0
+15695,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-11-21 21:29:00,2023-11-28,6.104861111111111,3000.0,2500.0
+10709,Nina Scott,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-02-06 01:35:00,2024-02-12,5.934027777777778,300.0,4000.0
+19910,Oliver Taylor,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-29 01:54:00,2023-09-04,5.920833333333333,1000.0,11500.0
+12314,Ulysses Adams,Facebook Ads,04.07.23recentlymoved_DE,Web Developer,Recurring Payments,2024-01-17 04:36:00,2024-01-23,5.808333333333334,200.0,2000.0
+20159,Ulysses Adams,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-08-22 06:23:00,2023-08-28,5.7340277777777775,350.0,3500.0
+18291,Mason Roberts,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2023-10-10 10:17:00,2023-10-16,5.571527777777778,500.0,4000.0
+6543,Ulysses Adams,Organic,,Web Developer,,2024-04-03 10:19:00,2024-04-09,5.570138888888889,1000.0,5000.0
+13218,Kevin Parker,CRM,Trigger_DE,UX/UI Design,,2024-01-04 10:57:00,2024-01-10,5.54375,1000.0,11000.0
+2139,Quincy Vincent,SMM,,Digital Marketing,One Payment,2024-05-24 13:10:00,2024-05-30,5.451388888888889,2000.0,3000.0
+2549,Paula Underwood,Organic,,Digital Marketing,Recurring Payments,2024-05-15 14:49:00,2024-05-21,5.382638888888889,300.0,4000.0
+9569,Paula Underwood,Telegram posts,ASA_de_DE,UX/UI Design,One Payment,2024-02-22 15:51:00,2024-02-28,5.339583333333334,,3500.0
+2433,Eva Kent,Google Ads,brand_search_eng_DE,Web Developer,One Payment,2024-05-17 16:38:00,2024-05-23,5.3069444444444445,2000.0,2000.0
+5547,Julia Nelson,SMM,,Web Developer,Recurring Payments,2024-04-12 16:51:00,2024-04-18,5.297916666666667,500.0,2500.0
+17475,Kevin Parker,SMM,,Digital Marketing,Recurring Payments,2023-10-25 17:05:00,2023-10-31,5.288194444444445,350.0,3500.0
+11772,Quincy Vincent,Organic,,UX/UI Design,Recurring Payments,2024-01-24 18:04:00,2024-01-30,5.247222222222222,2000.0,3500.0
+20477,Charlie Davis,Telegram posts,jet_DE,Digital Marketing,Recurring Payments,2023-08-15 18:53:00,2023-08-21,5.2131944444444445,350.0,3500.0
+16766,Jane Smith,Organic,,Digital Marketing,,2023-11-08 19:34:00,2023-11-14,5.184722222222222,1000.0,11500.0
+16706,Ulysses Adams,Google Ads,Dis_DE,UX/UI Design,Recurring Payments,2023-11-10 07:37:00,2023-11-15,4.682638888888889,350.0,3500.0
+1536,Paula Underwood,Google Ads,performancemax_wide_AT,UX/UI Design,One Payment,2024-06-03 09:09:00,2024-06-08,4.61875,2000.0,4000.0
+8170,Charlie Davis,Facebook Ads,03.07.23women,Digital Marketing,One Payment,2024-03-13 09:33:00,2024-03-18,4.602083333333334,2000.0,3000.0
+20788,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-06 11:26:00,2023-08-11,4.523611111111111,350.0,3500.0
+11490,Charlie Davis,Bloggers,,Web Developer,Recurring Payments,2024-01-27 11:38:00,2024-02-01,4.5152777777777775,200.0,2000.0
+17826,Julia Nelson,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-10-19 12:04:00,2023-10-24,4.497222222222222,300.0,
+8650,Charlie Davis,Organic,,Web Developer,Recurring Payments,2024-03-06 12:28:00,2024-03-11,4.480555555555555,600.0,2000.0
+5580,Ulysses Adams,Facebook Ads,03.07.23women,UX/UI Design,Recurring Payments,2024-04-12 13:10:00,2024-04-17,4.451388888888889,300.0,2000.0
+2899,Ben Hall,Facebook Ads,02.07.23wide_DE,UX/UI Design,One Payment,2024-05-10 13:44:00,2024-05-15,4.427777777777778,4500.0,4500.0
+8154,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2024-03-13 14:10:00,2024-03-18,4.409722222222222,3500.0,3000.0
+2950,Paula Underwood,Google Ads,Dis_DE,UX/UI Design,,2024-05-09 15:20:00,2024-05-14,4.361111111111111,1000.0,11000.0
+2944,Ben Hall,Facebook Ads,24.09.23retargeting_DE,Web Developer,Reservation,2024-05-09 17:51:00,2024-05-14,4.25625,100.0,2500.0
+14256,Paula Underwood,Organic,,UX/UI Design,Recurring Payments,2023-12-14 18:03:00,2023-12-19,4.247916666666667,300.0,4000.0
+6266,Cara Iverson,Tiktok Ads,20.03.2024wide_PL,UX/UI Design,Recurring Payments,2024-04-06 18:16:00,2024-04-11,4.238888888888889,300.0,4000.0
+20029,Ulysses Adams,Webinar,web2408_DE,Digital Marketing,One Payment,2023-08-24 21:05:00,2023-08-29,4.121527777777778,2000.0,3500.0
+17400,Ulysses Adams,CRM,26.10start,Digital Marketing,Recurring Payments,2023-10-26 21:43:00,2023-10-31,4.095138888888889,350.0,3500.0
+3162,Charlie Davis,CRM,1005start,UX/UI Design,,2024-05-06 21:52:00,2024-05-11,4.088888888888889,1000.0,11000.0
+2079,Cara Iverson,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-05-25 22:26:00,2024-05-30,4.065277777777778,300.0,4000.0
+12173,Ulysses Adams,Facebook Ads,04.07.23recentlymoved_DE,Web Developer,One Payment,2024-01-18 22:27:00,2024-01-23,4.064583333333333,2000.0,2000.0
+19417,Kevin Parker,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-09-17 00:40:00,2023-09-21,3.9722222222222223,450.0,4500.0
+9353,Victor Barnes,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,,2024-02-25 00:40:00,2024-02-29,3.9722222222222223,1000.0,5000.0
+1254,Charlie Davis,CRM,1006start,UX/UI Design,Recurring Payments,2024-06-07 04:55:00,2024-06-11,3.795138888888889,300.0,4000.0
+2531,Paula Underwood,Organic,,Web Developer,Recurring Payments,2024-05-16 05:51:00,2024-05-20,3.75625,500.0,2500.0
+20640,Charlie Davis,SMM,,Digital Marketing,Recurring Payments,2023-08-10 06:36:00,2023-08-14,3.725,350.0,3500.0
+14647,Julia Nelson,Youtube Ads,youtube_shorts_DE,UX/UI Design,Recurring Payments,2023-12-10 10:39:00,2023-12-14,3.55625,300.0,4000.0
+13462,Quincy Vincent,SMM,,UX/UI Design,Recurring Payments,2023-12-29 12:05:00,2024-01-02,3.4965277777777777,300.0,4000.0
+12818,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2024-01-11 14:09:00,2024-01-15,3.410416666666667,300.0,4000.0
+14271,Ulysses Adams,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2023-12-14 14:53:00,2023-12-18,3.379861111111111,300.0,4000.0
+18837,Charlie Davis,CRM,referral,Digital Marketing,Recurring Payments,2023-09-29 17:02:00,2023-10-03,3.290277777777778,500.0,4000.0
+11946,Quincy Vincent,Bloggers,mu_DE,Digital Marketing,Recurring Payments,2024-01-22 17:02:00,2024-01-26,3.290277777777778,300.0,4000.0
+479,Ben Hall,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,Recurring Payments,2024-06-15 17:02:00,2024-06-19,3.290277777777778,500.0,4500.0
+6937,Nina Scott,Organic,,Web Developer,One Payment,2024-03-29 17:28:00,2024-04-02,3.272222222222222,1000.0,2000.0
+6089,Ulysses Adams,Organic,,Digital Marketing,Recurring Payments,2024-04-08 18:52:00,2024-04-12,3.213888888888889,300.0,4000.0
+18527,Julia Nelson,Facebook Ads,02.07.23wide_DE,UX/UI Design,,2023-10-05 18:56:00,2023-10-09,3.2111111111111112,1000.0,11000.0
+6488,Paula Underwood,Organic,,Digital Marketing,One Payment,2024-04-03 19:31:00,2024-04-07,3.1868055555555554,2000.0,3000.0
+15499,Julia Nelson,Webinar,web2311_DE,UX/UI Design,One Payment,2023-11-23 20:06:00,2023-11-27,3.1625,3000.0,2500.0
+2159,Cara Iverson,Organic,,Web Developer,,2024-05-24 00:51:00,2024-05-27,2.964583333333333,1000.0,9000.0
+7329,Ben Hall,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2024-03-25 02:14:00,2024-03-28,2.9069444444444446,300.0,4000.0
+19029,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-09-26 06:27:00,2023-09-29,2.73125,500.0,3500.0
+4249,Quincy Vincent,Bloggers,mu_DE,Digital Marketing,Recurring Payments,2024-04-23 07:38:00,2024-04-26,2.6819444444444445,300.0,4000.0
+18660,Charlie Davis,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2023-10-03 09:06:00,2023-10-06,2.620833333333333,2000.0,3500.0
+1755,Eva Kent,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2024-05-31 09:32:00,2024-06-03,2.602777777777778,500.0,4500.0
+13103,Charlie Davis,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2024-01-06 10:26:00,2024-01-09,2.5652777777777778,,3500.0
+9465,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,One Payment,2024-02-23 12:03:00,2024-02-26,2.497916666666667,2000.0,2000.0
+1966,Paula Underwood,Facebook Ads,04.07.23recentlymoved_DE,Web Developer,Recurring Payments,2024-05-28 12:34:00,2024-05-31,2.4763888888888888,500.0,3500.0
+18377,Kevin Parker,Google Ads,brand_search_eng_DE,Digital Marketing,Recurring Payments,2023-10-08 13:13:00,2023-10-11,2.4493055555555556,450.0,4500.0
+20296,Jane Smith,Bloggers,,Digital Marketing,Recurring Payments,2023-08-20 13:19:00,2023-08-23,2.4451388888888888,350.0,3500.0
+18688,Charlie Davis,Facebook Ads,04.07.23recentlymoved_DE,Digital Marketing,Recurring Payments,2023-10-02 13:22:00,2023-10-05,2.4430555555555555,350.0,3500.0
+19051,George King,Organic,,Digital Marketing,Recurring Payments,2023-09-25 15:55:00,2023-09-28,2.3368055555555554,450.0,4500.0
+18641,Charlie Davis,CRM,Trigger_DE,Digital Marketing,Recurring Payments,2023-10-03 16:16:00,2023-10-06,2.3222222222222224,300.0,
+10841,Victor Barnes,Youtube Ads,youtube_shorts_DE,UX/UI Design,One Payment,2024-02-04 17:10:00,2024-02-07,2.2847222222222223,,3500.0
+469,Eva Kent,Google Ads,performancemax_wide_AT,Digital Marketing,Recurring Payments,2024-06-15 20:01:00,2024-06-18,2.1659722222222224,500.0,4500.0
+3726,Paula Underwood,Facebook Ads,07.07.23LAL_DE,Digital Marketing,,2024-04-29 22:39:00,2024-05-02,2.05625,1000.0,11000.0
+19664,Charlie Davis,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-09-08 22:53:00,2023-09-11,2.046527777777778,350.0,3500.0
+17391,Victor Barnes,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,,2023-10-27 07:17:00,2023-10-29,1.6965277777777779,1000.0,11500.0
+14366,Victor Barnes,Facebook Ads,12.09.23interests_Uxui_DE,Digital Marketing,,2023-12-13 09:05:00,2023-12-15,1.6215277777777777,1000.0,11500.0
+4667,Charlie Davis,Webinar,webinar1604,Digital Marketing,Recurring Payments,2024-04-18 09:17:00,2024-04-20,1.6131944444444444,1000.0,4000.0
+19199,Jane Smith,Organic,,Digital Marketing,Recurring Payments,2023-09-22 10:52:00,2023-09-24,1.5472222222222223,350.0,3500.0
+20925,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-01 10:53:00,2023-08-03,1.5465277777777777,350.0,3500.0
+10875,Victor Barnes,Youtube Ads,youtube_shorts_DE,Web Developer,Recurring Payments,2024-02-04 10:54:00,2024-02-06,1.5458333333333334,600.0,2500.0
+19879,Jane Smith,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2023-08-30 10:59:00,2023-09-01,1.542361111111111,350.0,3500.0
+1903,Ben Hall,Organic,,Digital Marketing,One Payment,2024-05-29 11:03:00,2024-05-31,1.5395833333333333,4000.0,4000.0
+18187,Kevin Parker,Organic,,Digital Marketing,Recurring Payments,2023-10-12 11:06:00,2023-10-14,1.5375,450.0,4500.0
+20359,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-19 11:09:00,2023-08-21,1.5354166666666667,350.0,3500.0
+1960,Ulysses Adams,Google Ads,brand_search_eng_DE,Digital Marketing,Recurring Payments,2024-05-28 14:24:00,2024-05-30,1.4,500.0,4500.0
+13290,Victor Barnes,Organic,,Digital Marketing,Recurring Payments,2024-01-03 14:27:00,2024-01-05,1.3979166666666667,300.0,4000.0
+13276,Paula Underwood,Bloggers,bloggerfrai_DE,Digital Marketing,Recurring Payments,2024-01-03 16:27:00,2024-01-05,1.3145833333333334,4000.0,4000.0
+13494,Julia Nelson,Facebook Ads,,UX/UI Design,,2023-12-28 16:35:00,2023-12-30,1.3090277777777777,1000.0,11000.0
+14614,Quincy Vincent,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-12-10 16:36:00,2023-12-12,1.3083333333333333,300.0,4000.0
+6504,Ben Hall,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,One Payment,2024-04-03 17:03:00,2024-04-05,1.2895833333333333,,3500.0
+20408,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-17 19:19:00,2023-08-19,1.195138888888889,350.0,3500.0
+20081,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2023-08-23 23:32:00,2023-08-25,1.0194444444444444,2000.0,4000.0
+17171,Kevin Parker,SMM,,UX/UI Design,Recurring Payments,2023-11-01 07:20:00,2023-11-02,0.6944444444444444,350.0,3500.0
+8113,Julia Nelson,Youtube Ads,youtube_shorts_DE,Digital Marketing,Recurring Payments,2024-03-14 08:14:00,2024-03-15,0.6569444444444444,300.0,4000.0
+7067,Ben Hall,Youtube Ads,youtube_shorts_DE,Web Developer,One Payment,2024-03-28 08:38:00,2024-03-29,0.6402777777777777,1000.0,2000.0
+9921,Quincy Vincent,Facebook Ads,02.07.23wide_DE,Digital Marketing,One Payment,2024-02-18 12:09:00,2024-02-19,0.49375,2000.0,3000.0
+11442,Quincy Vincent,Facebook Ads,07.07.23LAL_DE,Digital Marketing,,2024-01-28 13:22:00,2024-01-29,0.44305555555555554,1000.0,11000.0
+9251,Victor Barnes,Organic,,Digital Marketing,One Payment,2024-02-26 14:17:00,2024-02-27,0.4048611111111111,3500.0,3500.0
+1282,Ulysses Adams,Organic,,Web Developer,One Payment,2024-06-06 14:27:00,2024-06-07,0.39791666666666664,3500.0,3500.0
+11225,Quincy Vincent,SMM,blog2_DE,UX/UI Design,One Payment,2024-01-31 14:44:00,2024-02-01,0.3861111111111111,4000.0,4000.0
+16735,Charlie Davis,Google Ads,Dis_DE,Digital Marketing,Recurring Payments,2023-11-09 15:22:00,2023-11-10,0.3597222222222222,350.0,3500.0
+11845,Charlie Davis,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2024-01-23 15:32:00,2024-01-24,0.3527777777777778,200.0,2500.0
+13325,Charlie Davis,SMM,,UX/UI Design,Recurring Payments,2024-01-02 16:36:00,2024-01-03,0.30833333333333335,300.0,4000.0
+16992,Charlie Davis,Organic,,Digital Marketing,,2023-11-03 17:17:00,2023-11-04,0.2798611111111111,1000.0,11500.0
+7029,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,One Payment,2024-03-28 17:31:00,2024-03-29,0.2701388888888889,2000.0,3000.0
+12119,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,One Payment,2024-01-19 17:44:00,2024-01-20,0.2611111111111111,2000.0,3500.0
+11934,Kevin Parker,Facebook Ads,15.07.23b_DE,Digital Marketing,Recurring Payments,2024-01-22 18:57:00,2024-01-23,0.21041666666666667,200.0,2500.0
+21313,Julia Nelson,Google Ads,performancemax_digitalmarkt_ru_DE,Web Developer,,2023-07-18 21:11:00,2023-07-19,0.11736111111111111,1000.0,5000.0
+2257,Paula Underwood,Google Ads,brand_search_eng_DE,UX/UI Design,One Payment,2024-05-21 21:51:00,2024-05-22,0.08958333333333333,4500.0,4500.0
+18671,Kevin Parker,Facebook Ads,02.07.23wide_DE,Digital Marketing,,2023-10-02 21:52:00,2023-10-03,0.08888888888888889,1000.0,11000.0
+12761,Paula Underwood,Youtube Ads,youtube_shorts_DE,Digital Marketing,,2024-01-11 23:02:00,2024-01-12,0.04027777777777778,1000.0,11000.0
+20427,Charlie Davis,Organic,,Digital Marketing,Recurring Payments,2023-08-17 01:28:00,2023-08-17,-0.06111111111111111,350.0,3500.0
+4152,Charlie Davis,Organic,,UX/UI Design,One Payment,2024-04-24 08:12:00,2024-04-24,-0.3416666666666667,1000.0,
+14139,Julia Nelson,Youtube Ads,youtube_shorts_DE,Digital Marketing,One Payment,2023-12-16 09:12:00,2023-12-16,-0.38333333333333336,2000.0,3500.0
+2720,Eva Kent,Facebook Ads,24.09.23retargeting_DE,Digital Marketing,Recurring Payments,2024-05-13 09:16:00,2024-05-13,-0.3861111111111111,500.0,5000.0
+13512,Julia Nelson,Organic,,Digital Marketing,One Payment,2023-12-28 09:48:00,2023-12-28,-0.4083333333333333,,3500.0
+11164,Charlie Davis,Organic,,Web Developer,One Payment,2024-02-01 10:06:00,2024-02-01,-0.42083333333333334,1000.0,2000.0
+20105,Charlie Davis,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-08-23 10:24:00,2023-08-23,-0.43333333333333335,350.0,3500.0
+15009,Nina Scott,Organic,,Digital Marketing,,2023-12-06 10:37:00,2023-12-06,-0.4423611111111111,1000.0,11000.0
+3288,Paula Underwood,Google Ads,performancemax_wide_AT,Web Developer,,2024-05-05 12:41:00,2024-05-05,-0.5284722222222222,1000.0,5000.0
+14436,Ulysses Adams,Organic,,UX/UI Design,,2023-12-12 13:32:00,2023-12-12,-0.5638888888888889,1000.0,11000.0
+18070,Jane Smith,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,Recurring Payments,2023-10-14 13:50:00,2023-10-14,-0.5763888888888888,500.0,4000.0
+14351,Ulysses Adams,Facebook Ads,02.07.23wide_DE,UX/UI Design,Recurring Payments,2023-12-13 13:53:00,2023-12-13,-0.5784722222222223,300.0,4000.0
+18849,Charlie Davis,Facebook Ads,07.07.23LAL_DE,Digital Marketing,Recurring Payments,2023-09-29 14:20:00,2023-09-29,-0.5972222222222222,500.0,4000.0
+15417,Paula Underwood,Organic,,Digital Marketing,,2023-11-26 14:25:00,2023-11-26,-0.6006944444444444,1000.0,11000.0
+14270,Paula Underwood,Tiktok Ads,12.07.2023wide_DE,UX/UI Design,,2023-12-14 15:02:00,2023-12-14,-0.6263888888888889,1000.0,11000.0
+20836,Diana Evans,Facebook Ads,02.07.23wide_DE,Digital Marketing,Recurring Payments,2023-08-04 15:53:00,2023-08-04,-0.6618055555555555,350.0,3500.0
+19735,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,Digital Marketing,,2023-09-06 16:26:00,2023-09-06,-0.6847222222222222,1000.0,11000.0
+1500,Cara Iverson,Google Ads,performancemax_wide_AT,UX/UI Design,Recurring Payments,2024-06-03 17:23:00,2024-06-03,-0.7243055555555555,500.0,4500.0
+8696,Nina Scott,Facebook Ads,07.07.23LAL_DE,Web Developer,,2024-03-05 17:34:00,2024-03-05,-0.7319444444444444,1000.0,5000.0
+21365,Julia Nelson,Tiktok Ads,12.07.2023wide_DE,Digital Marketing,,2023-07-17 18:02:00,2023-07-17,-0.7513888888888889,1000.0,11000.0
+18011,Charlie Davis,CRM,Trigger_DE,Digital Marketing,Recurring Payments,2023-10-15 18:09:00,2023-10-15,-0.75625,1000.0,11500.0
+15381,Julia Nelson,Organic,,UX/UI Design,,2023-11-27 19:38:00,2023-11-27,-0.8180555555555555,1000.0,11000.0
+3031,Oliver Taylor,Organic,,Digital Marketing,,2024-05-08 12:54:00,2024-05-07,-1.5375,1000.0,11000.0
+3019,Oliver Taylor,Organic,,UX/UI Design,Recurring Payments,2024-05-08 15:31:00,2024-05-07,-1.6465277777777778,1000.0,11000.0
+14007,,Organic,,,One Payment,2023-12-19 10:37:00,2023-07-01,-171.4423611111111,0.0,0.0
+6357,Ulysses Adams,Google Ads,performancemax_digitalmarkt_ru_DE,UX/UI Design,Recurring Payments,2024-04-05 10:40:00,2023-10-03,-185.44444444444446,1000.0,11000.0

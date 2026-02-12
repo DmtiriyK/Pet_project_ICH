@@ -1,0 +1,13 @@
+column,missing_count,missing_pct
+outgoing_call_status,8999,9.39
+scheduled_in_crm,8999,9.39
+contact_id_raw,3933,4.1
+contact_id_str,3933,4.1
+contact_id15,3933,4.1
+call_duration_seconds,83,0.09
+call_duration_minutes,83,0.09
+call_id,0,0.0
+call_start_time,0,0.0
+call_owner_name,0,0.0
+call_type,0,0.0
+call_status,0,0.0

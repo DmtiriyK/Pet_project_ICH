@@ -1,0 +1,8 @@
+{
+  "paid_deals": 858,
+  "paid_with_closing_date": 521,
+  "coverage_pct": 60.72,
+  "lag_days_median": 16.48611111111111,
+  "lag_days_p90": 85.45694444444445,
+  "lag_days_p99": 201.5990277777776
+}

@@ -1,0 +1,53 @@
+{
+  "full": {
+    "name": "Full (Ours)",
+    "T": 21592,
+    "B": 858,
+    "revenue_contract": 6295401.0,
+    "revenue_cash": 943651.0,
+    "revenue_realistic": 0,
+    "AC": 149523.45,
+    "paid_rate": 3.973693960726195,
+    "CPL": 6.924946739533161,
+    "CPA": 174.26975524475526,
+    "ROAS_contract": 42.103101553635895,
+    "ROAS_cash": 6.311056894420239,
+    "ROAS_realistic": 0,
+    "AOV": 7337.297202797203,
+    "AOV_realistic": 0
+  },
+  "filtered": {
+    "name": "Filtered (Class)",
+    "T": 3592,
+    "B": 841,
+    "revenue_contract": 6295401.0,
+    "revenue_cash": 943651.0,
+    "revenue_realistic": 3593476.0,
+    "AC": 149523.45,
+    "paid_rate": 23.41314031180401,
+    "CPL": 41.62679565701559,
+    "CPA": 177.79244946492273,
+    "ROAS_contract": 42.103101553635895,
+    "ROAS_cash": 6.311056894420239,
+    "ROAS_realistic": 24.032859059899966,
+    "AOV": 7485.61355529132,
+    "AOV_realistic": 4272.860879904875
+  },
+  "reference": {
+    "name": "Reference",
+    "T": 4572,
+    "B": 843,
+    "revenue_contract": 3580815,
+    "AC": 149523.45,
+    "CPL": 8.27,
+    "CPA": 177.37064056939502,
+    "paid_rate": 18.438320209973753
+  },
+  "insights": {
+    "deals_removed": 18000,
+    "deals_removed_pct": 83.3642089662838,
+    "paid_rate_change": 19.439446351077816,
+    "cpa_change": 3.522694220167466,
+    "closest_to_reference": "Filtered"
+  }
+}

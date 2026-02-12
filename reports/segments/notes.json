@@ -1,0 +1,6 @@
+{
+  "paid_definition": "deals.is_paid == True (Stage = Payment Done)",
+  "geo_note": "City/Level of Deutsch сильно разрежены (много NA), поэтому считаем сегменты только при min_deals пороге.",
+  "cash_vs_contract": "Везде считаем два вида выручки: cash (Initial Amount Paid) и contract (Offer Total Amount).",
+  "visualizations": "Для каждого сегмента созданы 3 графика: revenue, paid deals, AOV (для paid-only) или paid rate (для funnel)."
+}

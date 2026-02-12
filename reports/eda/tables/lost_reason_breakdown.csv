@@ -1,0 +1,23 @@
+lost_reason,count,is_duplicate,duplicate_pct
+Doesn't Answer,4073,0,0.0
+Changed Decision,2122,0,0.0
+Duplicate,1745,1745,100.0
+Non target,1736,0,0.0
+Stopped Answering,1556,0,0.0
+Invalid number,1460,0,0.0
+Expensive,614,0,0.0
+needs time to think,606,0,0.0
+Conditions are not suitable,524,0,0.0
+Inadequate,174,0,0.0
+Gutstein refusal,163,0,0.0
+Considering a different direction in IT,148,0,0.0
+Not for myself,145,0,0.0
+Does not speak English,138,0,0.0
+Next stream,131,0,0.0
+Didn't leave an application,131,0,0.0
+Thought for free,110,0,0.0
+Does not know how to use a computer,49,0,0.0
+Went to Rivals,47,0,0.0
+,47,0,0.0
+The contract did not fit,21,0,0.0
+Refugee,1,0,0.0

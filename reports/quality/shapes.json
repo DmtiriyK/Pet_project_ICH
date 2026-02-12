@@ -1,0 +1,18 @@
+{
+  "contacts": {
+    "rows": 18548,
+    "cols": 5
+  },
+  "calls": {
+    "rows": 95874,
+    "cols": 12
+  },
+  "deals": {
+    "rows": 21592,
+    "cols": 36
+  },
+  "spend": {
+    "rows": 19862,
+    "cols": 8
+  }
+}

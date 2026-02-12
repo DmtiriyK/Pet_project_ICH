@@ -1,0 +1,5 @@
+{
+  "closing_date_warning": "В данных у части paid сделок closing_date пустой; time-to-close считается только по тем, где обе даты есть.",
+  "stage_history_warning": "Это снимок CRM, истории смены Stage нет; durations по этапам не считаем.",
+  "moving_average_note": "7-day moving average используется для выявления трендов и снижения влияния ежедневных флуктуаций."
+}
