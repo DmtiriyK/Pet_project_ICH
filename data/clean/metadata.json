@@ -1,0 +1,105 @@
+{
+  "outputs": {
+    "contacts": {
+      "rows_in": 18548,
+      "rows_out": 18548,
+      "exact_duplicates_removed": 0,
+      "dropped_columns": [],
+      "columns": [
+        "contact_id",
+        "contact_owner_name",
+        "created_time",
+        "modified_time",
+        "contact_id15"
+      ]
+    },
+    "calls": {
+      "rows_in": 95874,
+      "rows_out": 95874,
+      "exact_duplicates_removed": 0,
+      "dropped_columns": [
+        "dialled_number",
+        "tag"
+      ],
+      "columns": [
+        "call_id",
+        "call_start_time",
+        "call_owner_name",
+        "contact_id_raw",
+        "call_type",
+        "call_duration_seconds",
+        "call_status",
+        "outgoing_call_status",
+        "scheduled_in_crm",
+        "contact_id_str",
+        "contact_id15",
+        "call_duration_minutes"
+      ]
+    },
+    "deals": {
+      "rows_in": 21595,
+      "rows_out": 21592,
+      "exact_duplicates_removed": 3,
+      "dropped_columns": [],
+      "columns": [
+        "deal_row_id",
+        "deal_id_raw",
+        "deal_owner_name",
+        "closing_date",
+        "quality",
+        "stage",
+        "lost_reason",
+        "page",
+        "campaign",
+        "sla_raw",
+        "content",
+        "term",
+        "source",
+        "payment_type",
+        "product",
+        "education_type",
+        "created_time",
+        "course_duration",
+        "months_of_study",
+        "initial_amount_paid",
+        "offer_total_amount",
+        "contact_id_raw",
+        "city",
+        "level_of_deutsch",
+        "deal_id_str",
+        "deal_id15",
+        "stage_norm",
+        "is_paid",
+        "lost_reason_norm",
+        "is_duplicate_lost",
+        "contact_id_str",
+        "contact_id15",
+        "revenue_cash",
+        "revenue_contract",
+        "sla_timedelta",
+        "sla_minutes"
+      ]
+    },
+    "spend": {
+      "rows_in": 20779,
+      "rows_out": 19862,
+      "exact_duplicates_removed": 917,
+      "dropped_columns": [],
+      "columns": [
+        "date",
+        "source",
+        "campaign",
+        "impressions",
+        "spend",
+        "clicks",
+        "ad_group",
+        "ad"
+      ]
+    }
+  },
+  "notes": {
+    "paid_definition": "Stage == 'Payment Done' (case-insensitive)",
+    "closing_date_note": "По методичке Closing Date = дата оплаты, но в данных у paid может быть пустым.",
+    "id_note": "Calls.CONTACTID / Deals.Contact Name потеряли точность в Excel; используйте contact_id15 как мягкий ключ."
+  }
+}
