@@ -1229,7 +1229,7 @@ def main() -> None:
         
         if heatmap_path.exists():
             img = Image.open(heatmap_path)
-            st.image(img, caption="Correlation Matrix: Key Metrics by Source", use_container_width=True)
+            st.image(img, caption="Correlation Matrix: Key Metrics by Source", use_column_width=True)
         else:
             st.warning("Correlation heatmap not found. Run: python scripts/03b_correlation_analysis.py")
         
@@ -1624,7 +1624,7 @@ def main() -> None:
             
             revenue_tree_path = ROOT / "reports" / "metrics_tree" / "figures" / "tree_revenue_decomposition.png"
             if revenue_tree_path.exists():
-                st.image(str(revenue_tree_path), caption="Revenue Decomposition Tree", use_container_width=True)
+                st.image(str(revenue_tree_path), caption="Revenue Decomposition Tree", use_column_width=True)
         
         # Growth Levers Analysis
         with st.expander("🎯 Growth Levers — What to pull for growth?", expanded=False):
