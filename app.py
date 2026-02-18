@@ -843,6 +843,12 @@ def main() -> None:
 
     if not _require_clean():
         st.error("data/clean not found. First run: python scripts/01_clean_export.py")
+        with st.expander("🔍 Debug Info"):
+            st.write(f"ROOT: {ROOT}")
+            st.write(f"CLEAN_DIR: {CLEAN_DIR}")
+            st.write(f"CLEAN_DIR exists: {CLEAN_DIR.exists()}")
+            if CLEAN_DIR.exists():
+                st.write(f"Files in CLEAN_DIR: {list(CLEAN_DIR.glob('*'))}")
         st.stop()
 
     # Dataset Version Selector
