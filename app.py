@@ -23,112 +23,112 @@ CLEAN_DIR = ROOT / "data" / "clean"
 
 
 # ============================================================================
-# GLOSSARY: Определения всех ключевых терминов продуктовой аналитики
+# GLOSSARY: Definitions of all key product analytics terms
 # ============================================================================
 
 GLOSSARY = {
     "CPA": {
         "full_name": "Cost Per Acquisition",
         "formula": "Spend ÷ Paid Deals",
-        "description": "Стоимость привлечения одного платящего клиента. Показывает, сколько денег нужно потратить на рекламу, чтобы получить 1 оплату.",
-        "why": "Ключевая метрика эффективности маркетинга. Чем ниже CPA — тем эффективнее расходуется бюджет.",
-        "benchmark": "Хороший CPA < 20% от AOV (Customer Acquisition Cost should be recovered within first purchase)",
-        "levers": "↓ CPL (улучшить таргетинг), ↑ Paid Rate (улучшить sales процесс)"
+        "description": "Cost to acquire one paying customer. Shows how much ad spend is needed to get 1 payment.",
+        "why": "Key marketing efficiency metric. Lower CPA = more efficient budget allocation.",
+        "benchmark": "Good CPA < 20% of AOV (Customer Acquisition Cost should be recovered within first purchase)",
+        "levers": "↓ CPL (improve targeting), ↑ Paid Rate (improve sales process)"
     },
     "ROAS": {
         "full_name": "Return On Ad Spend",
         "formula": "Revenue ÷ Spend",
-        "description": "Возврат на рекламные расходы. Показывает, сколько рублей выручки приносит каждый рубль рекламы.",
-        "why": "Главная маркетинговая метрика окупаемости. ROAS > 1 означает прибыльность (revenue превышает затраты).",
-        "benchmark": "Break-even ROAS = 1.0x. Хороший ROAS для образования: 3-10x, отличный: >10x",
-        "levers": "↑ AOV (продавать дороже), ↓ CPA (снизить стоимость привлечения), ↑ Paid Rate"
+        "description": "Return on advertising spend. Shows how much revenue each euro of ad spend generates.",
+        "why": "Primary marketing profitability metric. ROAS > 1 means profitability (revenue exceeds costs).",
+        "benchmark": "Break-even ROAS = 1.0x. Good ROAS for education: 3-10x, excellent: >10x",
+        "levers": "↑ AOV (sell at higher prices), ↓ CPA (reduce acquisition cost), ↑ Paid Rate"
     },
     "AOV": {
         "full_name": "Average Order Value",
         "formula": "Revenue ÷ Paid Deals",
-        "description": "Средний чек — сколько денег в среднем приносит один платящий клиент.",
-        "why": "Показывает монетизацию. Рост AOV увеличивает revenue без роста acquisition costs.",
-        "benchmark": "Зависит от продукта. В онлайн-образовании: 300-15,000€ (курсы разной длины)",
-        "levers": "Upsell (допродажи), cross-sell (связанные товары), премиум тарифы, installments"
+        "description": "Average check — how much revenue one paying customer brings on average.",
+        "why": "Shows monetization. AOV growth increases revenue without increasing acquisition costs.",
+        "benchmark": "Depends on product. In online education: €300-15,000 (courses of different length)",
+        "levers": "Upsell (add-on sales), cross-sell (related products), premium tiers, installments"
     },
     "CPL": {
         "full_name": "Cost Per Lead",
         "formula": "Spend ÷ Deals",
-        "description": "Стоимость одного лида (созданной сделки). Показывает эффективность рекламы на верхнем этапе воронки.",
-        "why": "Индикатор качества трафика. Низкий CPL при высоком Paid Rate = идеальный канал.",
-        "benchmark": "Зависит от ниши. Онлайн-образование B2C: 5-50€ за лид",
-        "levers": "Оптимизация креативов, улучшение targeting, A/B тесты landing pages"
+        "description": "Cost per lead (created deal). Shows ad effectiveness at the top of the funnel.",
+        "why": "Traffic quality indicator. Low CPL with high Paid Rate = ideal channel.",
+        "benchmark": "Depends on niche. B2C online education: €5-50 per lead",
+        "levers": "Creative optimization, improved targeting, A/B testing landing pages"
     },
     "Paid Rate": {
         "full_name": "Conversion Rate to Payment",
         "formula": "Paid Deals ÷ Deals",
-        "description": "Доля лидов, которые дошли до оплаты. Метрика эффективности sales отдела.",
-        "why": "Показывает качество работы менеджеров и product-market fit. Высокий Paid Rate = продукт нужен, sales работает.",
-        "benchmark": "Онлайн-образование: 2-10% (зависит от цены и сегмента). >5% — хорошо",
-        "levers": "↓ SLA (быстрее обрабатывать), улучшить скрипты продаж, qualification лидов, nurturing"
+        "description": "Percentage of leads that converted to payment. Sales team efficiency metric.",
+        "why": "Shows manager performance quality and product-market fit. High Paid Rate = product needed, sales working.",
+        "benchmark": "Online education: 2-10% (depends on price and segment). >5% is good",
+        "levers": "↓ SLA (process faster), improve sales scripts, lead qualification, nurturing"
     },
     "SLA": {
         "full_name": "Service Level Agreement (First Response Time)",
-        "formula": "Время от создания лида до первого контакта",
-        "description": "Скорость реакции sales на новый лид. Измеряется в минутах/часах.",
-        "why": "Критично для конверсии. Лиды «остывают» через 5 минут. SLA < 1 час = стандарт качества.",
-        "benchmark": "Идеал: <5 минут. Норма: <1 час. Плохо: >24 часа",
-        "levers": "Автоматизация уведомлений, lead routing, увеличение sales team, CRM интеграции"
+        "formula": "Time from lead creation to first contact",
+        "description": "Sales response time to new lead. Measured in minutes/hours.",
+        "why": "Critical for conversion. Leads 'cool down' after 5 minutes. SLA < 1 hour = quality standard.",
+        "benchmark": "Ideal: <5 minutes. Normal: <1 hour. Bad: >24 hours",
+        "levers": "Notification automation, lead routing, expand sales team, CRM integrations"
     },
     "Funnel": {
         "full_name": "Sales Funnel (Marketing-Sales Pipeline)",
         "formula": "Spend → Leads → Qualified → Payment",
-        "description": "Путь клиента от контакта с рекламой до оплаты. Каждый этап имеет conversion rate.",
-        "why": "Позволяет найти «узкие места» где теряем клиентов и где оптимизировать процесс.",
-        "benchmark": "Чем меньше шагов — тем выше конверсия. Оптимально: 3-5 стадий",
-        "levers": "Убрать friction (трение) на этапах, A/B тесты, улучшить UX, follow-ups"
+        "description": "Customer journey from ad contact to payment. Each stage has a conversion rate.",
+        "why": "Allows finding 'bottlenecks' where we lose customers and where to optimize.",
+        "benchmark": "Fewer steps = higher conversion. Optimal: 3-5 stages",
+        "levers": "Remove friction at stages, A/B tests, improve UX, follow-ups"
     },
     "Revenue": {
         "full_name": "Revenue (Contract vs Cash)",
-        "formula": "Contract = полная стоимость курса. Cash = фактически оплачено",
-        "description": "Выручка. Contract revenue = обещанная (может быть рассрочка). Cash revenue = реально полученные деньги.",
-        "why": "Contract показывает потенциал, Cash — реальный cash flow. Для ROAS используем Contract (консервативнее).",
-        "benchmark": "Cash / Contract ratio показывает качество payment collection. Норма: >70%",
-        "levers": "↑ Paid Deals, ↑ AOV, лучше payment terms, reduce refunds"
+        "formula": "Contract = full course price. Cash = actually paid",
+        "description": "Revenue. Contract revenue = promised (may be installments). Cash revenue = actually received money.",
+        "why": "Contract shows potential, Cash shows real cash flow. For ROAS we use Contract (more conservative).",
+        "benchmark": "Cash / Contract ratio shows payment collection quality. Normal: >70%",
+        "levers": "↑ Paid Deals, ↑ AOV, better payment terms, reduce refunds"
     },
     "Unit Economics": {
-        "full_name": "Unit Economics (прибыль на единицу)",
+        "full_name": "Unit Economics (profit per unit)",
         "formula": "Revenue per customer - Cost per customer (CPA + CAC)",
-        "description": "Экономика одного клиента. Показывает, прибыльна ли модель на уровне единицы.",
-        "why": "Если Unit Economics отрицательная — бизнес теряет деньги на каждом клиенте (масштабирование убьёт компанию).",
-        "benchmark": "Unit profit > 0 (минимум). Хорошо: LTV/CAC > 3x",
-        "levers": "↑ AOV, ↓ CPA, retention (повторные покупки), операционная эффективность"
+        "description": "Economics of one customer. Shows if the model is profitable at unit level.",
+        "why": "If Unit Economics is negative — business loses money on each customer (scaling will kill the company).",
+        "benchmark": "Unit profit > 0 (minimum). Good: LTV/CAC > 3x",
+        "levers": "↑ AOV, ↓ CPA, retention (repeat purchases), operational efficiency"
     },
     "Metrics Tree": {
-        "full_name": "Metrics Tree (дерево декомпозиции метрик)",
+        "full_name": "Metrics Tree (metrics decomposition tree)",
         "formula": "North Star = Driver1 × Driver2 → Components → Inputs",
-        "description": "Иерархическая структура метрик, показывающая математические связи. Например: Revenue = Paid × AOV = (Deals × Rate) × AOV",
-        "why": "Помогает понять, какие метрики нужно тянуть для роста North Star. Делает анализ структурированным.",
-        "benchmark": "4-5 уровней декомпозиции. North Star → Drivers → Components → Input metrics",
-        "levers": "Определяет Growth Levers — метрики с максимальным impact на North Star"
+        "description": "Hierarchical metrics structure showing mathematical relationships. Example: Revenue = Paid × AOV = (Deals × Rate) × AOV",
+        "why": "Helps understand which metrics to pull for North Star growth. Makes analysis structured.",
+        "benchmark": "4-5 levels of decomposition. North Star → Drivers → Components → Input metrics",
+        "levers": "Defines Growth Levers — metrics with maximum impact on North Star"
     },
     "Growth Levers": {
-        "full_name": "Growth Levers (рычаги роста)",
-        "formula": "Метрики с высоким impact × низкой сложностью изменения",
-        "description": "Метрики, изменение которых даст максимальный рост North Star при минимальных усилиях.",
-        "why": "Для приоритизации. Вместо «улучшить всё» — фокус на 2-3 ключевых lever'ах.",
-        "benchmark": "Считать sensitivity: если метрика X изменится на 10%, насколько вырастет Revenue?",
-        "levers": "Обычно это: Paid Rate (sales), CPL (маркетинг), AOV (product)"
+        "full_name": "Growth Levers (growth levers)",
+        "formula": "Metrics with high impact × low change complexity",
+        "description": "Metrics whose change will give maximum North Star growth with minimum effort.",
+        "why": "For prioritization. Instead of 'improve everything' — focus on 2-3 key levers.",
+        "benchmark": "Calculate sensitivity: if metric X changes by 10%, how much will Revenue grow?",
+        "levers": "Usually: Paid Rate (sales), CPL (marketing), AOV (product)"
     },
 }
 
 
 def create_metric_tooltip(term: str) -> str:
     """
-    Создаёт интерактивную подсказку для термина
-    Возвращает HTML с иконкой ℹ️ и hover tooltip
+    Creates interactive tooltip for a term
+    Returns HTML with ℹ️ icon and hover tooltip
     """
     if term not in GLOSSARY:
         return term
     
     info = GLOSSARY[term]
     
-    # Формируем tooltip текст
+    # Form tooltip text
     tooltip_html = f"""
     <div style="display: inline-block; position: relative; cursor: help;">
         <span style="border-bottom: 1px dotted #666;">{term}</span>
@@ -151,8 +151,8 @@ def create_metric_tooltip(term: str) -> str:
             <strong>{info['full_name']}</strong><br/>
             <em>{info['formula']}</em><br/><br/>
             {info['description']}<br/><br/>
-            <strong>Зачем:</strong> {info['why']}<br/>
-            <strong>Норма:</strong> {info['benchmark']}
+            <strong>Why:</strong> {info['why']}<br/>
+            <strong>Benchmark:</strong> {info['benchmark']}
         </div>
     </div>
     <style>
@@ -166,11 +166,11 @@ def create_metric_tooltip(term: str) -> str:
 
 def show_metric_info(term: str, use_popover: bool = True):
     """
-    Показывает информацию о метрике через st.popover или st.info
+    Shows metric information via st.popover or st.info
     
     Args:
-        term: Название метрики из GLOSSARY
-        use_popover: Если True, использует popover (Streamlit 1.31+), иначе expander
+        term: Metric name from GLOSSARY
+        use_popover: If True, uses popover (Streamlit 1.31+), else expander
     """
     if term not in GLOSSARY:
         return
@@ -184,21 +184,21 @@ def show_metric_info(term: str, use_popover: bool = True):
             st.code(info['formula'], language=None)
             st.write(info['description'])
             st.divider()
-            st.write(f"**Зачем нужно:** {info['why']}")
-            st.write(f"**Норма:** {info['benchmark']}")
+            st.write(f"**Why needed:** {info['why']}")
+            st.write(f"**Benchmark:** {info['benchmark']}")
             if info.get('levers'):
-                st.write(f"**Как улучшить:** {info['levers']}")
+                st.write(f"**How to improve:** {info['levers']}")
     else:
-        # Fallback для старых версий Streamlit
-        with st.expander(f"ℹ️ О метрике: {term}"):
+        # Fallback for older Streamlit versions
+        with st.expander(f"ℹ️ About metric:{term}"):
             st.markdown(f"**{info['full_name']}**")
             st.code(info['formula'], language=None)
             st.write(info['description'])
             st.divider()
-            st.write(f"**Зачем нужно:** {info['why']}")
-            st.write(f"**Норма:** {info['benchmark']}")
+            st.write(f"**Why needed:** {info['why']}")
+            st.write(f"**Benchmark:** {info['benchmark']}")
             if info.get('levers'):
-                st.write(f"**Как улучшить:** {info['levers']}")
+                st.write(f"**How to improve:** {info['levers']}")
 
 
 @dataclass(frozen=True)
@@ -488,7 +488,7 @@ def create_revenue_decomposition_plotly(tree: dict) -> go.Figure:
     
     fig.update_layout(
         title=dict(
-            text="Revenue Decomposition Tree (4 levels)<br><sub>🖱️ Click на сектор для zoom | 🔍 Hover для формул</sub>",
+            text="Revenue Decomposition Tree (4 levels)<br><sub>🖱️ Click on sector to zoom | 🔍 Hover for formulas</sub>",
             font=dict(size=16)
         ),
         height=650,
@@ -567,7 +567,7 @@ def create_roas_decomposition_plotly(tree: dict) -> go.Figure:
     
     fig.update_layout(
         title=dict(
-            text="ROAS Decomposition Tree (3 levels)<br><sub>🖱️ Click на сектор для zoom | 🔍 Hover для формул</sub>",
+            text="ROAS Decomposition Tree (3 levels)<br><sub>🖱️ Click on sector to zoom | 🔍 Hover for formulas</sub>",
             font=dict(size=16)
         ),
         height=650,
@@ -839,20 +839,20 @@ def main() -> None:
     st.set_page_config(page_title="CRM Metrics Dashboard", layout="wide")
 
     st.title("CRM Metrics Dashboard")
-    st.caption("Источник: data/clean/*.parquet. Оплата считается только если Stage = Payment Done.")
+    st.caption("Source: data/clean/*.parquet. Paid status counted only if Stage = Payment Done.")
 
     if not _require_clean():
-        st.error("Не найдено data/clean. Сначала запусти: python scripts/01_clean_export.py")
+        st.error("data/clean not found. First run: python scripts/01_clean_export.py")
         st.stop()
 
     # Dataset Version Selector
-    st.sidebar.title("⚙️ Настройки")
+    st.sidebar.title("⚙️ Settings")
     
     dataset_version = st.sidebar.radio(
-        "Версия датасета",
+        "Dataset Version",
         options=["Full (21K deals)", "Filtered (3.6K deals)"],
         index=0,
-        help="Full = все данные (strategic view). Filtered = только known products (product analytics)"
+        help="Full = all data (strategic view). Filtered = known products only (product analytics)"
     )
     
     use_filtered = "Filtered" in dataset_version
@@ -861,20 +861,20 @@ def main() -> None:
     if use_filtered:
         st.sidebar.info(
             "📊 **Filtered Dataset**\n\n"
-            "• Только deals c известным продуктом\n"
-            "• Удалены 18K deals где product=NA\n"
-            "• Paid Rate: 23% (vs 4% в Full)\n"
-            "• Лучше для product analytics\n\n"
-            "Метрики совпадают с reference ±0.3%"
+            "• Only deals with known product\n"
+            "• Removed 18K deals where product=NA\n"
+            "• Paid Rate: 23% (vs 4% in Full)\n"
+            "• Better for product analytics\n\n"
+            "Metrics match reference ±0.3%"
         )
     else:
         st.sidebar.info(
             "📊 **Full Dataset**\n\n"
-            "• Все 21,592 deals из CRM\n"
-            "• Включая 18K без продукта\n"
+            "• All 21,592 deals from CRM\n"
+            "• Including 18K without product\n"
             "• Paid Rate: 4%\n"
-            "• Показывает реальную воронку\n\n"
-            "Лучше для strategic marketing view"
+            "• Shows real funnel\n\n"
+            "Better for strategic marketing view"
         )
     
     st.sidebar.markdown("---")
@@ -882,7 +882,7 @@ def main() -> None:
     tables = load_clean(use_filtered=use_filtered)
     base_window = infer_overlap_window(tables)
 
-    st.sidebar.header("Фильтры")
+    st.sidebar.header("Filters")
     
     # Quick date presets
     preset = st.sidebar.selectbox(
@@ -952,64 +952,64 @@ def main() -> None:
     )
 
     with tab_overview:
-        # Информационный блок
+        # Info block
         st.info("""
-        📊 **Обзор ключевых метрик**
+        📊 **Key Metrics Overview**
         
-        Эта страница показывает общую картину бизнеса:
-        - **Эффективность маркетинга**: Spend, ROAS, CPA
-        - **Воронка продаж**: Deals → Paid Deals → Revenue
-        - **Динамика**: Как метрики меняются во времени
+        This page shows the overall business picture:
+        - **Marketing effectiveness**: Spend, ROAS, CPA
+        - **Sales funnel**: Deals → Paid Deals → Revenue
+        - **Dynamics**: How metrics change over time
         
-        💡 Наведи на ℹ️ рядом с метриками для подробного объяснения!
+        💡 Hover over ℹ️ next to metrics for detailed explanation!
         """)
         
         # Dataset comparison section
         if use_filtered:
-            st.success("✅ Используешь **Filtered dataset** - метрики совпадают с reference ±0.3%")
+            st.success("✅ Using **Filtered dataset** - metrics match reference ±0.3%")
         else:
-            st.warning("⚠️ Используешь **Full dataset** - включает 18K deals без продукта. Переключись на Filtered для product analytics.")
+            st.warning("⚠️ Using **Full dataset** - includes 18K deals without product. Switch to Filtered for product analytics.")
         
         # Show dataset info
-        with st.expander("ℹ️ Full vs Filtered — В чём разница?"):
+        with st.expander("ℹ️ Full vs Filtered — What's the difference?"):
             col_info1, col_info2 = st.columns(2)
             
             with col_info1:
                 st.markdown("**📊 Full Dataset (21,592 deals)**")
                 st.markdown("""
-                - ✅ Все данные из CRM
-                - ✅ Показывает реальную воронку (4% paid rate)
-                - ✅ Лучше для strategic marketing view
-                - ❌ Включает 18K deals где product=NA
-                - ❌ Paid rate занижен (много "мусорных" leads)
+                - ✅ All CRM data
+                - ✅ Shows real funnel (4% paid rate)
+                - ✅ Better for strategic marketing view
+                - ❌ Includes 18K deals where product=NA
+                - ❌ Paid rate underestimated (many "junk" leads)
                 
-                **Когда использовать:**
-                - Анализ маркетинга (Spend, CPL, источники)
-                - Sales воронка (SLA, конверсии по стадиям)
-                - Общая картина бизнеса
+                **When to use:**
+                - Marketing analysis (Spend, CPL, sources)
+                - Sales funnel (SLA, stage conversions)
+                - Overall business picture
                 """)
             
             with col_info2:
                 st.markdown("**📊 Filtered Dataset (3,592 deals)**")
                 st.markdown("""
-                - ✅ Только deals с известным продуктом
-                - ✅ Paid rate 23% (realistic для product)
-                - ✅ Метрики совпадают с reference ±0.3%
-                - ✅ Лучше для product analytics
-                - ❌ Не показывает полную картину маркетинга
+                - ✅ Only deals with known product
+                - ✅ Paid rate 23% (realistic for product)
+                - ✅ Metrics match reference ±0.3%
+                - ✅ Better for product analytics
+                - ❌ Doesn't show full marketing picture
                 
-                **Когда использовать:**
-                - Product analytics (AOV, ARPU по продуктам)
-                - Segmentation (города, уровень языка)
-                - Сравнение с reference data
+                **When to use:**
+                - Product analytics (AOV, ARPU by product)
+                - Segmentation (cities, language level)
+                - Comparison with reference data
                 """)
             
             st.markdown("---")
-            st.markdown("**💡 Рекомендация:** Используй Full для маркетинга, Filtered для продуктов. Оба подхода валидны!")
+            st.markdown("**💡 Recommendation:** Use Full for marketing, Filtered for products. Both approaches are valid!")
         
         # Comparison table with reference
         st.markdown("---")
-        st.subheader("📊 Сравнение с Reference Data")
+        st.subheader("📊 Comparison with Reference Data")
         
         if REF is not None:
             # Load both datasets for comparison
@@ -1028,19 +1028,19 @@ def main() -> None:
                     
                     col_note1, col_note2 = st.columns(2)
                     with col_note1:
-                        st.success("✅ **Filtered метрики** совпадают с reference ±0.3%")
+                        st.success("✅ **Filtered metrics** match reference ±0.3%")
                     with col_note2:
-                        st.info("💡 Различие в Total Deals из-за разных исходных файлов (paid совпадают!)")
+                        st.info("💡 Difference in Total Deals due to different source files (paid counts match!)")
             except Exception as e:
-                st.error(f"Ошибка загрузки comparison: {e}")
+                st.error(f"Error loading comparison: {e}")
         else:
-            st.warning("Reference data не найдена. Файл reference_data.py отсутствует.")
+            st.warning("Reference data not found. reference_data.py file is missing.")
         
         st.markdown("---")
         
         vals = kpis(filt["deals"], filt["spend"])
         
-        # Первая строка метрик
+        # First row of metrics
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Spend", f"{vals['Spend']:,.2f}")
         c2.metric("Deals", f"{vals['Deals']:,}")
@@ -1050,18 +1050,18 @@ def main() -> None:
             st.metric("Paid rate", f"{pr:.2%}" if pr is not None else "NA")
             show_metric_info("Paid Rate")
 
-        # Вторая строка - ключевые маркетинговые метрики
-        st.markdown("##### 🎯 Ключевые маркетинговые метрики")
+        # Second row - key marketing metrics
+        st.markdown("##### 🎯 Key Marketing Metrics")
         c5, c6, c7, c8 = st.columns(4)
         with c5:
-            st.metric("CPL (за лид)", f"{vals['CPL']:,.2f} €" if vals["CPL"] is not None else "NA")
+            st.metric("CPL (per lead)", f"{vals['CPL']:,.2f} €" if vals["CPL"] is not None else "NA")
             show_metric_info("CPL")
         with c6:
-            st.metric("CPA (за платящего)", f"{vals['CPA']:,.2f} €" if vals["CPA"] is not None else "NA")
+            st.metric("CPA (per paid)", f"{vals['CPA']:,.2f} €" if vals["CPA"] is not None else "NA")
             show_metric_info("CPA")
         with c7:
             aov = vals.get("AOV (realistic)")
-            st.metric("AOV (средний чек)", f"{aov:,.0f} €" if aov is not None else "NA")
+            st.metric("AOV (average check)", f"{aov:,.0f} €" if aov is not None else "NA")
             show_metric_info("AOV")
         with c8:
             roas = vals.get("Realistic ROAS") or vals["Contract ROAS"]
@@ -1089,22 +1089,22 @@ def main() -> None:
 
     with tab_metrics_tree:
         st.info("""
-        🌳 **Metrics Tree — Математическая декомпозиция бизнеса**
+        🌳 **Metrics Tree — Mathematical Business Decomposition**
         
-        Дерево метрик показывает, как каждый евро рекламы превращается в выручку:
-        - **Sankey diagram**: Flow от Spend до Revenue (визуализация потоков)
-        - **Decomposition trees**: Иерархическая структура (Revenue = Paid × AOV = ...)
-        - **By Source**: Какие каналы работают лучше
+        Metrics tree shows how each euro of ad spend converts to revenue:
+        - **Sankey diagram**: Flow from Spend to Revenue (flow visualization)
+        - **Decomposition trees**: Hierarchical structure (Revenue = Paid × AOV = ...)
+        - **By Source**: Which channels perform better
         
-        💡 **Зачем это нужно**: Найти узкие места и понять, какие метрики тянуть для роста.
+        💡 **Why this matters**: Find bottlenecks and understand which metrics to pull for growth.
         """)
         
-        st.subheader("Дерево метрик: Spend → Deals → Paid → Revenue")
+        st.subheader("Metrics Tree: Spend → Deals → Paid → Revenue")
         
         tree_data = load_metrics_tree()
         
         if tree_data is None:
-            st.warning("Файлы дерева метрик не найдены. Запусти: python scripts/05_metrics_tree.py")
+            st.warning("Metrics tree files not found. Run: python scripts/05_metrics_tree.py")
         else:
             tree = tree_data["tree"]
             by_source = tree_data["by_source"]
@@ -1142,18 +1142,18 @@ def main() -> None:
             st.subheader("📊 Metrics Decomposition Trees (Interactive)")
             
             st.markdown("""
-            **Как использовать интерактивные деревья:**
-            - 🟣 **Фиолетовый** — North Star метрика (главная цель)
-            - 🌸 **Тёмно-розовый** — Драйверы (Level 1: Volume × Value)
-            - 💗 **Светло-розовый** — Компоненты (Level 2: составные части)
-            - 🟡 **Бежевый** — Input метрики (Level 3: что можем контролировать)
+            **How to use interactive trees:**
+            - 🟣 **Purple** — North Star metric (main goal)
+            - 🌸 **Dark Pink** — Drivers (Level 1: Volume × Value)
+            - 💗 **Light Pink** — Components (Level 2: constituent parts)
+            - 🟡 **Beige** — Input metrics (Level 3: what we can control)
             
-            💡 **Интерактивность:**
-            - 🖱️ **Click** на блок → drill-down в детали
-            - 🔍 **Hover** → показывает формулы и расчёты
-            - 📈 Размер блока = relative importance
+            💡 **Interactivity:**
+            - 🖱️ **Click** on block → drill-down to details
+            - 🔍 **Hover** → shows formulas and calculations
+            - 📈 Block size = relative importance
             
-            🎯 **Growth Levers** (что тянуть для роста): Paid Rate, CPL, AOV
+            🎯 **Growth Levers** (what to pull for growth): Paid Rate, CPL, AOV
             """)
             
             # Interactive Plotly trees
@@ -1203,15 +1203,15 @@ def main() -> None:
 
     with tab_quality:
         st.info("""
-        🔬 **Quality & Correlation — Валидация данных и взаимосвязи**
+        🔬 **Quality & Correlation — Data Validation and Relationships**
         
-        Эта вкладка показывает:
-        - **Correlation heatmap**: Как метрики связаны друг с другом (красный = вместе растут, синий = обратная связь)
-        - **Key correlations**: Самые важные взаимосвязи для принятия решений
-        - **Growth insights**: Какие комбинации метрик дают лучший ROAS
+        This tab shows:
+        - **Correlation heatmap**: How metrics relate to each other (red = grow together, blue = inverse relationship)
+        - **Key correlations**: Most important relationships for decision making
+        - **Growth insights**: Which metric combinations give best ROAS
         
-        💡 **Главный инсайт**: Paid Rate ↔ CPA имеют сильную отрицательную корреляцию (-0.8).
-        Это значит: улучшение sales процесса (↑ Paid Rate) автоматически снижает стоимость привлечения (↓ CPA).
+        💡 **Main insight**: Paid Rate ↔ CPA have strong negative correlation (-0.8).
+        This means: improving sales process (↑ Paid Rate) automatically reduces acquisition cost (↓ CPA).
         """)
         
         st.subheader("Phase 2: Correlation Analysis")
@@ -1225,7 +1225,7 @@ def main() -> None:
             img = Image.open(heatmap_path)
             st.image(img, caption="Correlation Matrix: Key Metrics by Source", use_container_width=True)
         else:
-            st.warning("Correlation heatmap не найден. Запусти: python scripts/03b_correlation_analysis.py")
+            st.warning("Correlation heatmap not found. Run: python scripts/03b_correlation_analysis.py")
         
         # Show insights
         if insights_path.exists():
@@ -1251,17 +1251,17 @@ def main() -> None:
 
     with tab_ads:
         st.info("""
-        📣 **Ads Efficiency — Эффективность рекламных каналов**
+        📣 **Ads Efficiency — Advertising Channel Effectiveness**
         
-        Анализ маркетинга по источникам и кампаниям:
-        - **By Source**: Общая эффективность каждого канала (Google, Facebook, TikTok, etc.)
-        - **By Campaign**: Детализация — какие конкретно кампании работают
-        - **Scatter plot**: ROAS vs Spend — найти высокоэффективные каналы для масштабирования
+        Marketing analysis by sources and campaigns:
+        - **By Source**: Overall effectiveness of each channel (Google, Facebook, TikTok, etc.)
+        - **By Campaign**: Details — which specific campaigns work
+        - **Scatter plot**: ROAS vs Spend — find high-efficiency channels for scaling
         
-        💡 **Как оптимизировать**: 
-        1. Найди источники с ROAS > 5x и низким CPA
-        2. Увеличь бюджет на эти каналы
-        3. Останови каналы с ROAS < 1x (убыточные)
+        💡 **How to optimize**: 
+        1. Find sources with ROAS > 5x and low CPA
+        2. Increase budget on these channels
+        3. Stop channels with ROAS < 1x (unprofitable)
         """)
         
         st.subheader("By source")
@@ -1285,19 +1285,19 @@ def main() -> None:
 
     with tab_sales:
         st.info("""
-        👥 **Sales Efficiency — Эффективность менеджеров**
+        👥 **Sales Efficiency — Manager Performance**
         
-        Анализ работы sales отдела:
-        - **Paid Rate**: Какой % лидов каждый менеджер конвертирует в оплату
-        - **Volume**: Сколько сделок обработано (загрузка)
-        - **Revenue**: Вклад в выручку
+        Sales team analysis:
+        - **Paid Rate**: What % of leads each manager converts to payment
+        - **Volume**: How many deals processed (workload)
+        - **Revenue**: Contribution to revenue
         
-        💡 **Как улучшить sales**:
-        1. Найди менеджеров с Paid Rate > 6% — изучи их подход (best practices)
-        2. Менеджеры с Paid Rate < 3% — нужно обучение или перераспределение лидов
-        3. Проверь SLA — быстрая обработка = выше конверсия
+        💡 **How to improve sales**:
+        1. Find managers with Paid Rate > 6% — study their approach (best practices)
+        2. Managers with Paid Rate < 3% — need training or lead redistribution
+        3. Check SLA — faster processing = higher conversion
         
-        ⚠️ **Caveat**: Менеджеры могут получать лиды разного качества (разные источники).
+        ⚠️ **Caveat**: Managers may receive leads of different quality (different sources).
         """)
         
         owners_df = sales_table(filt["deals"])
@@ -1313,28 +1313,28 @@ def main() -> None:
 
     with tab_products:
         st.error("""
-        ⚠️ **ВАЖНОЕ ОГРАНИЧЕНИЕ: CPA/ROAS по продуктам некорректны**
+        ⚠️ **IMPORTANT LIMITATION: CPA/ROAS by product are incorrect**
         
-        **Проблема**: Spend агрегирован по Source+Campaign, а Deals по Source+Campaign+**Product**.
-        Один источник генерирует лиды для разных продуктов, но мы не знаем, какая часть бюджета пришлась на каждый.
+        **Problem**: Spend is aggregated by Source+Campaign, while Deals are by Source+Campaign+**Product**.
+        One source generates leads for different products, but we don't know what portion of budget went to each.
         
-        **Что показано корректно**: ✅ Revenue, ✅ AOV, ✅ Volume (Deals/Paid)
-        **Что НЕ показано**: ❌ CPA, ❌ ROAS, ❌ CPL по продуктам
+        **What is shown correctly**: ✅ Revenue, ✅ AOV, ✅ Volume (Deals/Paid)
+        **What is NOT shown**: ❌ CPA, ❌ ROAS, ❌ CPL by product
         
-        📄 Подробности: reports/DISCLAIMER_PRODUCT_METRICS.md
+        📄 Details: reports/DISCLAIMER_PRODUCT_METRICS.md
         """)
         
         st.info("""
         📦 **Product Analytics — Unit Economics**
         
-        Анализ продуктов по корректным метрикам:
-        - **Revenue**: Сколько выручки приносит каждый продукт
-        - **AOV**: Средний чек (насколько дорогой продукт)
-        - **Paid Rate**: Конверсия в оплату (насколько продукт нужен)
+        Product analysis by correct metrics:
+        - **Revenue**: How much revenue each product brings
+        - **AOV**: Average check (how expensive the product is)
+        - **Paid Rate**: Conversion to payment (how needed the product is)
         
-        💡 **Как использовать**:
-        - Продукты с высоким AOV + высокий Paid Rate = приоритет для маркетинга
-        - Продукты с низким Paid Rate — проблемы с product-market fit или позиционированием
+        💡 **How to use**:
+        - Products with high AOV + high Paid Rate = marketing priority
+        - Products with low Paid Rate — issues with product-market fit or positioning
         """)
         prod = product_table_paid(filt["deals"])
         st.dataframe(prod, use_container_width=True, hide_index=True)
@@ -1349,17 +1349,17 @@ def main() -> None:
 
     with tab_payments:
         st.info("""
-        💳 **Payments & Education — Сегментация платежей**
+        💳 **Payments & Education — Payment Segmentation**
         
-        Анализ способов оплаты и типов образования:
-        - **Payment Type**: Какие способы оплаты предпочитают клиенты (full payment, installments, etc.)
-        - **Education Type**: Какое образование у платящих клиентов
+        Analysis of payment methods and education types:
+        - **Payment Type**: Which payment methods clients prefer (full payment, installments, etc.)
+        - **Education Type**: What education paying clients have
         
-        💡 **Практическое применение**:
-        - Если installments дают больше revenue — активно предлагай рассрочку
-        - Education type помогает понять target audience и настроить messaging
+        💡 **Practical application**:
+        - If installments generate more revenue — actively offer installment plans
+        - Education type helps understand target audience and tune messaging
         
-        ⚠️ Анализ только по paid deals (для неплатящих данные могут быть неполными).
+        ⚠️ Analysis only for paid deals (for non-payers data may be incomplete).
         """)
         
         st.subheader("Payment Type (paid only)")
@@ -1388,18 +1388,18 @@ def main() -> None:
 
     with tab_geo:
         st.info("""
-        🌍 **Geography — Географическая сегментация**
+        🌍 **Geography — Geographic Segmentation**
         
-        Анализ по городам и уровню немецкого:
-        - **City**: Какие города дают лучшую конверсию (Paid Rate)
-        - **Level of Deutsch**: Зависимость между уровнем языка и готовностью платить
+        Analysis by cities and German language level:
+        - **City**: Which cities give best conversion (Paid Rate)
+        - **Level of Deutsch**: Relationship between language level and willingness to pay
         
-        💡 **Как использовать**:
-        - Города с высоким Paid Rate — фокус рекламы на эти geo
-        - Города с низким Paid Rate — возможно, нужен другой messaging или product fit
-        - Level of Deutsch показывает сегменты с наибольшей мотивацией
+        💡 **How to use**:
+        - Cities with high Paid Rate — focus advertising on these geos
+        - Cities with low Paid Rate — may need different messaging or product fit
+        - Level of Deutsch shows segments with highest motivation
         
-        ⚠️ **Min 80 deals**: Фильтр для статистической значимости (исключаем маленькие сегменты с случайной конверсией).
+        ⚠️ **Min 80 deals**: Filter for statistical significance (exclude small segments with random conversion).
         """)
         
         st.subheader("City (min 80 deals)")
@@ -1430,19 +1430,19 @@ def main() -> None:
 
     with tab_time:
         st.info("""
-        ⏱️ **Time Analysis — Временной анализ**
+        ⏱️ **Time Analysis — Temporal Analysis**
         
-        Анализ времени от создания сделки до оплаты:
-        - **Time-to-Close**: Сколько дней проходит от первого контакта до оплаты
-        - **Distribution**: Гистограмма показывает типичные и аномальные сделки
-        - **Outliers**: Сделки с очень долгим time-to-close (возможно, ошибки в данных)
+        Analysis of time from deal creation to payment:
+        - **Time-to-Close**: How many days from first contact to payment
+        - **Distribution**: Histogram shows typical and anomalous deals
+        - **Outliers**: Deals with very long time-to-close (possible data errors)
         
-        💡 **Што искать**:
-        - **Median time-to-close**: Типичный sales cycle (норма: 7-30 дней для онлайн-образования)
-        - **Long tail**: Сделки >60 дней могут указывать на nurturing возможности
-        - **Быстрые сделки (<3 дня)**: Горячие лиды, можно масштабировать
+        💡 **What to look for**:
+        - **Median time-to-close**: Typical sales cycle (norm: 7-30 days for online education)
+        - **Long tail**: Deals >60 days may indicate nurturing opportunities
+        - **Fast deals (<3 days)**: Hot leads, can scale
         
-        ⚠️ **Coverage**: Не у всех paid deals есть closing_date → анализ на подвыборке (~60%).
+        ⚠️ **Coverage**: Not all paid deals have closing_date → analysis on subset (~60%).
         """)
         
         st.subheader("Time-to-close (paid deals)")
@@ -1460,20 +1460,20 @@ def main() -> None:
                 hide_index=True,
             )
         else:
-            st.info("Нет достаточных данных для time-to-close на выбранном окне/фильтрах.")
+            st.info("Insufficient data for time-to-close on selected window/filters.")
 
     with tab_notes:
         st.markdown(
             """
-**Оговорки по данным**
+**Data Caveats**
 
-- Оплата: `Stage = Payment Done` (остальное не считаем оплатой).
-- `Closing Date` у части paid сделок пустой → time-to-close считается только по подвыборке.
-- ID контактов в Calls/Deals пришли из Excel-чисел → точный джойн Contacts↔Calls↔Deals не гарантируется.
-- Фильтры `Deal Owner`/`Product` применяются к Deals, но Spend фильтруется только по `Source/Campaign` и по окну дат.
+- Payment: `Stage = Payment Done` (rest not counted as payment).
+- `Closing Date` is empty for some paid deals → time-to-close calculated only on subset.
+- Contact IDs in Calls/Deals came from Excel numbers → exact join Contacts↔Calls↔Deals not guaranteed.
+- Filters `Deal Owner`/`Product` apply to Deals, but Spend filtered only by `Source/Campaign` and date window.
 """
         )
-        st.markdown("**Как обновить артефакты**")
+        st.markdown("**How to Update Artifacts**")
         st.code(
             "python scripts/01_clean_export.py\n"
             "python scripts/02_eda_metrics.py\n"
@@ -1490,52 +1490,52 @@ def main() -> None:
         )
 
     with tab_guide:
-        st.title("📚 Руководство по продуктовой аналитике")
+        st.title("📚 Product Analytics Guide")
         
         # Quick Start
-        with st.expander("🚀 Quick Start — С чего начать?", expanded=True):
+        with st.expander("🚀 Quick Start — Where to begin?", expanded=True):
             st.markdown("""
-            ### 3-минутный гайд по проекту
+            ### 3-minute project guide
             
-            **1️⃣ Общая картина** → вкладка **Overview**
-            - Посмотри основные метрики: Spend, Deals, Revenue, ROAS
-            - Оцени общую эффективность маркетинга (ROAS > 1 = окупается)
+            **1️⃣ Big picture** → **Overview** tab
+            - Look at main metrics: Spend, Deals, Revenue, ROAS
+            - Assess overall marketing efficiency (ROAS > 1 = profitable)
             
-            **2️⃣ Где деньги?** → вкладка **Metrics Tree**  
-            - Дерево показывает путь: Spend → Deals → Paid → Revenue
-            - Таблица by Source — какие каналы лучше работают
-            - Ищи высокий ROAS + низкий CPA = приоритетные источники
+            **2️⃣ Where's the money?** → **Metrics Tree** tab  
+            - Tree shows path: Spend → Deals → Paid → Revenue
+            - Table by Source — which channels work better
+            - Look for high ROAS + low CPA = priority sources
             
-            **3️⃣ Где проблемы?** → вкладка **Quality**
-            - Correlation heatmap — какие метрики связаны
-            - Paid Rate vs CPA — главная взаимосвязь (высокая конверсия = низкая стоимость)
+            **3️⃣ Where are problems?** → **Quality** tab
+            - Correlation heatmap — which metrics are related
+            - Paid Rate vs CPA — main relationship (high conversion = low cost)
             
-            **4️⃣ Детали по каналам** → вкладки **Ads**, **Sales**, **Time**
-            - Ads: какие источники/кампании эффективны
-            - Sales: какие менеджеры конвертируют лучше
-            - Time: когда идут продажи, сколько времени до оплаты
+            **4️⃣ Channel details** → **Ads**, **Sales**, **Time** tabs
+            - Ads: which sources/campaigns are effective
+            - Sales: which managers convert better
+            - Time: when sales happen, how long until payment
             
-            **5️⃣ Сегменты** → вкладки **Products**, **Payments**, **Geo**
-            - Какие продукты/города/способы оплаты работают
-            - ⚠️ CPA по продуктам некорректен (см. Disclaimer)
+            **5️⃣ Segments** → **Products**, **Payments**, **Geo** tabs
+            - Which products/cities/payment methods work
+            - ⚠️ CPA by product is incorrect (see Disclaimer)
             
-            **6️⃣ Выводы и план** → вкладка **Notes** + этот **Guide**
-            - Что делать дальше, какие метрики улучшать
+            **6️⃣ Conclusions and plan** → **Notes** tab + this **Guide**
+            - What to do next, which metrics to improve
             """)
         
         # Глоссарий метрик
-        with st.expander("📖 Глоссарий: Все метрики проекта", expanded=False):
-            st.markdown("### Основные метрики продуктовой аналитики")
+        with st.expander("📖 Glossary: All Project Metrics", expanded=False):
+            st.markdown("### Core Product Analytics Metrics")
             
-            # Создаём таблицу для красивого отображения
+            # Create table for nice display
             glossary_data = []
             for term, info in GLOSSARY.items():
                 glossary_data.append({
-                    "Метрика": term,
-                    "Полное название": info['full_name'],
-                    "Формула": info['formula'],
-                    "Что это": info['description'][:80] + "..." if len(info['description']) > 80 else info['description'],
-                    "Норма": info['benchmark'][:60] + "..." if len(info['benchmark']) > 60 else info['benchmark']
+                    "Metric": term,
+                    "Full Name": info['full_name'],
+                    "Formula": info['formula'],
+                    "What is it": info['description'][:80] + "..." if len(info['description']) > 80 else info['description'],
+                    "Benchmark": info['benchmark'][:60] + "..." if len(info['benchmark']) > 60 else info['benchmark']
                 })
             
             df_glossary = pd.DataFrame(glossary_data)
@@ -1543,8 +1543,8 @@ def main() -> None:
             
             st.divider()
             
-            # Детальное описание каждой метрики
-            st.markdown("### Детальные определения")
+            # Detailed description of each metric
+            st.markdown("### Detailed Definitions")
             
             tabs_metrics = st.tabs(list(GLOSSARY.keys()))
             
@@ -1556,19 +1556,19 @@ def main() -> None:
                     
                     col1, col2 = st.columns(2)
                     with col1:
-                        st.info(f"**Зачем нужно:**\n\n{info['why']}")
+                        st.info(f"**Why needed:**\n\n{info['why']}")
                     with col2:
-                        st.success(f"**Норма/Бенчмарк:**\n\n{info['benchmark']}")
+                        st.success(f"**Benchmark:**\n\n{info['benchmark']}")
                     
                     if info.get('levers'):
-                        st.warning(f"**Как улучшить (Growth Levers):**\n\n{info['levers']}")
+                        st.warning(f"**How to improve (Growth Levers):**\n\n{info['levers']}")
         
         # Визуальные схемы метрик
-        with st.expander("📐 Визуальные схемы: Как считаются метрики", expanded=False):
+        with st.expander("📐 Visual Schemas: How Metrics Are Calculated", expanded=False):
             st.markdown("""
-            ### Математические связи метрик
+            ### Mathematical Relationships of Metrics
             
-            Эти схемы показывают, как метрики вычисляются друг из друга.
+            These schemas show how metrics are derived from each other.
             """)
             
             # ROAS схема
@@ -1577,10 +1577,10 @@ def main() -> None:
             ROAS = \frac{Revenue}{Spend} = \frac{Paid \times AOV}{Deals \times CPL}
             """)
             st.write("""
-            - **Увеличить ROAS можно:**
-              - ↑ AOV (продавать дороже)
-              - ↑ Paid Rate (лучше конвертировать)
-              - ↓ CPL (снизить стоимость лида)
+            - **Increase ROAS by:**
+              - ↑ AOV (sell at higher prices)
+              - ↑ Paid Rate (convert better)
+              - ↓ CPL (reduce lead cost)
             """)
             
             st.divider()
@@ -1591,68 +1591,68 @@ def main() -> None:
             CPA = \frac{Spend}{Paid\ Deals} = \frac{Deals \times CPL}{Deals \times Paid\ Rate} = \frac{CPL}{Paid\ Rate}
             """)
             st.write("""
-            - **Снизить CPA можно:**
-              - ↓ CPL (улучшить таргетинг рекламы)
-              - ↑ Paid Rate (улучшить sales скрипты, быстрее обрабатывать)
+            - **Reduce CPA by:**
+              - ↓ CPL (improve ad targeting)
+              - ↑ Paid Rate (improve sales scripts, process faster)
             """)
             
             st.divider()
             
             # Revenue decomposition
-            st.subheader("3. Revenue Decomposition (Декомпозиция выручки)")
+            st.subheader("3. Revenue Decomposition")
             st.latex(r"""
             Revenue = Paid\ Deals \times AOV = (Deals \times Paid\ Rate) \times AOV
             """)
             st.write("""
-            - **Увеличить Revenue можно:**
-              - ↑ Deals (больше трафика из рекламы)
-              - ↑ Paid Rate (лучше продавать)
-              - ↑ AOV (более дорогие продукты / upsells)
+            - **Increase Revenue by:**
+              - ↑ Deals (more traffic from ads)
+              - ↑ Paid Rate (sell better)
+              - ↑ AOV (more expensive products / upsells)
             """)
             
             st.divider()
             
-            # Визуализация из metrics tree
-            st.subheader("4. Полное дерево декомпозиции")
-            st.write("См. визуализации на вкладке **Metrics Tree** — там полное дерево с цифрами.")
+            # Visualization from metrics tree
+            st.subheader("4. Full Decomposition Tree")
+            st.write("See visualizations on **Metrics Tree** tab — complete tree with numbers.")
             
             revenue_tree_path = ROOT / "reports" / "metrics_tree" / "figures" / "tree_revenue_decomposition.png"
             if revenue_tree_path.exists():
                 st.image(str(revenue_tree_path), caption="Revenue Decomposition Tree", use_container_width=True)
         
         # Growth Levers Analysis
-        with st.expander("🎯 Growth Levers — Что тянуть для роста?", expanded=False):
+        with st.expander("🎯 Growth Levers — What to pull for growth?", expanded=False):
             st.markdown("""
-            ### Приоритизация метрик для роста
+            ### Metric Prioritization for Growth
             
-            **Growth Levers** — это метрики, изменение которых даст максимальный рост North Star (Revenue).
+            **Growth Levers** are metrics whose change will give maximum North Star (Revenue) growth.
             
-            #### Метод приоритизации:
-            1. **Impact** — насколько сильно метрика влияет на Revenue (sensitivity)
-            2. **Сложность** — насколько легко/сложно изменить метрику
-            3. **ROI Score** = Impact / Сложность
+            #### Prioritization method:
+            1. **Impact** — how strongly the metric affects Revenue (sensitivity)
+            2. **Complexity** — how easy/hard it is to change the metric
+            3. **ROI Score** = Impact / Complexity
             
             """)
             
-            # Таблица приоритизации
-            st.subheader("Сравнение рычагов роста")
+            # Prioritization table
+            st.subheader("Growth Levers Comparison")
             
             levers_data = [
-                {"Метрика": "Paid Rate", "Текущее": "3.97%", "Потенциал": "5-7%", 
-                 "Impact на Revenue": "🔥🔥🔥 Высокий", "Сложность": "⭐⭐ Средняя",
-                 "ROI Score": "🏆 Отличный", "Как улучшить": "↓ SLA, улучшить sales скрипты, A/B тесты"},
+                {"Metric": "Paid Rate", "Current": "3.97%", "Potential": "5-7%", 
+                 "Impact on Revenue": "🔥🔥🔥 High", "Complexity": "⭐⭐ Medium",
+                 "ROI Score": "🏆 Excellent", "How to improve": "↓ SLA, improve sales scripts, A/B tests"},
                 
-                {"Метрика": "CPL", "Текущее": "6.92€", "Потенциал": "4-5€",
-                 "Impact на Revenue": "🔥🔥 Средний", "Сложность": "⭐⭐⭐ Высокая",
-                 "ROI Score": "👍 Хороший", "Как улучшить": "Оптимизация креативов, targeting, landing pages"},
+                {"Metric": "CPL", "Current": "6.92€", "Potential": "4-5€",
+                 "Impact on Revenue": "🔥🔥 Medium", "Complexity": "⭐⭐⭐ High",
+                 "ROI Score": "👍 Good", "How to improve": "Optimize creatives, targeting, landing pages"},
                 
-                {"Метрика": "AOV", "Текущее": "7,337€", "Потенциал": "8,000-9,000€",
-                 "Impact на Revenue": "🔥🔥🔥 Высокий", "Сложность": "⭐⭐⭐⭐ Очень высокая",
-                 "ROI Score": "👌 Средний", "Как улучшить": "Upsells, premium тарифы, installment plans"},
+                {"Metric": "AOV", "Current": "7,337€", "Potential": "8,000-9,000€",
+                 "Impact on Revenue": "🔥🔥🔥 High", "Complexity": "⭐⭐⭐⭐ Very High",
+                 "ROI Score": "👌 Average", "How to improve": "Upsells, premium tiers, installment plans"},
                 
-                {"Метрика": "Spend", "Текущее": "149k€", "Потенциал": "200-300k€",
-                 "Impact на Revenue": "🔥 Линейный", "Сложность": "⭐ Низкая",
-                 "ROI Score": "⚠️ Зависит", "Как улучшить": "Увеличить бюджет (но следить за ROAS)"},
+                {"Metric": "Spend", "Current": "149k€", "Potential": "200-300k€",
+                 "Impact on Revenue": "🔥 Linear", "Complexity": "⭐ Low",
+                 "ROI Score": "⚠️ Depends", "How to improve": "Increase budget (but monitor ROAS)"},
             ]
             
             df_levers = pd.DataFrame(levers_data)
@@ -1661,26 +1661,26 @@ def main() -> None:
             st.divider()
             
             # Sensitivity analysis
-            st.subheader("Симулятор: Что будет если изменить метрики?")
+            st.subheader("Simulator: What happens if metrics change?")
             
-            st.write("Базовые значения (overlap window):")
+            st.write("Base values (overlap window):")
             col1, col2, col3 = st.columns(3)
             col1.metric("Deals", "21,590")
             col2.metric("Paid Rate", "3.97%")
             col3.metric("AOV", "7,337€")
             
-            st.write("**Попробуй изменить метрики:**")
+            st.write("**Try changing metrics:**")
             
             col_s1, col_s2, col_s3 = st.columns(3)
             
             with col_s1:
-                deals_change = st.slider("Deals изменение (%)", -30, 50, 0, 5)
+                deals_change = st.slider("Deals change (%)", -30, 50, 0, 5)
             with col_s2:
-                rate_change = st.slider("Paid Rate изменение (%)", -30, 100, 0, 5)
+                rate_change = st.slider("Paid Rate change (%)", -30, 100, 0, 5)
             with col_s3:
-                aov_change = st.slider("AOV изменение (%)", -20, 50, 0, 5)
+                aov_change = st.slider("AOV change (%)", -20, 50, 0, 5)
             
-            # Расчёт
+            # Calculation
             base_deals = 21590
             base_rate = 0.0397
             base_aov = 7337
@@ -1694,92 +1694,92 @@ def main() -> None:
             revenue_change = ((new_revenue / base_revenue) - 1) * 100
             
             st.divider()
-            st.subheader("📊 Результат симуляции:")
+            st.subheader("📊 Simulation Result:")
             
             col_r1, col_r2, col_r3 = st.columns(3)
-            col_r1.metric("Текущий Revenue", f"{base_revenue:,.0f}€")
-            col_r2.metric("Новый Revenue", f"{new_revenue:,.0f}€", f"{revenue_change:+.1f}%")
-            col_r3.metric("Прирост", f"{new_revenue - base_revenue:+,.0f}€")
+            col_r1.metric("Current Revenue", f"{base_revenue:,.0f}€")
+            col_r2.metric("New Revenue", f"{new_revenue:,.0f}€", f"{revenue_change:+.1f}%")
+            col_r3.metric("Growth", f"{new_revenue - base_revenue:+,.0f}€")
             
             if revenue_change > 20:
-                st.success("🎉 Отличный рост! Это стратегически важные изменения.")
+                st.success("🎉 Excellent growth! These are strategically important changes.")
             elif revenue_change > 10:
-                st.info("👍 Хороший рост. Стоит попробовать.")
+                st.info("👍 Good growth. Worth trying.")
             elif revenue_change > 0:
-                st.warning("📈 Небольшой рост. Возможно, нужны более амбициозные цели.")
+                st.warning("📈 Modest growth. Perhaps more ambitious goals needed.")
             else:
-                st.error("⚠️ Падение revenue. Такой сценарий нужно избегать.")
+                st.error("⚠️ Revenue decline. This scenario should be avoided.")
         
         # FAQ
-        with st.expander("❓ FAQ — Частые вопросы новичков", expanded=False):
+        with st.expander("❓ FAQ — Common Questions for Beginners", expanded=False):
             st.markdown("""
-            ### Часто задаваемые вопросы
+            ### Frequently Asked Questions
             
-            **Q: Почему CPA по продуктам одинаковый?**  
-            A: Это математическое ограничение данных. Spend агрегирован по Source+Campaign, а Deals по Source+Campaign+Product.
-            Без данных об аллокации spend на продукты, CPA будет одинаковый для всех. См. вкладку Products → Disclaimer.
+            **Q: Why is CPA the same for all products?**  
+            A: This is a mathematical limitation of the data. Spend is aggregated by Source+Campaign, while Deals by Source+Campaign+Product.
+            Without data on spend allocation to products, CPA will be the same for all. See Products tab → Disclaimer.
             
-            **Q: Какая метрика важнее — ROAS или CPA?**  
-            A: Обе важны, но по-разному:
-            - **ROAS** — общая окупаемость. Главная для топ-менеджмента.
-            - **CPA** — эффективность маркетинга. Главная для performance-маркетологов.
+            **Q: Which metric is more important — ROAS or CPA?**  
+            A: Both are important, but differently:
+            - **ROAS** — overall profitability. Main for top management.
+            - **CPA** — marketing efficiency. Main for performance marketers.
             
-            **Q: Что значит "North Star метрика"?**  
-            A: Главная метрика компании, которая отражает ценность для клиентов и бизнеса одновременно.
-            В нашем случае: **Revenue (contract)** — показывает реальный объём проданных курсов.
+            **Q: What does "North Star metric" mean?**  
+            A: The company's main metric that reflects value for customers and business simultaneously.
+            In our case: **Revenue (contract)** — shows real volume of courses sold.
             
-            **Q: Paid Rate 3.97% — это нормально?**  
-            A: Для онлайн-образования это средний показатель. Хороший Paid Rate: 5-10%. Отличный: >10%.
-            Зависит от цены продукта (чем дороже — тем ниже конверсия) и качества трафика.
+            **Q: Paid Rate 3.97% — is this normal?**  
+            A: For online education this is an average indicator. Good Paid Rate: 5-10%. Excellent: >10%.
+            Depends on product price (more expensive — lower conversion) and traffic quality.
             
-            **Q: Как понять, что источник рекламы хороший?**  
-            A: Смотри на комбинацию метрик:
-            - **ROAS > 3x** (хорошо окупается)
-            - **Paid Rate > 4%** (качественный трафик)
-            - **Объём paid deals > 20** (достаточно для статистики)
+            **Q: How to understand if an ad source is good?**  
+            A: Look at combination of metrics:
+            - **ROAS > 3x** (good payback)
+            - **Paid Rate > 4%** (quality traffic)
+            - **Paid deals volume > 20** (sufficient for statistics)
             
-            **Q: Что делать если ROAS < 1?**  
-            A: ROAS < 1 означает убыток (траты на рекламу больше выручки). Варианты:
-            1. Остановить неэффективный канал
-            2. Оптимизировать (креативы, targeting, landing)
-            3. Улучшить sales (повысить Paid Rate)
-            4. Поднять цены (увеличить AOV)
+            **Q: What to do if ROAS < 1?**  
+            A: ROAS < 1 means loss (ad spend exceeds revenue). Options:
+            1. Stop ineffective channel
+            2. Optimize (creatives, targeting, landing)
+            3. Improve sales (increase Paid Rate)
+            4. Raise prices (increase AOV)
             
-            **Q: Как интерпретировать correlation heatmap?**  
+            **Q: How to interpret correlation heatmap?**  
             A: 
-            - **Красный (положительная корреляция)**: метрики растут вместе (CPL ↑ → CPA ↑)
-            - **Синий (отрицательная корреляция)**: одна растёт → вторая падает (Paid Rate ↑ → CPA ↓)
-            - Сильная корреляция: |r| > 0.7. Средняя: 0.4-0.7. Слабая: < 0.4
+            - **Red (positive correlation)**: metrics grow together (CPL ↑ → CPA ↑)
+            - **Blue (negative correlation)**: one grows → second falls (Paid Rate ↑ → CPA ↓)
+            - Strong correlation: |r| > 0.7. Medium: 0.4-0.7. Weak: < 0.4
             
-            **Q: Что такое "Growth Levers" и как их выбирать?**  
-            A: Growth Levers — метрики, которые при изменении дают максимальный рост North Star.
-            Метод: берём sensitivity (насколько метрика влияет на Revenue) и делим на complexity (сложность изменения).
-            Приоритет: высокий impact + низкая сложность.
+            **Q: What are "Growth Levers" and how to choose them?**  
+            A: Growth Levers — metrics whose change gives maximum North Star growth.
+            Method: take sensitivity (how much metric affects Revenue) and divide by complexity (difficulty of change).
+            Priority: high impact + low complexity.
             
-            **Q: Почему Revenue (contract) > Revenue (cash)?**  
-            A: Contract = полная стоимость курса. Cash = фактически оплачено.
-            Разница из-за рассрочек (installments). Клиент купил курс за 10k€, заплатил 2k€ — 
+            **Q: Why Revenue (contract) > Revenue (cash)?**  
+            A: Contract = full course price. Cash = actually paid.
+            Difference due to installments. Client bought course for 10k€, paid 2k€ — 
             contract revenue = 10k€, cash revenue = 2k€.
             
-            **Q: Как тестировать гипотезу за 2 недели?**  
-            A: Пример (из задания):
-            1. **Гипотеза**: Снижение SLA с 4 часов до 30 минут повысит Paid Rate с 4% до 6%
-            2. **Метрика**: Paid Rate по новым лидам
-            3. **Тест**: Разделить новые лиды 50/50 (быстрая vs обычная обработка)
-            4. **Критерий успеха**: Paid Rate в тестовой группе ≥ 5.5% (статистически значимо)
-            5. **Размер выборки**: 200+ лидов в каждой группе для достоверности
+            **Q: How to test hypothesis in 2 weeks?**  
+            A: Example (from assignment):
+            1. **Hypothesis**: Reducing SLA from 4 hours to 30 minutes will increase Paid Rate from 4% to 6%
+            2. **Metric**: Paid Rate for new leads
+            3. **Test**: Split new leads 50/50 (fast vs normal processing)
+            4. **Success criteria**: Paid Rate in test group ≥ 5.5% (statistically significant)
+            5. **Sample size**: 200+ leads in each group for reliability
             
             """)
         
         st.divider()
         st.success("""
-        💡 **Совет**: Используй этот Guide как справочник при анализе данных на других вкладках.
-        Открой Guide в отдельной вкладке браузера для быстрого доступа к определениям!
+        💡 **Tip**: Use this Guide as a reference when analyzing data on other tabs.
+        Open Guide in a separate browser tab for quick access to definitions!
         """)
 
     with tab_presentation:
-        st.title("🎤 Итоговая презентация проекта")
-        st.caption("Анализ CRM данных онлайн-школы — от очистки до гипотез роста")
+        st.title("🎤 Final Project Presentation")
+        st.caption("Online school CRM data analysis — from cleaning to growth hypotheses")
         
         # Navigation state
         if 'slide_index' not in st.session_state:
@@ -1787,34 +1787,34 @@ def main() -> None:
         
         # Define slides
         slides = [
-            {"title": "📊 Введение", "icon": "🎯"},
-            {"title": "📦 Данные и очистка", "icon": "🧹"},
-            {"title": "📈 Общие метрики", "icon": "💰"},
-            {"title": "🔄 Воронка продаж", "icon": "📉"},
-            {"title": "🏆 Sales Efficiency (Инсайт #1)", "icon": "👥"},
+            {"title": "📊 Introduction", "icon": "🎯"},
+            {"title": "📦 Data and Cleaning", "icon": "🧹"},
+            {"title": "📈 Key Metrics", "icon": "💰"},
+            {"title": "🔄 Sales Funnel", "icon": "📉"},
+            {"title": "🏆 Sales Efficiency (Insight #1)", "icon": "👥"},
             {"title": "📢 Ads Efficiency", "icon": "💡"},
             {"title": "📦 Products & Unit Economics", "icon": "🎓"},
-            {"title": "🌍 Сегментация", "icon": "🗺️"},
+            {"title": "🌍 Segmentation", "icon": "🗺️"},
             {"title": "⏱️ Time Analysis", "icon": "⌛"},
-            {"title": "🚀 Гипотезы роста (2 недели)", "icon": "🎯"},
-            {"title": "⚠️ Риски и ограничения", "icon": "🛡️"},
-            {"title": "✅ Выводы и рекомендации", "icon": "🎓"}
+            {"title": "🚀 Growth Hypotheses (2 weeks)", "icon": "🎯"},
+            {"title": "⚠️ Risks and Limitations", "icon": "🛡️"},
+            {"title": "✅ Conclusions and Recommendations", "icon": "🎓"}
         ]
         
         total_slides = len(slides)
         current_slide = st.session_state.slide_index
         
         # Progress bar
-        st.progress((current_slide + 1) / total_slides, text=f"Слайд {current_slide + 1} из {total_slides}")
+        st.progress((current_slide + 1) / total_slides, text=f"Slide {current_slide + 1} of {total_slides}")
         
         # Navigation buttons (top)
         col_nav1, col_nav2, col_nav3 = st.columns([1, 3, 1])
         with col_nav1:
-            if st.button("⬅️ Назад", disabled=(current_slide == 0), use_container_width=True):
+            if st.button("⬅️ Back", disabled=(current_slide == 0), use_container_width=True):
                 st.session_state.slide_index -= 1
                 st.rerun()
         with col_nav3:
-            if st.button("Вперёд ➡️", disabled=(current_slide >= total_slides - 1), use_container_width=True):
+            if st.button("Next ➡️", disabled=(current_slide >= total_slides - 1), use_container_width=True):
                 st.session_state.slide_index += 1
                 st.rerun()
         
@@ -1822,67 +1822,67 @@ def main() -> None:
         
         # ========== SLIDE CONTENT ==========
         
-        # Slide 0: Введение
+        # Slide 0: Introduction
         if current_slide == 0:
             st.markdown(f"# {slides[0]['icon']} {slides[0]['title']}")
             st.markdown("""
-            ### Контекст проекта
+            ### Project Context
             
-            **Задача**: Провести полный цикл product analytics для онлайн-школы:
-            - Очистить данные CRM (4 таблицы: Contacts, Calls, Deals, Spend)
-            - Построить unit-экономику и дерево метрик
-            - Найти точки роста и сформулировать гипотезы
-            - Предложить 2-недельный тест для проверки
+            **Task**: Conduct full product analytics cycle for online school:
+            - Clean CRM data (4 tables: Contacts, Calls, Deals, Spend)
+            - Build unit economics and metrics tree
+            - Find growth points and formulate hypotheses
+            - Propose 2-week test for validation
             
-            **Инструменты**: Python, Pandas, Streamlit, Plotly
+            **Tools**: Python, Pandas, Streamlit, Plotly
             
-            **Период данных**: Overlap window между Spend и Deals (реклама + продажи)
+            **Data Period**: Overlap window between Spend and Deals (advertising + sales)
             
-            **Ключевая метрика**: Contract ROAS (возврат на рекламные инвестиции)
+            **Key Metric**: Contract ROAS (return on advertising investment)
             """)
             
             st.info("""
-            📌 **Навигация по презентации**:
-            - Используй кнопки ⬅️ Назад / Вперёд ➡️ для перемещения между слайдами
-            - Все графики и данные интерактивны — можно кликать и изучать детали
-            - Для глубокого анализа смотри другие вкладки dashboard'а
+            📌 **Presentation Navigation**:
+            - Use ⬅️ Back / Next ➡️ buttons to navigate between slides
+            - All charts and data are interactive — you can click and explore details
+            - For deep analysis see other dashboard tabs
             """)
         
-        # Slide 1: Данные и очистка
+        # Slide 1: Data and Cleaning
         elif current_slide == 1:
             st.markdown(f"# {slides[1]['icon']} {slides[1]['title']}")
             
             st.markdown("""
-            ### Исходные данные (4 таблицы)
+            ### Source Data (4 tables)
             """)
             
             col1, col2, col3, col4 = st.columns(4)
-            col1.metric("📇 Contacts", "~25K", help="Контакты лидов")
-            col2.metric("📞 Calls", "~71K", help="Звонки по контактам")
-            col3.metric("💼 Deals", "~22K", help="Сделки (главная таблица)")
-            col4.metric("💰 Spend", "~9K", help="Рекламные расходы")
+            col1.metric("📇 Contacts", "~25K", help="Lead contacts")
+            col2.metric("📞 Calls", "~71K", help="Calls by contacts")
+            col3.metric("💼 Deals", "~22K", help="Deals (main table)")
+            col4.metric("💰 Spend", "~9K", help="Advertising spend")
             
             st.markdown("""
-            ### Ключевые правила очистки
+            ### Key Cleaning Rules
             
-            ✅ **Оплаченная сделка**: только `Stage = Payment Done`  
-            ✅ **Closing Date**: дата оплаты (но может быть пустым даже для paid)  
-            ✅ **Lost Reason = Duplicate**: не реальный lost, это технические дубли  
-            ⚠️ **ID в Calls/Deals**: пришли как Excel-числа → точный join Contacts↔Calls↔Deals не гарантируется
+            ✅ **Paid deal**: only `Stage = Payment Done`  
+            ✅ **Closing Date**: payment date (but may be empty even for paid)  
+            ✅ **Lost Reason = Duplicate**: not real lost, technical duplicates  
+            ⚠️ **ID in Calls/Deals**: came as Excel numbers → exact join Contacts↔Calls↔Deals not guaranteed
             
-            ### Что сделано в очистке
-            - Нормализация названий колонок и значений
-            - Приведение типов (даты, суммы, duration)
-            - Удаление точных дублей
-            - Добавление флагов: `is_paid`, `is_duplicate_lost`, `revenue_cash`, `revenue_contract`, `sla_minutes`
+            ### What Was Done in Cleaning
+            - Column and value name normalization
+            - Type conversion (dates, amounts, duration)
+            - Exact duplicate removal
+            - Flag addition: `is_paid`, `is_duplicate_lost`, `revenue_cash`, `revenue_contract`, `sla_minutes`
             """)
             
-            st.success("💡 **Результат**: Чистые данные сохранены в `data/clean/` (parquet формат)")
+            st.success("💡 **Result**: Clean data saved to `data/clean/` (parquet format)")
         
         # Slide 2: Общие метрики
         elif current_slide == 2:
             st.markdown(f"# {slides[2]['icon']} {slides[2]['title']}")
-            st.markdown("### Окно пересечения Spend ∩ Deals")
+            st.markdown("### Overlap Window: Spend ∩ Deals")
             
             vals = kpis(filt["deals"], filt["spend"])
             
@@ -1901,20 +1901,20 @@ def main() -> None:
             st.divider()
             
             st.markdown("""
-            ### Интерпретация ключевых метрик
+            ### Key Metrics Interpretation
             
-            - **ROAS = 42x**: Каждый €1 рекламы приносит €42 выручки (отличная окупаемость!)
-            - **Paid Rate = 3.97%**: Из 100 лидов только ~4 покупают (норма для онлайн-образования: 2-10%)
-            - **CPA = 174€**: Стоимость привлечения одного платящего клиента
-            - **AOV = 7,337€**: Средний чек платящих клиентов
+            - **ROAS = 42x**: Every €1 of ads brings €42 of revenue (excellent payback!)
+            - **Paid Rate = 3.97%**: Out of 100 leads only ~4 buy (norm for online education: 2-10%)
+            - **CPA = 174€**: Cost to acquire one paying customer
+            - **AOV = 7,337€**: Average check of paying customers
             
-            💡 **Growth Opportunity**: Рост Paid Rate с 4% до 6% увеличит Revenue на 50% без роста расходов на рекламу!
+            💡 **Growth Opportunity**: Growing Paid Rate from 4% to 6% will increase Revenue by 50% without ad spend growth!
             """)
         
         # Slide 3: Воронка продаж
         elif current_slide == 3:
             st.markdown(f"# {slides[3]['icon']} {slides[3]['title']}")
-            st.markdown("### Воронка по стадиям сделок")
+            st.markdown("### Funnel by Deal Stages")
             
             funnel_data = stage_funnel(filt["deals"])
             
@@ -1930,20 +1930,20 @@ def main() -> None:
             st.plotly_chart(fig_funnel, use_container_width=True)
             
             st.warning("""
-            ⚠️ **Главная проблема воронки**: Большое падение на этапе "Working" → "Payment Waiting"
+            ⚠️ **Main Funnel Problem**: Large drop at "Working" → "Payment Waiting" stage
             
-            Возможные причины:
-            - Длинный sales cycle (медианный time-to-close = 16 дней)
-            - Недостаточный follow-up от менеджеров
-            - Проблемы с оформлением оплаты
+            Possible causes:
+            - Long sales cycle (median time-to-close = 16 days)
+            - Insufficient follow-up from managers
+            - Payment processing issues
             
-            Рекомендация: Автоматизировать напоминания на этапе "Payment Waiting"
+            Recommendation: Automate reminders at "Payment Waiting" stage
             """)
         
         # Slide 4: Sales Efficiency (Main Insight #1)
         elif current_slide == 4:
             st.markdown(f"# {slides[4]['icon']} {slides[4]['title']}")
-            st.markdown("### 🔥 ГЛАВНЫЙ ИНСАЙТ: Огромный разброс по менеджерам")
+            st.markdown("### 🔥 KEY INSIGHT: Huge Manager Variance")
             
             owners_df = sales_table(filt["deals"])
             
@@ -1963,30 +1963,30 @@ def main() -> None:
             st.plotly_chart(fig, use_container_width=True)
             
             st.error("""
-            ⚡ **КРИТИЧЕСКОЕ НАБЛЮДЕНИЕ**:
+            ⚡ **CRITICAL OBSERVATION**:
             
-            - **Лучший менеджер**: Oliver Taylor — 30.7% Paid Rate (524k€ revenue)
-            - **Средний менеджер**: ~4-6% Paid Rate
-            - **Худшие менеджеры**: <2% Paid Rate
+            - **Best manager**: Oliver Taylor — 30.7% Paid Rate (524k€ revenue)
+            - **Average manager**: ~4-6% Paid Rate
+            - **Worst managers**: <2% Paid Rate
             
-            **Разница в 7-10 раз!** Это не случайность при таком объёме данных.
+            **7-10x difference!** This is not coincidence with this data volume.
             """)
             
             st.success("""
-            💡 **ЧТО ЭТО ЗНАЧИТ**:
+            💡 **WHAT THIS MEANS**:
             
-            1. **Процесс продаж критичен** — не только качество трафика
-            2. **Скиллы менеджеров различаются** — можно стандартизировать лучшие практики
-            3. **Быстрый SLA важен** — Oliver Taylor имеет median SLA = 180 мин (vs 400-800 у других)
-            4. **Обучение работает** — если Oliver может 30%, другие могут 10-15% (рост revenue в 2x!)
+            1. **Sales process is critical** — not just traffic quality
+            2. **Manager skills vary** — can standardize best practices
+            3. **Fast SLA matters** — Oliver Taylor has median SLA = 180 min (vs 400-800 for others)
+            4. **Training works** — if Oliver can do 30%, others can reach 10-15% (2x revenue growth!)
             
-            → **Это основа для Гипотезы #1** (см. слайд "Гипотезы роста")
+            → **This is the basis for Hypothesis #1** (see "Growth Hypotheses" slide)
             """)
         
         # Slide 5: Ads Efficiency
         elif current_slide == 5:
             st.markdown(f"# {slides[5]['icon']} {slides[5]['title']}")
-            st.markdown("### Эффективность рекламных источников")
+            st.markdown("### Advertising Channel Effectiveness")
             
             by_source, by_sc = ads_tables(filt["deals"], filt["spend"])
             
@@ -2006,34 +2006,34 @@ def main() -> None:
             st.plotly_chart(fig_scatter, use_container_width=True)
             
             st.info("""
-            📊 **Топ-3 канала по эффективности**:
+            📊 **Top-3 channels by effectiveness**:
             
-            1. **SMM** — ROAS 82.8x, CPA 80€ (лучший канал!) — низкий охват (91 paid)
-            2. **Webinar** — ROAS 63.6x, CPA 111€ — средний охват (26 paid)
-            3. **Facebook Ads** — ROAS 45.9x, CPA 167€ — большой объём (202 paid)
+            1. **SMM** — ROAS 82.8x, CPA 80€ (best channel!) — low reach (91 paid)
+            2. **Webinar** — ROAS 63.6x, CPA 111€ — medium reach (26 paid)
+            3. **Facebook Ads** — ROAS 45.9x, CPA 167€ — large volume (202 paid)
             
-            ⚠️ **Проблемные каналы**:
-            - **Bloggers** — ROAS 21.4x, CPA 345€ (дороговато, но окупается)
-            - **Google Ads** — ROAS 22.1x, CPA 334€ (большой объём, средняя эффективность)
+            ⚠️ **Problem channels**:
+            - **Bloggers** — ROAS 21.4x, CPA 345€ (expensive but pays back)
+            - **Google Ads** — ROAS 22.1x, CPA 334€ (large volume, average efficiency)
             """)
             
             st.success("""
-            💡 **Рекомендации**:
-            - **Масштабировать SMM** — увеличить инвестиции (сейчас 7k€, можно до 15-20k€)
-            - **Оптимизировать Google Ads** — работать над качеством трафика (улучшить targeting)
-            - **A/B тесты на Facebook** — уже хороший ROAS, можно улучшить CPL
+            💡 **Recommendations**:
+            - **Scale SMM** — increase investment (now 7k€, can go to 15-20k€)
+            - **Optimize Google Ads** — work on traffic quality (improve targeting)
+            - **A/B tests on Facebook** — already good ROAS, can improve CPL
             """)
         
         # Slide 6: Products
         elif current_slide == 6:
             st.markdown(f"# {slides[6]['icon']} {slides[6]['title']}")
             st.warning("""
-            ⚠️ **ВАЖНОЕ ОГРАНИЧЕНИЕ**: CPA/ROAS по продуктам НЕ считаются! 
+            ⚠️ **IMPORTANT LIMITATION**: CPA/ROAS by product NOT calculated! 
             
-            Причина: Spend агрегирован по Source+Campaign, а Deals по Source+Campaign+Product.
-            Без данных об allocation spend на продукты — метрики будут некорректны.
+            Reason: Spend aggregated by Source+Campaign, but Deals by Source+Campaign+Product.
+            Without spend allocation data to products — metrics will be incorrect.
             
-            Показаны только валидные метрики: Revenue, AOV, Volume.
+            Only valid metrics shown: Revenue, AOV, Volume.
             """)
             
             prod = product_table_paid(filt["deals"])
@@ -2057,32 +2057,32 @@ def main() -> None:
             📦 **Product Insights**:
             
             **Digital Marketing** (474 paid, 3.89M€ revenue, AOV 8,212€):
-            - Самый популярный продукт — 55% всех paid deals
-            - Высокий средний чек
-            - Core product линейки
+            - Most popular product — 55% of all paid deals
+            - High average check
+            - Core product line
             
             **UX/UI Design** (229 paid, 1.83M€ revenue, AOV 7,998€):
-            - Второй по объёму — 27% paid deals
-            - Почти такой же AOV как Digital Marketing
-            - Стабильный продукт
+            - Second by volume — 27% paid deals
+            - Almost same AOV as Digital Marketing
+            - Stable product
             
             **Web Developer** (137 paid, 571k€ revenue, AOV 4,172€):
-            - Более низкий AOV — почти в 2 раза дешевле
-            - Возможно, более короткие курсы или начальный уровень
-            - Может быть entry point в линейку продуктов
+            - Lower AOV — almost 2x cheaper
+            - Possibly shorter courses or entry level
+            - May be entry point to product line
             """)
             
             st.success("""
             💡 **Product Strategy**:
-            - **Focus**: Digital Marketing + UX/UI — высокий AOV, большой объём
-            - **Optimize**: Web Developer — возможно, upsell в более дорогие курсы
+            - **Focus**: Digital Marketing + UX/UI — high AOV, large volume
+            - **Optimize**: Web Developer — possibly upsell to more expensive courses
             - **Test**: Bundle offers (Web Dev → Digital Marketing progression)
             """)
         
-        # Slide 7: Сегментация
+        # Slide 7: Segmentation
         elif current_slide == 7:
             st.markdown(f"# {slides[7]['icon']} {slides[7]['title']}")
-            st.markdown("### Анализ по сегментам: Payment, Education, Geo")
+            st.markdown("### Segment Analysis: Payment, Education, Geo")
             
             st.subheader("💳 Payment Type (paid only)")
             pt = paid_segment_table(filt["deals"], "payment_type")
@@ -2090,9 +2090,9 @@ def main() -> None:
             
             st.markdown("""
             **Insights**:
-            - Большинство оплат без указания типа (возможно, data quality issue)
-            - Recurring Payments: 250 paid, AOV 4,426€ (ниже среднего — рассрочки работают!)
-            - One Payment: 113 paid, AOV 3,239€ (полная предоплата)
+            - Most payments without type specified (possibly data quality issue)
+            - Recurring Payments: 250 paid, AOV 4,426€ (below average — installments work!)
+            - One Payment: 113 paid, AOV 3,239€ (full prepayment)
             """)
             
             st.divider()
@@ -2103,9 +2103,9 @@ def main() -> None:
             
             st.markdown("""
             **Insights**:
-            - Morning: 662 paid, AOV 8,452€ — премиум сегмент (77% всех оплат)
-            - Evening: 171 paid, AOV 3,629€ — более доступный вариант
-            - Morning courses приносят больше revenue на клиента → focus
+            - Morning: 662 paid, AOV 8,452€ — premium segment (77% of all payments)
+            - Evening: 171 paid, AOV 3,629€ — more affordable option
+            - Morning courses bring more revenue per customer → focus
             """)
             
             st.divider()
@@ -2116,12 +2116,12 @@ def main() -> None:
                 st.dataframe(city.head(8), use_container_width=True, hide_index=True)
                 st.markdown("""
                 **Insights**:
-                - **Berlin**: Paid Rate 42.9% (!!!) — лучшая география, высокая мотивация
-                - Другие города: 5-17% Paid Rate — стандартные показатели
-                - Berlin — приоритет для geo-targeting в рекламе
+                - **Berlin**: Paid Rate 42.9% (!!!) — best geography, high motivation
+                - Other cities: 5-17% Paid Rate — standard indicators
+                - Berlin — priority for geo-targeting in ads
                 """)
             
-            st.success("💡 Рекомендация: Увеличить ad spend на Berlin (target ROAS высокий за счёт conversion)")
+            st.success("💡 Recommendation: Increase ad spend on Berlin (target ROAS high due to conversion)")
         
         # Slide 8: Time Analysis
         elif current_slide == 8:
@@ -2140,207 +2140,207 @@ def main() -> None:
                 p90_lag = paid_ok["lag_days"].quantile(0.9)
                 
                 col4, col5 = st.columns(2)
-                col4.metric("⏱️ Median Time-to-Close", f"{median_lag:.1f} дней")
-                col5.metric("⏱️ P90 Time-to-Close", f"{p90_lag:.1f} дней")
+                col4.metric("⏱️ Median Time-to-Close", f"{median_lag:.1f} days")
+                col5.metric("⏱️ P90 Time-to-Close", f"{p90_lag:.1f} days")
                 
                 fig = px.histogram(paid_ok, x="lag_days", nbins=60, title="Distribution: Time from Deal Created to Payment")
                 fig.update_xaxes(range=[-1, 120])
                 st.plotly_chart(fig, use_container_width=True)
                 
                 st.info("""
-                📊 **Интерпретация распределения**:
+                📊 **Distribution Interpretation**:
                 
-                - **Пик на 5-20 днях**: Большинство сделок закрывается в первые 2-3 недели
-                - **Long tail (>60 дней)**: Есть сделки с очень долгим циклом (nurturing candidates)
-                - **Quick wins (<3 дня)**: Горячие лиды — можно масштабировать этот сегмент
+                - **Peak at 5-20 days**: Most deals close in first 2-3 weeks
+                - **Long tail (>60 days)**: Deals with very long cycle (nurturing candidates)
+                - **Quick wins (<3 days)**: Hot leads — can scale this segment
                 
-                ⚠️ **Проблема**: 40% paid deals не имеют closing_date → data quality issue
+                ⚠️ **Problem**: 40% paid deals don't have closing_date → data quality issue
                 """)
                 
                 st.success("""
-                💡 **Оптимизация sales cycle**:
-                1. **Автоматизация**: Reminder emails на 7, 14, 21 день для deals в "Payment Waiting"
-                2. **Prioritization**: Фокус на лиды с высокой вероятностью быстрого close (<7 дней)
-                3. **Nurturing**: Отдельная стратегия для long-tail deals (>30 дней)
+                💡 **Sales cycle optimization**:
+                1. **Automation**: Reminder emails at 7, 14, 21 days for deals in "Payment Waiting"
+                2. **Prioritization**: Focus on leads with high probability of quick close (<7 days)
+                3. **Nurturing**: Separate strategy for long-tail deals (>30 days)
                 """)
         
-        # Slide 9: Гипотезы роста
+        # Slide 9: Growth Hypotheses
         elif current_slide == 9:
             st.markdown(f"# {slides[9]['icon']} {slides[9]['title']}")
-            st.markdown("### Две проверяемые гипотезы с 2-недельным тестом")
+            st.markdown("### Two Testable Hypotheses with 2-Week Test")
             
             st.markdown("---")
-            st.markdown("## 🥇 Гипотеза #1: Репликация Best Practices (ПРИОРИТЕТ)")
+            st.markdown("## 🥇 Hypothesis #1: Best Practices Replication (PRIORITY)")
             
             st.error("""
-            **Проблема**: Paid Rate варьируется от 2% до 30% между менеджерами → потеря 70-90% потенциального revenue
+            **Problem**: Paid Rate varies from 2% to 30% between managers → loss of 70-90% potential revenue
             """)
             
             st.success("""
-            **Гипотеза**: Если применить практики топ-менеджеров (Oliver Taylor: 30% Paid Rate) ко всем,
-            то средний Paid Rate вырастет с 4% до 6-8%, что увеличит Revenue на 50-100% без роста ad spend.
+            **Hypothesis**: If we apply top manager practices (Oliver Taylor: 30% Paid Rate) to everyone,
+            then average Paid Rate will grow from 4% to 6-8%, which will increase Revenue by 50-100% without ad spend growth.
             """)
             
             st.info("""
-            **План теста (2 недели)**:
+            **Test Plan (2 weeks)**:
             
-            📋 **Что делаем**:
-            1. Анализируем подход Oliver Taylor: скрипты, SLA, qualification
-            2. Обучаем пилотную группу менеджеров (5 чел) этим практикам
-            3. Контрольная группа (5 чел) работает как обычно
-            4. Распределяем новые лиды 50/50 между группами (random assignment)
+            📋 **What we do**:
+            1. Analyze Oliver Taylor's approach: scripts, SLA, qualification
+            2. Train pilot manager group (5 people) in these practices
+            3. Control group (5 people) works as usual
+            4. Distribute new leads 50/50 between groups (random assignment)
             
-            📊 **Метрики успеха**:
-            - **Primary**: Paid Rate в пилотной группе ≥ 5.5% (vs 4% в контроле)
-            - **Secondary**: SLA < 3 часа (vs 6-12 часов обычно)
-            - **Revenue impact**: При успехе → rollout на всех = +2M€ annual revenue
+            📊 **Success Metrics**:
+            - **Primary**: Paid Rate in pilot group ≥ 5.5% (vs 4% in control)
+            - **Secondary**: SLA < 3 hours (vs 6-12 hours usually)
+            - **Revenue impact**: If successful → rollout to all = +2M€ annual revenue
             
             ⏱️ **Timeline**:
-            - Week 1: Обучение + первые 100 лидов
-            - Week 2: Ещё 100 лидов + анализ результатов
-            - Минимальный sample size: 200 лидов на группу для statistical significance
+            - Week 1: Training + first 100 leads
+            - Week 2: Another 100 leads + results analysis
+            - Minimum sample size: 200 leads per group for statistical significance
             
-            ✅ **Критерий успеха**: p-value < 0.05 в A/B тесте Paid Rate между группами
+            ✅ **Success Criterion**: p-value < 0.05 in A/B test of Paid Rate between groups
             """)
             
             st.markdown("---")
-            st.markdown("## 🥈 Гипотеза #2: Бюджетная оптимизация рекламы")
+            st.markdown("## 🥈 Hypothesis #2: Ad Budget Optimization")
             
             st.warning("""
-            **Проблема**: Разброс ROAS от 21x до 83x между источниками → неоптимальное распределение бюджета
+            **Problem**: ROAS variance from 21x to 83x between sources → suboptimal budget allocation
             """)
             
             st.success("""
-            **Гипотеза**: Перераспределение 30% бюджета с низко-ROAS каналов (Google Ads, Bloggers)
-            на высоко-ROAS каналы (SMM, Facebook) увеличит overall ROAS с 42x до 50x+.
+            **Hypothesis**: Reallocating 30% of budget from low-ROAS channels (Google Ads, Bloggers)
+            to high-ROAS channels (SMM, Facebook) will increase overall ROAS from 42x to 50x+.
             """)
             
             st.info("""
-            **План теста (2 недели)**:
+            **Test Plan (2 weeks)**:
             
-            📋 **Что делаем**:
-            1. Снижаем spend на Google Ads на 30% (с 58k→40k/месяц)
-            2. Увеличиваем spend на SMM на 100% (с 7k→14k/месяц)
-            3. Мониторим: ROAS, paid deals volume, CPL, CPA
+            📋 **What we do**:
+            1. Reduce Google Ads spend by 30% (from 58k→40k/month)
+            2. Increase SMM spend by 100% (from 7k→14k/month)
+            3. Monitor: ROAS, paid deals volume, CPL, CPA
             
-            📊 **Метрики успеха**:
+            📊 **Success Metrics**:
             - **Primary**: Overall ROAS ≥ 48x (vs 42x baseline)
-            - **Secondary**: Сохранение объёма paid deals ≥ 850/месяц
-            - **Risk mitigation**: Если paid deals падает >10% → возврат к baseline
+            - **Secondary**: Maintain paid deals volume ≥ 850/month
+            - **Risk mitigation**: If paid deals drop >10% → return to baseline
             
             ⏱️ **Timeline**:
-            - Week 1: Новое распределение бюджета
-            - Week 2: Мониторинг + корректировки
+            - Week 1: New budget allocation
+            - Week 2: Monitoring + adjustments
             
-            ✅ **Критерий успеха**: ROAS растёт И объём не падает
+            ✅ **Success Criterion**: ROAS grows AND volume doesn't drop
             """)
         
-        # Slide 10: Риски и ограничения
+        # Slide 10: Risks and Limitations
         elif current_slide == 10:
             st.markdown(f"# {slides[10]['icon']} {slides[10]['title']}")
-            st.markdown("### Ограничения данных и анализа")
+            st.markdown("### Data and Analysis Limitations")
             
             st.error("""
-            ## 🔴 Критические ограничения
+            ## 🔴 Critical Limitations
             
-            1. **CPA/ROAS по продуктам некорректны**
-               - Spend агрегирован по Source+Campaign
-               - Deals по Source+Campaign+Product
-               - Невозможно корректно аллокировать spend между продуктами
-               - ❌ Не используйте CPA/ROAS по продуктам для принятия решений
+            1. **CPA/ROAS by product are incorrect**
+               - Spend aggregated by Source+Campaign
+               - Deals by Source+Campaign+Product
+               - Cannot correctly allocate spend between products
+               - ❌ Do not use CPA/ROAS by product for decision making
                
-            2. **ID Contacts/Calls/Deals не надёжны**
-               - Пришли из Excel как float → точный join невозможен
-               - Анализ Contacts↔Calls↔Deals ограничен
-               - Построили дерево метрик по Deals напрямую
+            2. **ID Contacts/Calls/Deals unreliable**
+               - Came from Excel as float → exact join impossible
+               - Contacts↔Calls↔Deals analysis limited
+               - Built metrics tree from Deals directly
             
-            3. **Closing Date отсутствует у 40% paid deals**
-               - Time-to-close анализ только на 60% данных
-               - Возможен selection bias (быстрые сделки чаще имеют closing_date?)
+            3. **Closing Date missing for 40% paid deals**
+               - Time-to-close analysis only on 60% of data
+               - Possible selection bias (fast deals more often have closing_date?)
             """)
             
             st.warning("""
-            ## 🟡 Средние ограничения
+            ## 🟡 Medium Limitations
             
-            4. **Quality поле субъективное**
-               - Заполняется менеджерами вручную
-               - Может быть bias (менеджеры с низкой conversion ставят "bad quality")
+            4. **Quality field is subjective**
+               - Filled by managers manually
+               - May be bias (managers with low conversion mark "bad quality")
                
-            5. **Payment Type часто пустой**
-               - 58% paid deals без указания типа оплаты
-               - Анализ payment methods ограничен
+            5. **Payment Type often empty**
+               - 58% paid deals without payment type specified
+               - Payment methods analysis limited
                
-            6. **Малые сегменты статистически ненадёжны**
-               - Фильтруем города/сегменты с <80 deals
-               - Но некоторые всё равно имеют широкие confidence intervals
+            6. **Small segments statistically unreliable**
+               - Filter cities/segments with <80 deals
+               - But some still have wide confidence intervals
             """)
             
             st.info("""
-            ## 🔵 Рекомендации по улучшению сбора данных
+            ## 🔵 Recommendations for Data Collection Improvement
             
-            **Короткий срок (1-2 месяца)**:
-            1. ✅ Заполнять closing_date для ВСЕХ paid deals (обязательное поле)
-            2. ✅ Добавить product_tag в Spend для аллокации бюджета по продуктам
-            3. ✅ Стандартизировать Quality поле (dropdown: High/Medium/Low)
+            **Short term (1-2 months)**:
+            1. ✅ Fill closing_date for ALL paid deals (required field)
+            2. ✅ Add product_tag to Spend for budget allocation by products
+            3. ✅ Standardize Quality field (dropdown: High/Medium/Low)
             
-            **Средний срок (3-6 месяцев)**:
-            4. Внедрить tracking: utm_product в рекламных ссылках
-            5. Автоматизировать заполнение payment_type из платёжной системы
-            6. Починить ID flow: использовать UUID вместо Excel float
+            **Medium term (3-6 months)**:
+            4. Implement tracking: utm_product in ad links
+            5. Automate payment_type filling from payment system
+            6. Fix ID flow: use UUID instead of Excel float
             
-            **Долгий срок (6-12 месяцев)**:
-            7. Внедрить полный product analytics stack (Amplitude/Mixpanel)
-            8. A/B тестирование инфраструктура
-            9. Real-time dashboard для sales team
+            **Long term (6-12 months)**:
+            7. Implement full product analytics stack (Amplitude/Mixpanel)
+            8. A/B testing infrastructure
+            9. Real-time dashboard for sales team
             """)
         
-        # Slide 11: Выводы и рекомендации
+        # Slide 11: Conclusions and Recommendations
         elif current_slide == 11:
             st.markdown(f"# {slides[11]['icon']} {slides[11]['title']}")
             
             st.success("""
-            ## 🎯 Главные выводы проекта
+            ## 🎯 Main Project Conclusions
             
-            ### 1️⃣ Бизнес работает хорошо (ROAS 42x)
-            - Реклама сильно окупается
-            - Unit-экономика здоровая (AOV 7,337€, CPA 174€)
-            - Есть прибыльные каналы для масштабирования
+            ### 1️⃣ Business works well (ROAS 42x)
+            - Ads pay back strongly
+            - Unit economics healthy (AOV 7,337€, CPA 174€)
+            - Profitable channels for scaling available
             
-            ### 2️⃣ Огромный потенциал роста в Sales (50-100%!)
-            - Разброс Paid Rate: 2% → 30% между менеджерами
-            - Репликация best practices = удвоение revenue без роста spend
-            - **Гипотеза #1** проверяема за 2 недели
+            ### 2️⃣ Huge growth potential in Sales (50-100%!)
+            - Paid Rate variance: 2% → 30% between managers
+            - Best practices replication = revenue doubling without spend growth
+            - **Hypothesis #1** testable in 2 weeks
             
-            ### 3️⃣ Есть inefficient каналы рекламы
-            - SMM: ROAS 83x, но только 7k€ spend (недоинвестирован!)
-            - Google Ads: ROAS 22x, 58k€ spend (переинвестирован относительно SMM)
-            - **Гипотеза #2**: Перераспределение бюджета
+            ### 3️⃣ Inefficient ad channels exist
+            - SMM: ROAS 83x, but only 7k€ spend (underinvested!)
+            - Google Ads: ROAS 22x, 58k€ spend (overinvested relative to SMM)
+            - **Hypothesis #2**: Budget reallocation
             """)
             
             st.info("""
-            ## 📋 Action Plan (Приоритеты)
+            ## 📋 Action Plan (Priorities)
             
-            ### 🔥 Критический приоритет (Начать завтра)
+            ### 🔥 Critical Priority (Start tomorrow)
             
             **1. Sales Process Optimization**
-            - Провести интервью с Oliver Taylor → задокументировать подход
-            - Создать sales playbook (скрипты, objection handling, qualification)
-            - Запустить 2-week pilot test (5 vs 5 менеджеров)
+            - Interview Oliver Taylor → document approach
+            - Create sales playbook (scripts, objection handling, qualification)
+            - Launch 2-week pilot test (5 vs 5 managers)
             - Expected impact: +50% Revenue (3M€ → 4.5M€ annual)
             
-            ### ⚡ Высокий приоритет (Начать через неделю)
+            ### ⚡ High Priority (Start in a week)
             
             **2. Marketing Budget Reallocation**
-            - Тест: -30% Google Ads, +100% SMM (2 недели)
+            - Test: -30% Google Ads, +100% SMM (2 weeks)
             - Monitor: ROAS, volume, CPL
             - Expected impact: ROAS 42x → 50x, maintain volume
             
             **3. Data Quality**
-            - Обязательное заполнение closing_date для paid deals
-            - Добавить product allocation в Spend tracking
-            - Починить ID flow (UUID вместо float)
+            - Mandatory closing_date filling for paid deals
+            - Add product allocation to Spend tracking
+            - Fix ID flow (UUID instead of float)
             
-            ### 💡 Средний приоритет (Следующий месяц)
+            ### 💡 Medium Priority (Next month)
             
             **4. Geographic Expansion**
             - Focus on Berlin (42.9% Paid Rate!) — scale ad spend
@@ -2353,43 +2353,43 @@ def main() -> None:
             
             **6. Automation**
             - Payment Waiting stage: auto-reminders at 7/14/21 days
-            - SLA monitoring dashboard для sales managers
-            - Lead routing optimization (балансировка нагрузки)
+            - SLA monitoring dashboard for sales managers
+            - Lead routing optimization (load balancing)
             """)
             
             st.markdown("---")
             
             st.markdown("""
-            ## 🎓 Что было сделано в проекте
+            ## 🎓 What Was Done in the Project
             
-            ✅ **Полный цикл data analysis**:
-            1. Очистка 4 таблиц (25K+ records)
-            2. Построение unit-экономики
-            3. Дерево метрик (Revenue decomposition)
-            4. Корреляционный анализ (10x10 metrics)
-            5. Сегментация (products, geo, payments, education)
+            ✅ **Full data analysis cycle**:
+            1. Cleaned 4 tables (25K+ records)
+            2. Built unit economics
+            3. Metrics tree (Revenue decomposition)
+            4. Correlation analysis (10x10 metrics)
+            5. Segmentation (products, geo, payments, education)
             6. Time analysis (time-to-close, trends)
-            7. Формулирование 2 проверяемых гипотез
+            7. Formulated 2 testable hypotheses
             8. Interactive dashboard (Streamlit, 12 tabs)
             
             ✅ **Deliverables**:
-            - Очищенные данные (`data/clean/`)
-            - Отчёты и визуализации (`reports/`)
-            - Презентация (PPTX + HTML + Dashboard)
-            - Интерактивный dashboard с Guide и Glossary
+            - Clean data (`data/clean/`)
+            - Reports and visualizations (`reports/`)
+            - Presentation (PPTX + HTML + Dashboard)
+            - Interactive dashboard with Guide and Glossary
             
             🎯 **Expected Grade**: **Sehr gut** (90-100%)
-            - Все требования выполнены
-            - Глубокий анализ с инсайтами
-            - Проверяемые гипотезы с test plan
+            - All requirements met
+            - Deep analysis with insights
+            - Testable hypotheses with test plans
             - Professional-level deliverables
             """)
             
             st.balloons()
             
             st.markdown("---")
-            st.markdown("### 🙏 Спасибо за внимание!")
-            st.markdown("**Вопросы?** → Детали смотри в других вкладках dashboard")
+            st.markdown("### 🙏 Thank you for your attention!")
+            st.markdown("**Questions?** → See details in other dashboard tabs")
         
         # ========== END SLIDES ==========
         
@@ -2398,14 +2398,14 @@ def main() -> None:
         # Navigation buttons (bottom)
         col_nav4, col_nav5, col_nav6 = st.columns([1, 3, 1])
         with col_nav4:
-            if st.button("⬅️ Назад ", disabled=(current_slide == 0), use_container_width=True, key="back_bottom"):
+            if st.button("⬅️ Back ", disabled=(current_slide == 0), use_container_width=True, key="back_bottom"):
                 st.session_state.slide_index -= 1
                 st.rerun()
         with col_nav5:
             # Slide selector
             slide_names = [f"{i+1}. {slides[i]['title']}" for i in range(total_slides)]
             selected = st.selectbox(
-                "Перейти к слайду:",
+                "Go to slide:",
                 range(total_slides),
                 index=current_slide,
                 format_func=lambda x: slide_names[x],
@@ -2415,7 +2415,7 @@ def main() -> None:
                 st.session_state.slide_index = selected
                 st.rerun()
         with col_nav6:
-            if st.button("Вперёд ➡️ ", disabled=(current_slide >= total_slides - 1), use_container_width=True, key="forward_bottom"):
+            if st.button("Next ➡️ ", disabled=(current_slide >= total_slides - 1), use_container_width=True, key="forward_bottom"):
                 st.session_state.slide_index += 1
                 st.rerun()
 

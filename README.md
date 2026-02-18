@@ -1,138 +1,136 @@
-без заполнений данных
+# CRM Analytics for German Language Online School
 
+**End-to-end marketing and sales analytics project** featuring interactive dashboard, automated reporting pipeline, and data-driven recommendations for business growth.
 
+## ⚠️ CRITICAL: Data Limitations & Metrics
 
-# Итоговый проект 2 — CRM аналитика онлайн-школы немецкого языка
+### Product-level CPA/ROAS — NOT accurately calculable!
 
-## ⚠️ КРИТИЧНО: Ограничения данных и метрик
+**Problem**: Data lacks **Spend → Product attribution**. One advertising source generates leads for MULTIPLE products simultaneously.
 
-### CPA/ROAS по продуктам — НЕЛЬЗЯ посчитать корректно!
+**What's known:**
+- `Spend` is aggregated by `Source + Campaign`
+- `Deals` are tracked by `Source + Campaign + Product`
 
-**Проблема**: В данных **нет привязки Spend → Product**. Один рекламный источник генерирует лиды для РАЗНЫХ продуктов одновременно.
-
-**Что известно:**
-- `Spend` агрегирован по `Source + Campaign`
-- `Deals` известны по `Source + Campaign + Product`
-
-**Что это означает:**
+**What this means:**
 ```
-Source: Instagram, Campaign: "Spring2024", Spend: 10,000 €
+Source: Instagram, Campaign: "Spring2024", Spend: €10,000
 ├─ Web Developer: 50 leads → 10 paid
 ├─ Digital Marketing: 100 leads → 20 paid
 └─ UX/UI Design: 30 leads → 5 paid
 
-❓ Сколько из 10,000€ пришлось на каждый продукт? → ❌ НЕИЗВЕСТНО
+❓ How much of €10,000 went to each product? → ❌ UNKNOWN
 ```
 
-**Метрики по продуктам:**
-- ✅ **Можно**: Revenue, AOV, Paid Rate, Volume (количество paid deals)
-- ❌ **Нельзя**: CPA, CPL, ROAS (нужна аллокация spend)
+**Product-level metrics:**
+- ✅ **Available**: Revenue, AOV, Paid Rate, Volume (# of paid deals)
+- ❌ **Not available**: CPA, CPL, ROAS (requires spend allocation)
 
-**См. подробности**: [DISCLAIMER_PRODUCT_METRICS.md](reports/DISCLAIMER_PRODUCT_METRICS.md)
-
----
-
-## О проекте
-
-Анализ эффективности маркетинга и продаж для онлайн-школы немецкого языка на основе данных CRM (сделки, контакты, звонки) и рекламных расходов.
-
-**Цели**:
-- Оценить эффективность рекламных каналов (CPL, CPA, ROAS)
-- Построить воронку продаж и выявить узкие места
-- Проанализировать связь звонков и конверсии
-- Провести продуктовую и географическую сегментацию
-- Создать интерактивный дашборд и презентацию для стейкхолдеров
-
-**Данные**: 4 таблицы (Contacts, Calls, Deals, Spend) за период 2023-2024, ~21K сделок, ~96K звонков, ~19K контактов.
+**See details**: [DISCLAIMER_PRODUCT_METRICS.md](reports/DISCLAIMER_PRODUCT_METRICS.md)
 
 ---
 
-## Структура проекта
+## About the Project
+
+Comprehensive marketing and sales effectiveness analysis for a German language online school, based on CRM data (deals, contacts, calls) and advertising spend.
+
+**Objectives**:
+- Evaluate advertising channel effectiveness (CPL, CPA, ROAS)
+- Build sales funnel and identify bottlenecks
+- Analyze call-to-conversion relationship
+- Perform product and geographic segmentation
+- Create interactive dashboard and presentation for stakeholders
+
+**Data**: 4 tables (Contacts, Calls, Deals, Spend) covering 2023-2024, ~21K deals, ~96K calls, ~19K contacts.
+
+---
+
+## Project Structure
 
 ```
 .
 ├── data/
-│   └── clean/              # Очищенные данные (Parquet + CSV)
-├── notebooks/              # Jupyter notebooks для исследования
+│   └── clean/              # Cleaned data (Parquet + CSV)
+├── notebooks/              # Jupyter notebooks for exploration
 │   └── 02_eda_metrics.ipynb
-├── scripts/                # Pipeline скрипты (01-09)
-│   ├── 01_clean_export.py  # Очистка и создание флагов (is_paid, is_duplicate_lost)
-│   ├── 02_eda_metrics.py   # Общие метрики, воронка, временные ряды
-│   ├── 02b_duplicate_lost_analysis.py  # Анализ дубликатов (КРИТИЧНО)
-│   ├── 03_descriptives_quality.py      # Описательная статистика + визуализации
-│   ├── 04_time_analysis.py             # Time-to-close, сезонность
-│   ├── 04b_calls_deals_link.py         # Связь звонков-сделок (КРИТИЧНО)
-│   ├── 05_metrics_tree.py              # Дерево метрик с Sankey диаграммами
-│   ├── 06_segmentation.py              # Продуктовая и гео-сегментация
-│   ├── 07_build_report.py              # Генерация markdown отчёта
-│   ├── 08_make_presentation.py         # Генерация PPTX/HTML слайдов
-│   └── 09_export_pdf.py                # Экспорт в PDF (опционально)
-├── reports/                # Все результаты анализа
-│   ├── quality/            # Описательная статистика (tables + figures)
-│   ├── eda/                # EDA метрики, воронка, временные ряды
-│   ├── time/               # Временной анализ (time-to-close, seasonality)
-│   ├── metrics_tree/       # Дерево метрик (Sankey + block schema)
-│   ├── calls_deals/        # Анализ связи звонков-сделок
-│   ├── segments/           # Продуктовая и гео-сегментация
-│   ├── insights/           # Инсайты (опционально)
-│   └── final/              # Итоговый отчёт + презентация
-├── app.py                  # Streamlit дашборд
-├── requirements.txt        # Python зависимости
-├── task.md                 # Требования к проекту (source of truth)
-└── README.md               # Этот файл
+├── scripts/                # Pipeline scripts (01-09)
+│   ├── 01_clean_export.py  # Data cleaning + flags (is_paid, is_duplicate_lost)
+│   ├── 02_eda_metrics.py   # Overall metrics, funnel, time series
+│   ├── 02b_duplicate_lost_analysis.py  # Duplicate analysis (CRITICAL)
+│   ├── 03_descriptives_quality.py      # Descriptive stats + visualizations
+│   ├── 04_time_analysis.py             # Time-to-close, seasonality
+│   ├── 04b_calls_deals_link.py         # Calls-deals linkage (CRITICAL)
+│   ├── 05_metrics_tree.py              # Metrics tree with Sankey diagrams
+│   ├── 06_segmentation.py              # Product & geo segmentation
+│   ├── 07_build_report.py              # Markdown report generation
+│   ├── 08_make_presentation.py         # PPTX/HTML slides generation
+│   └── 09_export_pdf.py                # PDF export (optional)
+├── reports/                # All analysis outputs
+│   ├── quality/            # Descriptive statistics (tables + figures)
+│   ├── eda/                # EDA metrics, funnel, time series
+│   ├── time/               # Time analysis (time-to-close, seasonality)
+│   ├── metrics_tree/       # Metrics tree (Sankey + block diagrams)
+│   ├── calls_deals/        # Calls-deals analysis
+│   ├── segments/           # Product & geo segmentation
+│   ├── insights/           # Insights (optional)
+│   └── final/              # Final report + presentation
+├── app.py                  # Streamlit dashboard
+├── requirements.txt        # Python dependencies
+├── task.md                 # Project requirements (source of truth)
+└── README.md               # This file
 ```
 
 ---
 
-## Быстрый старт
+## Quick Start
 
-### 1. Установить зависимости
+### 1. Install dependencies
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-### 2. Запустить полный pipeline
+### 2. Run full pipeline
 
 ```powershell
-# Шаг 1: Очистка данных (обязательно)
+# Step 1: Data cleaning (required)
 python scripts/01_clean_export.py
 
-# Шаг 2: Основные метрики и EDA
+# Step 2: Core metrics and EDA
 python scripts/02_eda_metrics.py
 
-# Шаг 2b: Анализ дубликатов (критично!)
+# Step 2b: Duplicate analysis (critical!)
 python scripts/02b_duplicate_lost_analysis.py
 
-# Шаг 3: Описательная статистика с визуализациями
+# Step 3: Descriptive statistics with visualizations
 python scripts/03_descriptives_quality.py
 
-# Шаг 4: Временной анализ
+# Step 4: Time analysis
 python scripts/04_time_analysis.py
 
-# Шаг 4b: Связь звонков-сделок (критично!)
+# Step 4b: Calls-deals linkage (critical!)
 python scripts/04b_calls_deals_link.py
 
-# Шаг 5: Дерево метрик с Sankey
+# Step 5: Metrics tree with Sankey
 python scripts/05_metrics_tree.py
 
-# Шаг 6: Сегментация
+# Step 6: Segmentation
 python scripts/06_segmentation.py
 
-# Шаг 7: Генерация отчёта
+# Step 7: Report generation
 python scripts/07_build_report.py
 
-# Шаг 8: Презентация
+# Step 8: Presentation
 python scripts/08_make_presentation.py
 ```
 
-### 3. Запустить дашборд
+### 3. Launch dashboard
 
 ```powershell
 streamlit run app.py
 ```
 
-Откроется интерактивный дашборд с 8+ вкладками:
+Opens interactive dashboard with 8+ tabs:
 - Overview (KPIs)
 - Ads Performance
 - Sales Funnel
@@ -144,67 +142,67 @@ streamlit run app.py
 
 ---
 
-## Ключевые артефакты
+## Key Artifacts
 
-### Метрики и аналитика
+### Metrics & Analytics
 
-- **Общие метрики**: `reports/eda/metrics_overall.json` — Spend, Deals, Paid Rate, Revenue
-- **Дерево метрик**: `reports/metrics_tree/metrics_tree_overall_overlap_window.json` — CPL, CPA, ROAS breakdown
-- **Дубликаты**: `reports/eda/duplicate_lost_impact.json` — Влияние дубликатов на метрики (8% сделок, +0.35 pp на paid rate)
-- **Звонки-сделки**: `reports/calls_deals/coverage_stats.json` — 95.78% сделок с звонками, avg 17.5 calls/deal
+- **Overall metrics**: `reports/eda/metrics_overall.json` — Spend, Deals, Paid Rate, Revenue
+- **Metrics tree**: `reports/metrics_tree/metrics_tree_overall_overlap_window.json` — CPL, CPA, ROAS breakdown
+- **Duplicates**: `reports/eda/duplicate_lost_impact.json` — Duplicate impact on metrics (8% of deals, +0.35 pp on paid rate)
+- **Calls-deals linkage**: `reports/calls_deals/coverage_stats.json` — 95.78% deals with calls, avg 17.5 calls/deal
 
-### Визуализации
+### Visualizations
 
-- **Sankey дерево метрик**: `reports/metrics_tree/figures/sankey_overall.png`
-- **Воронка по Stage**: `reports/eda/figures/stage_funnel_top12.png`
-- **Временные ряды**: `reports/eda/figures/deals_paid_timeseries.png`
-- **Звонки vs Paid Rate**: `reports/calls_deals/figures/calls_vs_paid_rate.png`
-- **13+ дополнительных графиков** в `reports/quality/figures/` и `reports/eda/figures/`
+- **Sankey metrics tree**: `reports/metrics_tree/figures/sankey_overall.png`
+- **Stage funnel**: `reports/eda/figures/stage_funnel_top12.png`
+- **Time series**: `reports/eda/figures/deals_paid_timeseries.png`
+- **Calls vs Paid Rate**: `reports/calls_deals/figures/calls_vs_paid_rate.png`
+- **13+ additional charts** in `reports/quality/figures/` and `reports/eda/figures/`
 
-### Отчёты
+### Reports
 
-- **Финальный отчёт**: `reports/final/report.md`
-- **Презентация**: `reports/final/slides.html` (открывается в браузере)
-- **Outline презентации**: `reports/final/presentation_outline.md`
-
----
-
-## Важное про ID контактов
-
-В исходных `Calls.CONTACTID` и `Deals.Contact Name` ID сохранены как числа в Excel, поэтому при чтении теряются последние цифры (ограничение float).
-
-Скрипт сохраняет:
-- `contact_id_str` — восстановление через округление (может быть неточным)
-- `contact_id15` — первые 15 цифр для "мягких" связок (не уникально, возможны коллизии)
-
-Для точных джойнов лучше опираться на `Deals` + `Spend` по `source/campaign` и времени, а Calls использовать агрегированно.
+- **Final report**: `reports/final/report.md`
+- **Presentation**: `reports/final/slides.html` (opens in browser)
+- **Presentation outline**: `reports/final/presentation_outline.md`
 
 ---
 
-## Критические правила (из task.md)
+## Important: Contact ID Corruption
+
+In source data `Calls.CONTACTID` and `Deals.Contact Name` IDs are stored as numbers in Excel, causing loss of trailing digits due to float precision limits.
+
+The script preserves:
+- `contact_id_str` — restored via rounding (may be imprecise)
+- `contact_id15` — first 15 digits for "soft" joins (not unique, collisions possible)
+
+For accurate joins, rely on `Deals` + `Spend` by `source/campaign` and time, using Calls in aggregate.
+
+---
+
+## Critical Rules (from task.md)
 
 1. **Paid definition**: `Stage == "Payment Done"` (case-insensitive) → `is_paid = True`
-2. **Duplicate Lost**: `Lost Reason == "Duplicate"` → это НЕ реальный лост, а дубль контакта. Флаг `is_duplicate_lost` создаётся автоматически и **должен исключаться** из анализа потерь.
-3. **Quality field**: Субъективная оценка менеджера, не использовать как прямой предиктор конверсии.
+2. **Duplicate Lost**: `Lost Reason == "Duplicate"` → NOT a real loss, but contact duplicate. Flag `is_duplicate_lost` is created automatically and **must be excluded** from churn analysis.
+3. **Quality field**: Subjective manager assessment, do not use as direct predictor of conversion.
 4. **Revenue**: 
-   - `revenue_cash` — фактически полученные деньги
-   - `revenue_contract` — полная стоимость контракта (используется для ROAS)
+   - `revenue_cash` — actually received money
+   - `revenue_contract` — full contract value (used for ROAS)
 
 ---
 
 ## Known Limitations
 
-1. **Contact ID corruption**: Excel float ограничения делают точные Contacts→Calls→Deals джойны ненадёжными. Используем агрегированный анализ по источникам/времени.
+1. **Contact ID corruption**: Excel float limitations make reliable Contacts→Calls→Deals joins unreliable. Use aggregate analysis by source/time.
 
-2. **Time lag между Spend и Deals**: Рекламные расходы (Spend) конвертируются в сделки (Deals) с задержкой 3-7 дней. При расчёте ROAS нужна корректировка окон.
+2. **Time lag between Spend and Deals**: Ad spend converts to deals with 3-7 day delay. ROAS calculations require time window adjustments.
 
-3. **Missingness в Campaign/City**: ~20-30% пропусков в необязательных полях. Анализ проводится с фильтрацией по `min_deals` для статистической значимости.
+3. **Missingness in Campaign/City**: ~20-30% missing in optional fields. Analysis filtered by `min_deals` for statistical significance.
 
-4. **Quality field субъективность**: Оценка качества лида ("A", "B", "C") — личное мнение менеджера, не использовать для predictive моделей без валидации.
+4. **Quality field subjectivity**: Lead quality assessment ("A", "B", "C") is manager's personal opinion, do not use for predictive models without validation.
 
 ---
 
-## Технологии
+## Technologies
 
 - **Python 3.11+**
 - **Data**: pandas, numpy, pyarrow (Parquet)
@@ -215,15 +213,15 @@ streamlit run app.py
 
 ---
 
-## Автор
+## Author
 
-Проект выполнен в рамках итоговой работы по курсу аналитики данных.
+Project completed as a final assignment for the Data Analytics course.
 
 ---
 
 ## Changelog
 
-- **v1.3** (2024-01): ✅ Добавлены критические блоки: Sankey визуализации, графики описательной статистики, мода в метриках, анализ связи звонков-сделок, анализ дубликатов, выводы во всех README
-- **v1.2** (2024-01): Дашборд + презентация
-- **v1.1** (2024-01): Pipeline скриптов 01-08
-- **v1.0** (2024-01): Начальная версия с очисткой данных
+- **v1.3** (2024-01): ✅ Added critical components: Sankey visualizations, descriptive statistics charts, mode in metrics, calls-deals relationship analysis, duplicate analysis, conclusions in all READMEs
+- **v1.2** (2024-01): Dashboard + presentation
+- **v1.1** (2024-01): Pipeline scripts 01-08
+- **v1.0** (2024-01): Initial version with data cleaning
